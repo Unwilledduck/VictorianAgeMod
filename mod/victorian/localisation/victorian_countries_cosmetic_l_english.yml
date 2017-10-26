@@ -27,10 +27,12 @@
  SWD_communism:0 "Sweden"
  SWD_communism_DEF:0 "Sweden"
  
- SAR_democratic:0 "Kingdom of Sardinia"
- SAR_democratic_DEF:0 "Kingdom of Sardinia"
- SAR_fascism:0 "Kingdom of Sardinia"
- SAR_fascism_DEF:0 "Kingdom of Sardinia"
- SAR_communism:0 "Sardinia"
- SAR_communism_DEF:0 "Sardinia"
+ FRA_democratic:0 "French Second Republic"
+ FRA_democratic_DEF:0 "French Second Republic"
+ FRA_fascism:0 "Second French Empire"
+ FRA_fascism_DEF:0 "Second French Empire"
+ FRA_communism:0 "French State"
+ FRA_communism_DEF:0 "French State"
+ 
+ 
  
