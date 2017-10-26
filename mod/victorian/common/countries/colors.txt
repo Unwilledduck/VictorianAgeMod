@@ -1,0 +1,18 @@
+#reload countrycolors
+
+SWD = {
+	color = rgb { 36 132 247 }
+	color_ui = rgb { 47 172 255 }
+}
+SPA = {
+	color = rgb { 57 143 97 }
+	color_ui = rgb { 57 143 97 }
+}
+ACH = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 255 0 0 }
+}
+SAR = {
+	color = rgb { 67  127  63 }
+	color_ui = rgb { 67  127  63 }
+}
