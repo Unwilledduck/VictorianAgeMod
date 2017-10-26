@@ -16,3 +16,7 @@ SAR = {
 	color = rgb { 67  127  63 }
 	color_ui = rgb { 67  127  63 }
 }
+FRA = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb {57 113 228}
+}
