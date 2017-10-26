@@ -1,54 +1,34 @@
-﻿capital = 41
+﻿capital = 195	
 
-oob = "SPR_1936"
+oob = "RUS_1936"
 
 set_research_slots = 4
+
+add_ideas = {
+}
+
 
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	gw_artillery = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
-	tech_mountaineers = 1
-	gw_artillery = 1
+	gwtank = 1
+	basic_light_tank = 1
+	CAS1 = 1
 	early_fighter = 1
-	early_bomber = 1
 	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
 	early_submarine = 1
 	early_destroyer = 1
 	basic_destroyer = 1
 	early_light_cruiser = 1
 	early_heavy_cruiser = 1
-	basic_heavy_cruiser = 1
-	early_battleship = 1
 	transport = 1
 }
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 70
-		}
-		
-		communism = {
-			popularity = 10
-		}
-	}
-	
-	ruling_party = fascism
-	last_election = "1933.2.16"
-	election_frequency = 36
-	elections_allowed = yes
-}
-
-set_convoys = 150
-set_national_unity = 0.8
 
 1939.1.1 = {
 
@@ -65,21 +45,18 @@ set_national_unity = 0.8
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "SPA_1939"
-	load_oob = "unlock_tanks"
+	oob = "SWE_1939"
 	set_technology = {
-		fighter1 = 1
-		CAS1 = 1
+		early_bomber = 1
 		tactical_bomber1 = 1
-		gwtank = 1
-		basic_light_tank = 1
+		improved_light_tank = 1 
+		basic_medium_tank = 1 
+		gw_artillery = 1
 		interwar_artillery = 1
 		interwar_antiair = 1
-		interwar_antitank = 1
-		motorised_infantry = 1
 		infantry_weapons2 = 1
 		support_weapons = 1
-		support_weapons2 = 1
+		basic_submarine = 1
 
 		#doctrines
 		air_superiority = 1
@@ -105,56 +82,90 @@ set_national_unity = 0.8
 		improved_oil_plant = 1
 		construction1 = 1
 		construction2 = 1
-		construction3 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
-		dispersed_industry3 = 1
 	}
+}
 
-	set_politics = {
+set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 22
-			}
+	parties = {
+		democratic = { 
+			popularity = 19
+		}
 
-			fascism = {
-				popularity = 76
-			}
-			
-			communism = {
-				popularity = 2
-			}
+		neutrality = {
+			popularity  = 6
+		}
+
+		communism = {
+			popularity = 60
+		}
+
+		fascism = {
+			popularity = 25
 		}
 		
-		ruling_party = fascism
-		last_election = "1934.3.26"
-		election_frequency = 60
-		elections_allowed = no
 	}
-
-	set_global_flag = scw_over
-	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
+	
+	ruling_party = communism
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = yes
 }
 
+set_convoys = 60
+set_national_unity = 0.55
+
+
+
+
 create_country_leader = {
-	name = "Isabella II Maria Louisa"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "GFX/leaders/SPA/isabella_2.dds"
+	name = "Tsar Nicholas I"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "gfx/leaders/RUS/Nicholas_1.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = communism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "José Díaz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
+	name = "Nicholas Valentine Riasanovsky"
+	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = democratic
 	traits = {
 		#
 	}
 }
+
+create_country_leader = {
+	name = "Alexander Chernyshyov"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "gfx/leaders/RUS/Alexander_Chernyshyow.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Ivan Mglad"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { commando }
+	skill = 3
+
+}
+
+create_navy_leader = {
+	name = "Vasily Zavoyko"
+	portrait_path = "gfx/leaders/RUS/Vasily_Zavoyko.dds"
+	traits = { blockade_runner }
+	skill = 4
+}
+
