@@ -2,3 +2,5 @@ ACH	= "countries/Aceh.txt"
 SPA= "countries/Spain.txt"
 SWD= "countries/Sweden"
 SAR= "countries/Sardinia"
+FRA= "countries/France"
+
