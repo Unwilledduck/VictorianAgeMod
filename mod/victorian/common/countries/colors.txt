@@ -20,3 +20,23 @@ FRA = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb {57 113 228}
 }
+PRS = {
+	color = rgb { 106  119  89 }
+	color_ui = rgb {106  119  89}
+}
+RUS = {
+	color = rgb {  255  244  190 }
+	color_ui = rgb { 255  244  190}
+}
+DEN = {
+	color = rgb {  153 116 93 }
+	color_ui = rgb { 153 116 93}
+}
+BRA = {
+	color = rgb { 76 145 63 }
+	color_ui = rgb { 99 189 82 }
+}
+NED = {
+	color = rgb { 203  138  74 }
+	color_ui = rgb { 203  138  74 }
+}
