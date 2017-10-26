@@ -1,8 +1,8 @@
 
 state={
-	id=193
-	name="STATE_193" # Chernihiv
-	manpower = 1373637
+	id=227
+	name="STATE_227"
+	manpower = 3767336
 	
 	state_category = city
 
@@ -10,13 +10,15 @@ state={
 		owner = RUS
 		buildings = {
 			infrastructure = 5
-			
+		}
+		victory_points = {
+			6474 10
 		}
 		add_core_of = RUS
-		
+		 
 	}
 
 	provinces={
-		238 546 3480 3542 3568 3584 6458 6508 6532 6589 9437 9506 11425 11489 
+		502 3421 3449 3466 3479 3491 6420 6474 6493 6776 
 	}
 }
