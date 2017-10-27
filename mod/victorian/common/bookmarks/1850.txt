@@ -49,7 +49,7 @@ bookmarks = {
 		}
 		"RUS"={
 			history = "RUS_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = communism
 			ideas = {
 
 			}
