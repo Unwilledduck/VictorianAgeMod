@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_ALFONSO_XIII_DESC"
 	picture = "GFX/leaders/SEI/Alfonso_XIII.dds"
 	expire = "1898.1.1"
-	ideology = fascism
+	ideology = nazism
 	traits = {
 		#
 	}
