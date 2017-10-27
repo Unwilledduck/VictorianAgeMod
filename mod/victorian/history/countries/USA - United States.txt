@@ -1,0 +1,132 @@
+capital = 361	
+
+oob = "USA_1936"
+
+set_research_slots = 4
+
+add_ideas = {
+}
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gwtank = 1
+	basic_light_tank = 1
+	CAS1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 70
+		}
+
+		neutrality = {
+			popularity  = 20
+		}
+
+		communism = {
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 5
+		}
+		
+	}
+	
+	ruling_party = democratic
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 126
+set_national_unity = 0.55
+
+
+
+
+create_country_leader = {
+	name = "Zachary Taylor"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "gfx/leaders/USA/zachary.dds"
+	expire = "1850.7.9"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Millard Fillmore"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "gfx/leaders/USA/millard.dds"
+	expire = "1874.3.8"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "John Wick"
+	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1"
+	expire = "1895.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+}
+create_country_leader = {
+	name = "Jefferson Davis"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1889.12.6"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+
+create_corps_commander = {
+	name = "Ulysses S. Grant"
+	portrait_path = "gfx/leaders/USA/grant.dds"
+	traits = { commando }
+	skill = 3
+
+}
+create_corps_commander = {
+	name = "William Tecumseh Sherman"
+	portrait_path = "gfx/leaders/USA/william_Sherman.dds"
+	traits = { commando }
+	skill = 3
+
+}
+
+create_navy_leader = {
+	name = "Henry Halleck"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { blockade_runner }
+	skill = 3
+}
+
+### Ship Variants ###
