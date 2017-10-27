@@ -44,3 +44,7 @@ ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
+USA = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
