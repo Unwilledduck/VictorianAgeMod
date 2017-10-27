@@ -39,7 +39,7 @@ bookmarks = {
 		}
 		"PRS"={
 			history = "PRS_GATHERING_STORM_DESC"
-			ideology = fascist
+			ideology = fascism
 			ideas = {
 
 			}
@@ -75,7 +75,7 @@ bookmarks = {
 		"JAP"={
 			minor = yes
 			history = "JAP_GATHERING_STORM_DESC"
-			ideology = fascist
+			ideology = fascism
 			ideas = {
 
 			}
