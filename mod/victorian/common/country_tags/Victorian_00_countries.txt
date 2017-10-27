@@ -10,7 +10,7 @@ BRA = "countries/Brazil.txt"
 AST = "countries/Australia.txt"
 NED = "countries/Netherlands.txt"
 QIN = "countries/Qing_Dynasty.txt"
-ENG = "countries/United_Kingdom.txt"
+UNK = "countries/United_Kingdom.txt"
 BEL = "countries/Belgiun.txt"
 <<<<<<< HEAD
 SEI = "countries/Spanish East Indies.txt"
