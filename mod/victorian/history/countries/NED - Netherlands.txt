@@ -1,4 +1,4 @@
-﻿capital = 7
+ï»¿capital = 7
 
 oob = "NED_1936"
 
@@ -79,7 +79,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jacobus Matthe�s de Kempenaer"
+	name = "Jacobus Mattheüs de Kempenaer"
 	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3"
 	expire = "1965.1.1"
@@ -113,9 +113,6 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Johannes Theodorus Furstner"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-	traits = {
-	blockade_runner,
-	superior_tactician
-	}
+	traits = { blockade_runner }
 	skill = 4
 }
