@@ -99,6 +99,6 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Amédée de Failly"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2"
-	traits = { old guard }
+	traits = { old_guard }
 	skill = 2
 }
