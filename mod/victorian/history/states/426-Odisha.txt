@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = UNK
 		buildings = {
 			infrastructure = 4
 			arms_factory = 1

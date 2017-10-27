@@ -1,13 +1,13 @@
 
 state={
 	id=430
-	name="STATE_430" # East Bengal
+	name="STATE_430" # East BUNKal
 	manpower = 31973300
 	
 	state_category = town
 
 	history={
-		owner = ENG
+		owner = UNK
 		victory_points = {
 			11929 1
 		}
@@ -21,7 +21,7 @@ state={
 			
 		}
 		 
-		add_core_of = ENG
+		add_core_of = UNK
 
 	}
 

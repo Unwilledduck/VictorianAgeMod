@@ -1,20 +1,20 @@
 
 state={
 	id=471
-	name="STATE_471" # Northwestern ENGada
+	name="STATE_471" # Northwestern UNKada
 	manpower = 27681
 	
 	state_category = wasteland
 
 	history={
-		owner = ENG
+		owner = UNK
 		buildings = {
 			infrastructure = 1
 			10548 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = ENG
+		add_core_of = UNK
 	}
 
 	provinces={

@@ -1,7 +1,7 @@
 
 state={
 	id=431
-	name="STATE_431" # West Bengal
+	name="STATE_431" # West BUNKal
 	manpower = 18778100
 	
 	state_category = city
@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = UNK
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1

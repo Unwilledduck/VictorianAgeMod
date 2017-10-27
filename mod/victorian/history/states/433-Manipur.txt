@@ -1,7 +1,7 @@
 
 state={
 	id=433
-	name="STATE_433" # ENGasthan
+	name="STATE_433" # UNKasthan
 	manpower = 11786000
 	
 	state_category = town
@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = UNK
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = UNK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
