@@ -10,7 +10,7 @@ state={
 	}
 
 	history={
-		owner = ENG
+		owner = UNK
 		buildings = {
 			infrastructure = 2
 			4982 = {
