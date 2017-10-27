@@ -17,9 +17,9 @@ bookmarks = {
 
 			}
 		}
-		"ENG"={
+		"UNK"={
 			history = "ENG_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = fascism
 			ideas = {
 
 			}
@@ -29,7 +29,7 @@ bookmarks = {
 		}
 		"FRA"={
 			history = "FRA_GATHERING_STORM_DESC"
-			ideology = democratic
+			ideology = fascism
 			ideas = {
 
 			}
