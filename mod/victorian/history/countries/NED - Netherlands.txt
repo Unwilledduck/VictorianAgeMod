@@ -99,7 +99,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Jan van Swieten"
 	portrait_path = "gfx/leaders/NED/Jan_van_Swieten.dds"
-	traits = { old guard }
+	traits = { old_guard }
 	skill = 2
 }
 
@@ -113,6 +113,9 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Johannes Theodorus Furstner"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
-	traits = { blockade_runner, superior_tactician }
+	traits = {
+	blockade_runner,
+	superior_tactician
+	}
 	skill = 4
 }
