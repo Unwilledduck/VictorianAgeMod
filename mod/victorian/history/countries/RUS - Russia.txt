@@ -68,7 +68,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "gfx/leaders/RUS/nicholas_1"
 	expire = "1953.3.1"
-	ideology = communism
+	ideology = leninism
 	traits = {
 		
 	}
