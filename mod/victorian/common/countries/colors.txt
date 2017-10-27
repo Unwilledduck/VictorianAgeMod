@@ -5,8 +5,8 @@ SWD = {
 	color_ui = rgb { 47 172 255 }
 }
 SPA = {
-	color = rgb { 57 143 97 }
-	color_ui = rgb { 57 143 97 }
+	color = rgb { 242 205 94 }
+	color_ui = rgb { 255 255 122 }
 }
 ACH = {
 	color = rgb { 255 0 0 }
