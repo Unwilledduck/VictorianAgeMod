@@ -1,0 +1,114 @@
+bookmarks = {
+	bookmark = {	#Victorian Age
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1850.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "USA"
+		default = yes
+		
+		"AUS"={
+			history = "AUS_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas={
+
+			}
+			focuses = {
+
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"PRS"={
+			history = "PRS_GATHERING_STORM_DESC"
+			ideology = fascist
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		"JAP"={
+			minor = yes
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascist
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"QIN"={
+			minor = yes
+			history = "QIN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		"SWD"={
+			minor = yes
+			history = "SWD_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
