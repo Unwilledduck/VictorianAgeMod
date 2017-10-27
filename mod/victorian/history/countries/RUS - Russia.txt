@@ -66,7 +66,7 @@ set_politics = {
 create_country_leader = {
 	name = "Nicolaas I Pavlovitsj"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "gfx/RUS/nicholas_1"
+	picture = "gfx/leaders/RUS/nicholas_1"
 	expire = "1953.3.1"
 	ideology = communism
 	traits = {
@@ -100,7 +100,7 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Alexander Chernyshyow"
-		picture = "gfx/RUS/alexander_chernyshyow.dds"
+		picture = "gfx/leaders/RUS/alexander_chernyshyow.dds"
 	traits = { old_guard }
 	skill = 3	
 }
@@ -109,7 +109,7 @@ create_field_marshal = {
 create_navy_leader = {
 	name = "Vasily Zavoyko"
 	id = 409
-		picture = "gfx/RUS/vasily_zavoyko.dds"
+		picture = "gfx/leaders/RUS/vasily_zavoyko.dds"
 	traits = { spotter }
 	skill = 4
 }
