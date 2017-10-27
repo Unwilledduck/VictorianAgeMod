@@ -1,0 +1,104 @@
+capital = 6
+
+oob = "BEL_1936"
+
+set_research_slots = 3
+
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	basic_destroyer = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	basic_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_politics = {
+	parties = {
+		democratic = { 
+			popularity = 93
+		}
+
+		fascism = {
+			popularity = 4
+		}
+		
+		communism = {
+			popularity = 3
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 120
+set_national_unity = 0.60
+
+create_country_leader = {
+	name = "Leopod I of Belgium"
+	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
+	picture = "gfx/leaders/BEL/leopod_belgium.dds"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Juan Van Halen"
+	desc = "POLITICS_ANTON_MUSSERT_DESC"
+	picture = "gfx/leaders/BEL/juan_van_halen.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Charles Rogier"
+	desc = "POLITICS_LOU_DE_VISSER_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Erasme Louis Surlet de Chokier"
+	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Charles Niellon"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1"
+	traits = {}
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Amédée de Failly"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2"
+	traits = { old guard }
+	skill = 2
+}
