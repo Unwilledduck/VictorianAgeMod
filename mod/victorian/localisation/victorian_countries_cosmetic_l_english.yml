@@ -6,6 +6,7 @@
  ACH_communism:0 "Aceh's People"
  ACH_communism_DEF:0 "Aceh's People"
 
+ # Russia
  RUS_democratic:0 "Russian Republic"
  RUS_democratic_DEF:0 "Russian Republic"
  RUS_fascism:0 "Russian Empire"
@@ -13,6 +14,7 @@
  RUS_communism:0 "Russian Empire"
  RUS_communism_DEF:0 "Russian Empire"
  
+ # Kingdom of Sardinia
  SAR_democratic:0 "Italian Counsil"
  SAR_democratic_DEF:0 "Italian Counsil"
  SAR_fascism:0 "Kingdom of Sardinia"
@@ -20,6 +22,7 @@
  SAR_communism:0 "Lombardy states"
  SAR_communism_DEF:0 "Lombardy states"
  
+ # Spain
  SPA_democratic:0 "Spanish Republic"
  SPA_democratic_DEF:0 "Spanish Republic"
  SPA_fascism:0 "Spanish Empire"
@@ -27,6 +30,7 @@
  SPA_communism:0 "Spain"
  SPA_communism_DEF:0 "Spain"
  
+ # Sweden-Norway
  SWD_democratic:0 "United Kingdoms of Sweden and Norway"
  SWD_democratic_DEF:0 "United Kingdoms of Sweden and Norway"
  SWD_fascism:0 "Swedish Empire"
@@ -34,6 +38,7 @@
  SWD_communism:0 "Sweden"
  SWD_communism_DEF:0 "Sweden"
  
+ # France
  FRA_democratic:0 "French Second Republic"
  FRA_democratic_DEF:0 "French Second Republic"
  FRA_fascism:0 "Second French Empire"
@@ -41,6 +46,7 @@
  FRA_communism:0 "French State"
  FRA_communism_DEF:0 "French State"
  
+ # Prussia
  PRS_democratic:0 "Duchy of Prussia"
  PRS_democratic_DEF:0 "Duchy of Prussia"
  PRS_fascism:0 "Prussia"
@@ -48,6 +54,7 @@
  PRS_communism:0 "Deutsches State"
  PRS_communism_DEF:0 "Deutsches State"
  
+ # Denmark
  DEN_democratic:0 "Kingdom of Denmark"
  DEN_democratic_DEF:0 "Kingdom of Denmark"
  DEN_fascism:0 "Danish Empire"
@@ -55,6 +62,7 @@
  DEN_communism:0 "Denmark"
  DEN_communism_DEF:0 "Denmark"
  
+ # Brazil
  BRA_democratic:0 "First Brazilian Republic"
  BRA_democratic_DEF:0 "First Brazilian Republic"
  BRA_fascism:0 "Empire of Brazil"
@@ -62,9 +70,18 @@
  BRA_communism:0 "Brazil"
  BRA_communism_DEF:0 "Brazil"
  
+ # The Netherlands
  NED_democratic:0 "Netherlands"
  NED_democratic_DEF:0 "Netherlands"
  NED_fascism:0 "Dutch Empire"
  NED_fascism_DEF:0 "Dutch Empire"
  NED_communism:0 "Nederlanden"
  NED_communism_DEF:0 "Nederlanden"
+ 
+ # Qing Dynasty
+ QIN_democratic:0 "China"
+ QIN_democratic_DEF:0 "China"
+ QIN_fascism:0 "Qing Empire"
+ QIN_fascism_DEF:0 "Qing Empire"
+ QIN_communism:0 "Qing dynasty"
+ QIN_communism:0 "Qing dynasty"
