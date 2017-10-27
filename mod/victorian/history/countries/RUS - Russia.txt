@@ -1,6 +1,6 @@
 ﻿capital = 195
 
-oob = "SOV_1936"
+oob = "RUS_1936"
 
 set_research_slots = 4
 
@@ -45,7 +45,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 88 #shared between all parties, should add to 100
+			popularity = 18
 		}
 
 		fascism = {
@@ -53,22 +53,22 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 20
+			popularity = 80
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1933.7.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
 	name = "Nicolaas I Pavlovitsj"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "Portrait_Soviet_Joseph_Stalin.dds"
+	picture = "gfx/RUS/nicholas_1"
 	expire = "1953.3.1"
-	ideology = despotic
+	ideology = communism
 	traits = {
 		
 	}
@@ -96,41 +96,24 @@ create_country_leader = {
 	}
 }
 
-add_namespace = {
-	name = "unit_leader_sov"
-	type = unit_leader
-}
+
 
 create_field_marshal = {
-	name = "Alexander Sergeyevich Menshikov"
-		picture = "Portrait_Soviet_Grigory_Kulik.dds"
+	name = "Alexander Chernyshyow"
+		picture = "gfx/RUS/alexander_chernyshyow.dds"
 	traits = { old_guard }
 	skill = 3	
 }
 
-create_corps_commander = {
-	name = "Kirill Meretskov"
-		picture = "Portrait_Soviet_Kirill_Meretskov.dds"
-	traits = {  }
-	skill = 3
-	
-}
 
 create_navy_leader = {
-	name = "Pavel Nakhimov"
+	name = "Vasily Zavoyko"
 	id = 409
-		picture = "Portrait_Soviet_Arseniy_Golovko.dds"
+		picture = "gfx/RUS/vasily_zavoyko.dds"
 	traits = { spotter }
 	skill = 4
 }
 
-create_navy_leader = {
-	name = "Vasily Zavoyko"
-	id = 403
-		picture = "Portrait_Soviet_Vladimir_Kasatonov.dds"
-	traits = { spotter }
-	skill = 5
-}
 
 
 ### Ship Variants ###
