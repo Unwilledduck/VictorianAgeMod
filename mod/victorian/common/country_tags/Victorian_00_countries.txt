@@ -15,6 +15,11 @@ BEL = "countries/Belgiun.txt"
 SEI = "countries/Spanish East Indies.txt"
 USA = "countries/United_States.txt"
 AHU = "countries/Austria Hungary.txt"
-OTT = "countries/OTToman Empire"
-
+OTT = "countries/Ottoman Empire"
+OLD = "countries/Oldenburg"
+WUR = "countries/Wurttemberg"
+SAX = "countries/Saxony"
+BAV = "countries/Bavaria"
+HES = "countries/Hesse"
+HAN = "countries/Hannover"
 
