@@ -8,7 +8,7 @@ state={
 	
 	
 	history = {
-		owner = UNK
+		owner = OTT
 		buildings = {
 			infrastructure = 2
 			1155 = {
@@ -16,7 +16,7 @@ state={
 			}
 		}
 
-		
+		add_core_of = OTT
 
 	}
 

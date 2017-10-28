@@ -1,13 +1,13 @@
 
 state={
 	id=454
-	name="STATE_454" #Palestine
+	name="STATE_454" #OTTestine
 	manpower = 933142
 	
 	state_category = rural
 
 	history={
-		owner = UNK
+		owner = OTT
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
@@ -22,7 +22,8 @@ state={
 		victory_points = {
 			4206 1 
 		}
-		
+		add_core_of = OTT
+	
 	}
 
 	provinces={

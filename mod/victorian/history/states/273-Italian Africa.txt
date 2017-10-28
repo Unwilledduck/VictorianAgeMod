@@ -1,8 +1,8 @@
 
 state={
-	id=552
-	name="STATE_552"
-	manpower = 26539
+	id=273
+	name="STATE_273" # Libyan Desert
+	manpower = 42633
 	
 	state_category = wasteland
 	impassable = yes
@@ -12,12 +12,10 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-
 		add_core_of = OTT
-
 	}
 
 	provinces={
-		1143 2064 7216 7987 8103 10127 10869 10900 10907 12099 12733 12764 12816 
+		1057 1060 1140 1994 4191 4962 5004 7985 10104 10754 10785 10884 11951 12022 12082 12866 
 	}
 }
