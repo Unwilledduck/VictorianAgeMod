@@ -14,6 +14,14 @@
  RUS_communism:0 "Russian Empire"
  RUS_communism_DEF:0 "Russian Empire"
  
+ # Austria Hungary
+ AHU_democratic:0 "Austria Hungary"
+ AHU_democratic_DEF:0 "Austria Hungary"
+ AHU_fascism:0 "Austrian Empire"
+ AHU_fascism_DEF:0 "Austrian Empire"
+ AHU_communism:0 "Austrian Empire"
+ AHU_communism_DEF:0 "Austrian Empire"
+ 
  # Kingdom of Sardinia
  SAR_democratic:0 "Italian Counsil"
  SAR_democratic_DEF:0 "Italian Counsil"
