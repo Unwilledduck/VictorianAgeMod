@@ -1,5 +1,9 @@
 #reload countrycolors
+OTT = {
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171  190  152 }
 
+}
 SWD = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
