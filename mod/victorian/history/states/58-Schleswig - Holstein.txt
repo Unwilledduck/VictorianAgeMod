@@ -23,6 +23,8 @@ state= {
 			}
 		}
 		add_core_of = DEN
+		add_claim_by = PRS
+		
 		
 	}
 
