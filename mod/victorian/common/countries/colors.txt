@@ -60,3 +60,28 @@ AHU = {
 	color = rgb { 194 198 215 }
 	color_ui = rgb { 255 255 255 }
 }
+OLD = {
+	color = rgb { 155 121 98 }
+	color_ui = rgb { 155 121 98 }
+}
+WUR = {
+	color = rgb { 26 56	59 }
+	color_ui = rgb { 26 56 59 }
+}
+SAX = {
+	color = rgb { 34 139 34 }
+	color_ui = rgb { 34 139 34 }
+}
+BAV = {
+	color = rgb { 135 206 250 }
+	color_ui = rgb { 135 206 250 }
+}
+HES = {
+	color = rgb { 240 128 128 }
+	color_ui = rgb { 240 128 128 }
+}
+HAN = {
+	color = rgb { 178 34 34 }
+	color_ui = rgb { 178 34 34 }
+
+}
