@@ -12,8 +12,5 @@ NED = "countries/Netherlands.txt"
 QIN = "countries/Qing Dynasty.txt"
 UNK = "countries/United Kingdom.txt"
 BEL = "countries/Belgiun.txt"
-<<<<<<< HEAD
 SEI = "countries/Spanish East Indies.txt"
-=======
-USA = "countries/United_States"
->>>>>>> a3aa35f6caceebd6733029cce6c77b652a3e7445
+USA = "countries/United_States.txt"
