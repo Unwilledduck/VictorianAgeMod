@@ -89,14 +89,14 @@
  QIN_neutrality_DEF:0 "Qing Dynasty"
  
  # United Kingdom 
- ENG_democratic:0 "United Kingdom"
- ENG_democratic_DEF:0 "United Kingdom"
- ENG_fascism:0 "British Empire"
- ENG_fascism_DEF:0 "British Empire"
- ENG_communism:0 "Commonwealth of the United Kingdom"
- ENG_communism:0 "Commonwealth of the United Kingdom"
- ENG_neutrality:0 "Commonwealth of the United Kingdom"
- ENG_neutrality_DEF:0 "Commonwealth of the United Kingdom"
+ UNK_democratic:0 "United Kingdom"
+ UNK_democratic_DEF:0 "United Kingdom"
+ UNK_fascism:0 "British Empire"
+ UNK_fascism_DEF:0 "British Empire"
+ UNK_communism:0 "Commonwealth of the United Kingdom"
+ UNK_communism:0 "Commonwealth of the United Kingdom"
+ UNK_neutrality:0 "Commonwealth of the United Kingdom"
+ UNK_neutrality_DEF:0 "Commonwealth of the United Kingdom"
  
  # Belgium
  BEL_democratic:0 "Kingdom of Belgium"
