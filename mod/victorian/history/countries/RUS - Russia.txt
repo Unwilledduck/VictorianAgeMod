@@ -66,9 +66,9 @@ set_politics = {
 create_country_leader = {
 	name = "Nicholas I of Russia"
 	desc = "POLITICS_NICHOLAS_I_DESC"
-	picture = "gfx/leaders/RUS/Nicholas_I.dds"
+	picture = "gfx/leaders/RUS/nicholas_1.dds"
 	expire = "1855.3.2"
-	ideology = fascism_ideology
+	ideology = nazism
 	traits = {
 		
 	}
