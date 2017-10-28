@@ -7,9 +7,9 @@ bookmarks = {
 		default_country = "USA"
 		default = yes
 		
-		"AUS"={
+		"AHU"={
 			history = "AUS_GATHERING_STORM_DESC"
-			ideology = neutrality
+			ideology = fascism
 			ideas={
 
 			}
