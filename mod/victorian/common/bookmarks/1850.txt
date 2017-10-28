@@ -83,6 +83,7 @@ bookmarks = {
 
 			}
 		}
+		
 		"QIN"={
 			minor = yes
 			history = "QIN_GATHERING_STORM_DESC"
@@ -94,6 +95,7 @@ bookmarks = {
 
 			}
 		}
+		
 		"SWD"={
 			minor = yes
 			history = "SWD_GATHERING_STORM_DESC"
