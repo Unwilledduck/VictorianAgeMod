@@ -15,4 +15,6 @@ BEL = "countries/Belgiun.txt"
 SEI = "countries/Spanish East Indies.txt"
 USA = "countries/United_States.txt"
 AHU = "countries/Austria Hungary.txt"
+OTT = "countries/OTToman Empire"
+
 
