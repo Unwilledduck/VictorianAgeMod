@@ -21,7 +21,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = UNK
+		add_core_of = CAN
 		victory_points = {
 			4345 20
 		}
