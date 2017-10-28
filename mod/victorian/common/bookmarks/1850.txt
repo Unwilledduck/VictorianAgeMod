@@ -17,6 +17,16 @@ bookmarks = {
 
 			}
 		}
+		"OTT"={
+			history = "OTT_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas={
+
+			}
+			focuses = {
+
+			}
+		}
 		"UNK"={
 			history = "ENG_GATHERING_STORM_DESC"
 			ideology = fascism
@@ -49,7 +59,7 @@ bookmarks = {
 		}
 		"RUS"={
 			history = "RUS_GATHERING_STORM_DESC"
-			ideology = communism
+			ideology = fascism
 			ideas = {
 
 			}
