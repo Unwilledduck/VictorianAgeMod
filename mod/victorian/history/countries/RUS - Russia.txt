@@ -64,11 +64,11 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Nicolaas I Pavlovitsj"
-	desc = "POLITICS_JOSEPH_STALIN_DESC"
-	picture = "gfx/leaders/RUS/nicholas_1"
-	expire = "1953.3.1"
-	ideology = leninism
+	name = "Nicholas I of Russia"
+	desc = "POLITICS_NICHOLAS_I_DESC"
+	picture = "Nicholas_I"
+	expire = "1855.3.2"
+	ideology = fascism_ideology
 	traits = {
 		
 	}
