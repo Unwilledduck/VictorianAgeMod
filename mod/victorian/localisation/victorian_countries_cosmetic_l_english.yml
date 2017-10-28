@@ -1,11 +1,73 @@
 ﻿l_english:
+ 
  ACH_democratic:0 "Aceh Republic"
  ACH_democratic_DEF:0 "Aceh Republic"
  ACH_fascism:0 "Aceh Sultanate"
  ACH_fascism_DEF:0 "Aceh Sultanate"
  ACH_communism:0 "Aceh's People"
  ACH_communism_DEF:0 "Aceh's People"
-
+ 
+ #Hesse
+ HES_democratic:0 "Hesse"
+ HES_democratic_DEF:0 "Hesse"
+ HES_fascism:0 "Hesse"
+ HES_fascism_DEF:0 "Hesse"
+ HES_communism:0 "Hesse"
+ HES_communism_DEF:0 "Hesse"
+ HES_neutrality:0 "Hesse"
+ HES_neutrality_DEF:0 "Hesse"
+ 
+ #Hannover
+ HAN_democratic:0 "Hannover"
+ HAN_democratic_DEF:0 "Hannover"
+ HAN_fascism:0 "Hannover"
+ HAN_fascism_DEF:0 "Hannover"
+ HAN_communism:0 "Hannover"
+ HAN_communism_DEF:0 "Hannover"
+ HAN_neutrality:0 "Hannover"
+ HAN_neutrality_DEF:0 "Hannover"
+ 
+ #Bavaria
+ BAV_democratic:0 "Bavaria"
+ BAV_democratic_DEF:0 "Bavaria"
+ BAV_fascism:0 "Bavaria"
+ BAV_fascism_DEF:0 "Bavaria"
+ BAV_communism:0 "Bavaria"
+ BAV_communism_DEF:0 "Bavaria"
+ BAV_neutrality:0 "Bavaria"
+ BAV_neutrality_DEF:0 "Bavaria"
+ 
+ #Saxony
+ SAX_democratic:0 "Duchy of Saxony"
+ SAX_democratic_DEF:0 ""Duchy of Saxony"
+ SAX_fascism:0 "Duchy of Saxony"
+ SAX_fascism_DEF:0 "Duchy of Saxony"
+ SAX_communism:0 "Duchy of Saxony"
+ SAX_communism_DEF:0 "Duchy of Saxony"
+ SAX_neutrality:0 "Duchy of Saxony"
+ SAX_neutrality_DEF:0 "Duchy of Saxony"
+ 
+# Oldenburg
+ OLD_democratic:0 "Duchy of Oldenburg"
+ OLD_democratic_DEF:0 "Duchy of Oldenburg"
+ OLD_fascism:0 "Duchy of Oldenburg"
+ OLD_fascism_DEF:0 "Duchy of Oldenburg"
+ OLD_communism:0 "Duchy of Oldenburg"
+ OLD_communism_DEF:0 "Duchy of Oldenburg"
+ OLD_neutrality:0 "Duchy of Oldenburg"
+ OLD_neutrality_DEF:0 "Duchy of Oldenburg"
+ 
+ # Wurttemberg
+ WUR_democratic:0 "Duchy of Wurttemburg"
+ WUR_democratic_DEF:0 "Duchy of Wurttemburg"
+ WUR_fascism:0 "Duchy of Wurttemburg"
+ WUR_fascism_DEF:0 "Duchy of Wurttemburg"
+ WUR_communism:0 "Duchy of Wurttemburg"
+ WUR_communism_DEF:0 "Duchy of Wurttemburg"
+ WUR_neutrality:0 "Duchy of Wurttemburg"
+ WUR_neutrality_DEF:0 "Duchy of Wurttemburg"
+ 
+ 
  # Russia
  RUS_democratic:0 "Russian Republic"
  RUS_democratic_DEF:0 "Russian Republic"
