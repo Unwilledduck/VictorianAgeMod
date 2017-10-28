@@ -1,0 +1,130 @@
+capital = 341
+
+oob = "OTT_1936"
+
+set_research_slots = 3
+
+add_ideas = {
+	
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	early_fighter = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiOTT = 1
+	early_battleship = 1
+	early_battlecruiOTT = 1
+	transport = 1
+}
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 10
+		}
+
+		fascism = {
+			popularity = 50
+			banned = no
+		}
+		
+		communism = {
+			popularity = 20
+			banned = no
+		}
+		
+		neutrality = { 
+			popularity = 20
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1935.2.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 20
+set_national_unity = 0.55
+
+
+create_country_leader = {
+	name = "Abdulmejid I"
+	desc = "POLITICS_ISMET_INÖNÜ_DESC"
+	picture = "gfx/leaders/OTT/abdulmejid.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Abdülaziz"
+	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+	picture = "gfx/leaders/OTT/abdulaziz.dds"
+	expire = "1938.11.10"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sefik Hüsnü"
+	desc = "POLITICS_SEFIK_HUSNU_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Celâl Bayar"
+	desc = "POLITICS_CELAL_BAYAR_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = conOTTvatism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Antoni Aleksander Ilinski"
+	portrait_path = "gfx/leaders/OTT/antoni_Aleksander.dds"
+	traits = { deOTTt_fox }
+	skill = 3
+
+}
+
+create_corps_commander = {
+	name = "Abdülkerim Nadir Pasha"
+	portrait_path = "gfx/leaders/OTT/adbulkerim.dds"
+	traits = { trickster }
+	skill = 2
+
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Dumlupinar Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 2
+		sub_engine_upgrade = 2
+		sub_stealth_upgrade = 2
+		sub_torpedo_upgrade = 2
+	}
+}
