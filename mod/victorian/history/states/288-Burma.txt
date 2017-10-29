@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = UNK
+		owner = KON
 		victory_points = {
 			1330 5 
 		}
@@ -23,6 +23,7 @@ state={
 				naval_base = 4
 			}
 		}
+		add_core_of = KON
 
 	}
 

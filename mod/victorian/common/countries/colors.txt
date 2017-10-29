@@ -83,5 +83,8 @@ HES = {
 HAN = {
 	color = rgb { 178 34 34 }
 	color_ui = rgb { 178 34 34 }
-
+}
+KON = {
+	color = rgb { 154  205  50 }
+	color_ui = rgb { 154  205  50 }
 }
