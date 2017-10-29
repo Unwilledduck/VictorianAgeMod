@@ -166,7 +166,7 @@
  QIN_fascism:0 "Qing Empire"
  QIN_fascism_DEF:0 "Qing Empire"
  QIN_communism:0 "Qing Dynasty"
- QIN_communism:0 "Qing Dynasty"
+ QIN_communism_DEF:0 "Qing Dynasty"
  QIN_neutrality:0 "Qing Dynasty"
  QIN_neutrality_DEF:0 "Qing Dynasty"
  
@@ -176,7 +176,7 @@
  UNK_fascism:0 "British Empire"
  UNK_fascism_DEF:0 "British Empire"
  UNK_communism:0 "Commonwealth of the United Kingdom"
- UNK_communism:0 "Commonwealth of the United Kingdom"
+ UNK_communism_DEF:0 "Commonwealth of the United Kingdom"
  UNK_neutrality:0 "Commonwealth of the United Kingdom"
  UNK_neutrality_DEF:0 "Commonwealth of the United Kingdom"
  
@@ -186,7 +186,7 @@
  BEL_fascism:0 "Belgian Empire"
  BEL_fascism_DEF:0 "Belgian Empire"
  BEL_communism:0 "Kingdom of Belgium"
- BEL_communism:0 "Kingdom of Belgium"
+ BEL_communism_DEF:0 "Kingdom of Belgium"
  BEL_neutrality:0 "Kingdom of Belgium"
  BEL_neutrality_DEF:0 "Kingdom of Belgium"
  
@@ -196,6 +196,16 @@
  SEI_fascism:0 "Spanish East Indies"
  SEI_fascism_DEF:0 "Spanish East Indies"
  SEI_communism:0 "Spanish East Indies"
- SEI_communism:0 "Spanish East Indies"
+ SEI_communism_DEF:0 "Spanish East Indies"
  SEI_neutrality:0 "Spanish East Indies"
  SEI_neutrality_DEF:0 "Spanish East Indies"
+ 
+ # Konbaung Dynasty
+ KON_democratic:0 "Konbaung Dynasty"
+ KON_democratic_DEF:0 "Konbaung Dynasty"
+ KON_fascism:0 "Konbaung Dynasty"
+ KON_fascism_DEF:0 "Konbaung Dynasty"
+ KON_communism:0 "Konbaung Dynasty"
+ KON_communism_DEF:0 "Konbaung Dynasty"
+ KON_neutrality:0 "Konbaung Dynasty"
+ KON_neutrality_DEF:0 "Konbaung Dynasty"
