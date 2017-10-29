@@ -28,7 +28,7 @@ bookmarks = {
 			}
 		}
 		"UNK"={
-			history = "ENG_GATHERING_STORM_DESC"
+			history = "UNK_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 
