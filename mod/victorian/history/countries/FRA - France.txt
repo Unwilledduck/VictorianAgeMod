@@ -140,8 +140,8 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "gfx/leaders/FRA/Napoleon_3.dds"
 	expire = "1955.1.1"
-	ideology = conservatism
-	traits = {
+	ideology = 
+	traits = { nazism
 		#
 	}
 }
@@ -151,7 +151,7 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_DIAZ_DESC"
 	picture = "Portrait_Spain_Jose_Diaz.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = conservatism
 	traits = {
 		#
 	}
