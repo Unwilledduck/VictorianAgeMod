@@ -140,8 +140,8 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "gfx/leaders/FRA/Napoleon_3.dds"
 	expire = "1955.1.1"
-	ideology = 
-	traits = { nazism
+	ideology = nazism
+	traits = { 
 		#
 	}
 }
