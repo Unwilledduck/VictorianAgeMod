@@ -1,4 +1,4 @@
-capital = 608
+capital = 640
 
 oob = "KON_1850"
 
