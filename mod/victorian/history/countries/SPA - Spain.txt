@@ -137,17 +137,9 @@ set_national_unity = 0.8
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
 }
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = SEI
-		autonomous_state = autonomy_puppet
-	}
-	else = {
-		puppet = SEI
-	}
+set_autonomy = {
+	target = SEI
+	autonomous_state =  autonomy_puppet
 }
 
 create_country_leader = {
