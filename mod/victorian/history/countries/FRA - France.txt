@@ -1,6 +1,6 @@
 ﻿capital = 16
 
-oob = "SPR_1936"
+oob = "FRA_1936"
 
 set_research_slots = 4
 
@@ -41,14 +41,14 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = fascism
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
 set_convoys = 150
-set_national_unity = 0.6
+set_national_unity = 0.55
 
 1939.1.1 = {
 
