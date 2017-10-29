@@ -123,6 +123,8 @@
  FRA_fascism_DEF:0 "Second French Empire"
  FRA_communism:0 "French State"
  FRA_communism_DEF:0 "French State"
+ FRA_neutrality:0 "France"
+ FRA_neutrality_DEF:0 "France"
  
  # Prussia
  PRS_democratic:0 "Duchy of Prussia"
@@ -147,6 +149,8 @@
  BRA_fascism_DEF:0 "Empire of Brazil"
  BRA_communism:0 "Brazil"
  BRA_communism_DEF:0 "Brazil"
+ BRA_neutrality:0 "Brazil"
+ BRA_neutrality_DEF:0 "Brazil"
  
  # The Netherlands
  NED_democratic:0 "Netherlands"
