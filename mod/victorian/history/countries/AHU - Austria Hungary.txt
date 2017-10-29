@@ -40,6 +40,15 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_faction = Sud Deutsches Bond
+add_to_faction = AHU
+add_to_faction = HES
+add_to_faction = SAX
+add_to_faction = BAV
+add_to_faction = WUR
+add_to_faction = OLD
+add_to_faction = HAN
+
 set_national_unity = 0.50
 
 create_country_leader = {
