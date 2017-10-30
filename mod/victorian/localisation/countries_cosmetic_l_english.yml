@@ -17,6 +17,16 @@
  HES_neutrality:0 "Hesse"
  HES_neutrality_DEF:0 "Hesse"
  
+ #Lombardy
+ LOM_democratic:0 "Kingdom of Lombardy"
+ LOM_democratic_DEF:0 "Kingdom of Lombardy"
+ LOM_fascism:0 "Kingdom of Lombardy"
+ LOM_fascism_DEF:0 "Kingdom of Lombardy"
+ LOM_communism:0 "Kingdom of Lombardy"
+ LOM_communism_DEF:0 "Kingdom of Lombardy"
+ LOM_neutrality:0 "Kingdom of Lombardy"
+ LOM_neutrality_DEF:0 "Kingdom of Lombardy"
+ 
  #Hannover
  HAN_democratic:0 "Hannover"
  HAN_democratic_DEF:0 "Hannover"
