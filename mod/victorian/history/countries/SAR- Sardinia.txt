@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "gfx/leaders/SAR/Portrait_Victor_Emmanuel_2.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = nazism
 	traits = {
 		#
 	}
@@ -165,7 +165,7 @@ create_country_leader = {
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = socialism
 	traits = {
 		#
 	}
@@ -194,7 +194,7 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Folke Högberg"
+	name = "Folke HÃ¶gberg"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { commando }
 	skill = 3
@@ -202,7 +202,7 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Claes Lindström"
+	name = "Claes LindstrÃ¶m"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { blockade_runner }
 	skill = 4
