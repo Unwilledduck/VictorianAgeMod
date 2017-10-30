@@ -24,4 +24,5 @@ HES = "countries/Hesse.txt"
 HAN = "countries/Hannover.txt"
 KON = "countries/Konbaung Dynasty.txt"
 JAP = "countries/Japan.txt"
+LOM = "countries/Lombardy.txt"
 
