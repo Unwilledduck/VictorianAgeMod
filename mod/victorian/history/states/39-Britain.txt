@@ -11,13 +11,14 @@ state={
 	}
 
 	history={
-		owner = AHU
+		owner = LOM
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 		}
-		add_core_of = AHU
-		add_core_of = AHU
+		add_core_of = LOM
+		add_core_of = SAR
+		add_claim_by = LOM
 	}
 
 	provinces={
