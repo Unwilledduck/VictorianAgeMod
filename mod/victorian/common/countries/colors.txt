@@ -68,6 +68,10 @@ WUR = {
 	color = rgb { 26 56	59 }
 	color_ui = rgb { 26 56 59 }
 }
+PAP = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
 SAX = {
 	color = rgb { 34 139 34 }
 	color_ui = rgb { 34 139 34 }
@@ -95,4 +99,12 @@ JAP = {
 LOM = {
 	color = rgb { 230 230 250}
 	color_ui = rgb { 230 230 250 }
+}
+TUS = {
+	color = rgb { 255 160 122}
+	color_ui = rgb { 255 160 122 }
+}
+TWO = {
+	color = rgb { 245 245 245}
+	color_ui = rgb { 245 245 245 }
 }
