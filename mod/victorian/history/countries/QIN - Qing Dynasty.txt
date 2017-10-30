@@ -56,12 +56,25 @@ set_convoys = 150
 set_national_unity = 0.8
 
 create_country_leader = {
-	name = "Yizhu"
-	desc = "POLITICS_YIZHU_DESC"
-	picture = "Portrait_Qing_Yizhu.dds"
-	expire = "1965.1.1"
+	name = "Daoguang"
+	desc = "POLITICS_DAOGUANG_DESC"
+	picture = "Portrait_Qing_Daoguang.dds"
+	expire = "1850.2.25"
 	ideology = despotism
 	traits = {
 		#
 	}
+}
+
+1850.2.25 = {
+	create_country_leader = {
+	name = "Yizhu"
+	desc = "POLITICS_YIZHU_DESC"
+	picture = "Portrait_Qing_Yizhu.dds"
+	expire = "1861.8.22"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
 }
