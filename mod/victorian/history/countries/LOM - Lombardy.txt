@@ -1,0 +1,165 @@
+capital = 160	
+
+oob = "LOM_1936"
+
+set_research_slots = 2
+
+add_ideas = {
+}
+
+
+set_technology = {
+	infantry_weapons = 2
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gwtank = 1
+	basic_light_tank = 1
+	CAS1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 16
+		}
+
+		neutrality = {
+			popularity  = 60
+		}
+
+		communism = {
+			popularity = 4
+		}
+
+		fascism = {
+			popularity = 20
+		}
+		
+	}
+	
+	ruling_party = neutrality
+	last_election = "1932.9.18"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+1939.1.1 = {
+	set_politics = {
+
+		parties = {
+			democratic = { 
+				popularity = 30
+			}
+	
+			neutrality = {
+				popularity  = 20
+			}
+
+			communism = {
+				popularity = 5
+			}
+
+			fascism = {
+				popularity = 45
+			}
+		
+		}
+		
+		ruling_party = fascism
+		last_election = "1936.9.20"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+
+set_convoys = 25
+set_national_unity = 0.6
+
+
+
+
+create_country_leader = {
+	name = "Alesandro Manzoni"
+	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Umberto the First"
+	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Guarda Notra"
+	desc = "POLITICS_SVEN_LINDEROT_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Joseph Radetzky von Radetz"
+	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
+	picture = "gfx/leaders/LOM/Joseph_Radetzky.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Huig Laborte"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { commando }
+	skill = 2
+
+}
+
+create_navy_leader = {
+	name = "Giono Demontelli"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { blockade_runner }
+	skill = 2
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Draken Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}

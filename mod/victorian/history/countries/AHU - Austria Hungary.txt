@@ -48,6 +48,7 @@ add_to_faction = BAV
 add_to_faction = WUR
 add_to_faction = OLD
 add_to_faction = HAN
+puppet = LOM
 
 set_national_unity = 0.50
 
