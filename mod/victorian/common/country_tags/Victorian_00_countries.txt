@@ -25,4 +25,7 @@ HAN = "countries/Hannover.txt"
 KON = "countries/Konbaung Dynasty.txt"
 JAP = "countries/Japan.txt"
 LOM = "countries/Lombardy.txt"
+PAP = "countries/Papal States"
+TUS = "countries/Tuscany.txt"
+TWO = "countries/Kingdom of the Two Sicilies"
 
