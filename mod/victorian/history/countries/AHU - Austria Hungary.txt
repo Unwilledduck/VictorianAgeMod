@@ -40,7 +40,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = Sud_Deutsches_Bond
+create_faction = Austrian Empire
 add_to_faction = AHU
 add_to_faction = HES
 add_to_faction = SAX
