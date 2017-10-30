@@ -17,6 +17,36 @@
  HES_neutrality:0 "Hesse"
  HES_neutrality_DEF:0 "Hesse"
  
+ #Tuscany
+ TUS_democratic:0 "Duchy of Tuscany"
+ TUS_democratic_DEF:0 "Duchy of Tuscany"
+ TUS_fascism:0 "Duchy of Tuscany"
+ TUS_fascism_DEF:0 "Duchy of Tuscany"
+ TUS_communism:0 "Duchy of Tuscany"
+ TUS_communism_DEF:0 "Duchy of Tuscany"
+ TUS_neutrality:0 "Duchy of Tuscany"
+ TUS_neutrality_DEF:0 "Duchy of Tuscany"
+ 
+ #Kingdom of the Two Sicillies
+ TWO_democratic:0 "Kingdom of the Two Sicillies"
+ TWO_democratic_DEF:0 "Kingdom of the Two Sicillies"
+ TWO_fascism:0 "Kingdom of the Two Sicillies"
+ TWO_fascism_DEF:0 "Kingdom of the Two Sicillies"
+ TWO_communism:0 "Kingdom of the Two Sicillies"
+ TWO_communism_DEF:0 "Kingdom of the Two Sicillies"
+ TWO_neutrality:0 "Kingdom of the Two Sicillies"
+ TWO_neutrality_DEF:0 "Kingdom of the Two Sicillies"
+ 
+ #Papal State
+ PAP_democratic:0 "Papal State"
+ PAP_democratic_DEF:0 "Papal State"
+ PAP_fascism:0 "Papal State"
+ PAP_fascism_DEF:0 "Papal State"
+ PAP_communism:0 "Papal State"
+ PAP_communism_DEF:0 "Papal State"
+ PAP_neutrality:0 "Papal State"
+ PAP_neutrality_DEF:0 "Papal State"
+ 
  #Lombardy
  LOM_democratic:0 "Kingdom of Lombardy"
  LOM_democratic_DEF:0 "Kingdom of Lombardy"
