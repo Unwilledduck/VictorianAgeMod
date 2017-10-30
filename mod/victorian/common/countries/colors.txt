@@ -88,3 +88,7 @@ KON = {
 	color = rgb { 154  205  50 }
 	color_ui = rgb { 154  205  50 }
 }
+JAP = {
+	color = rgb { 255 191 191 }
+	color_ui = rgb { 255 191 191 }
+}
