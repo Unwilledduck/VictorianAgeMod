@@ -14,6 +14,7 @@ set_technology = {
 	early_fighter = 1
 }
 
+# POLITICS
 set_politics = {
 
 	parties = {
@@ -40,7 +41,8 @@ set_politics = {
 	elections_allowed = no
 }
 
-create_faction = Austrian Empire
+# DIPLOMACY
+create_faction = Austrian-Empire
 add_to_faction = AHU
 add_to_faction = HES
 add_to_faction = SAX
@@ -52,6 +54,7 @@ puppet = LOM
 
 set_national_unity = 0.50
 
+# COUNTRY LEADERS
 create_country_leader = {
 	name = "Franz Joseph I"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
@@ -85,6 +88,8 @@ create_country_leader = {
 		#
 	}
 }
+
+# MILITARY COMMANDERS
 
 create_corps_commander = {
 	name = "Archduke Albrecht"
