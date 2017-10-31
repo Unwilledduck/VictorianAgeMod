@@ -94,7 +94,7 @@ create_country_leader = {
 	desc = "POLITICS_CELAL_BAYAR_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = conOTTvatism
+	ideology = conservatism
 	traits = {
 		#
 	}
@@ -103,7 +103,7 @@ create_country_leader = {
 create_corps_commander = {
 	name = "Antoni Aleksander Ilinski"
 	portrait_path = "gfx/leaders/OTT/antoni_Aleksander.dds"
-	traits = { deOTTt_fox }
+	traits = { desert_fox }
 	skill = 3
 
 }
