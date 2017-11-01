@@ -7,6 +7,16 @@
  ACH_communism:0 "Aceh's People"
  ACH_communism_DEF:0 "Aceh's People"
  
+ #Somalian Tribes
+ SOL_democratic:0 "Somalian Tribes"
+ SOL_democratic_DEF:0 "Somalian Tribes"
+ SOL_fascism:0 "Somalian Tribes"
+ SOL_fascism_DEF:0 "Somalian Tribes"
+ SOL_communism:0 "Somalian Tribes"
+ SOL_communism_DEF:0 "Somalian Tribes"
+ SOL_neutrality:0 "Somalian Tribes"
+ SOL_neutrality_DEF:0 "Somalian Tribes"
+ 
  #Hesse
  HES_democratic:0 "Hesse"
  HES_democratic_DEF:0 "Hesse"
@@ -16,6 +26,16 @@
  HES_communism_DEF:0 "Hesse"
  HES_neutrality:0 "Hesse"
  HES_neutrality_DEF:0 "Hesse"
+ 
+ #Ethiopia
+ ETH_democratic:0 "Ethiopian Empire"
+ ETH_democratic_DEF:0 "Ethiopian Empire"
+ ETH_fascism:0 "Ethiopian Empire"
+ ETH_fascism_DEF:0 "Ethiopian Empire"
+ ETH_communism:0 "Ethiopian Empire"
+ ETH_communism_DEF:0 "Ethiopian Empire"
+ ETH_neutrality:0 "Ethiopian Empire"
+ ETH_neutrality_DEF:0 "Ethiopian Empire"
  
  #Tuscany
  TUS_democratic:0 "Duchy of Tuscany"
