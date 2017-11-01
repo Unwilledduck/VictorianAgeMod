@@ -27,5 +27,6 @@ JAP = "countries/Japan.txt"
 LOM = "countries/Lombardy.txt"
 PAP = "countries/Papal States"
 TUS = "countries/Tuscany.txt"
-TWO = "countries/Kingdom of the Two Sicilies"
-
+TWO = "countries/Kingdom of the Two Sicilies.txt"
+ETH = "countries/Ethiopia.txt"
+SOL = "countries/Somalian Tribes.txt"
