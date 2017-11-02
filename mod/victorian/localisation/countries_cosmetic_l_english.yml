@@ -7,6 +7,16 @@
  ACH_communism:0 "Aceh's People"
  ACH_communism_DEF:0 "Aceh's People"
  
+ #Luxemburg
+ LUX_democratic:0 "Luxemburg"
+ LUX_democratic_DEF:0 "Luxemburg"
+ LUX_fascism:0 "Luxemburg"
+ LUX_fascism_DEF:0 "Luxemburg"
+ LUX_communism:0 "Luxemburg"
+ LUX_communism_DEF:0 "Luxemburg"
+ LUX_neutrality:0 "Luxemburg"
+ LUX_neutrality_DEF:0 "Luxemburg"
+ 
  #Somalian Tribes
  SOL_democratic:0 "Somalian Tribes"
  SOL_democratic_DEF:0 "Somalian Tribes"
