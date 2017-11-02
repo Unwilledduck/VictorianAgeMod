@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = ACH
+		owner = NED
+		add_core_of = NED
 		add_core_of = ACH
 		buildings = {
 			infrastructure = 3
