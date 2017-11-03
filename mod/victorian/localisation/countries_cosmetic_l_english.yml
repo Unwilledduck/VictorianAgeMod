@@ -47,15 +47,15 @@
  HES_neutrality:0 "Hesse"
  HES_neutrality_DEF:0 "Hesse"
  
- #Ethiopia
- ETH_democratic:0 "Ethiopian Empire"
- ETH_democratic_DEF:0 "Ethiopian Empire"
+ # Ethiopia
+ ETH_democratic:0 "Federal Democratic Republic of Ethiopia"
+ ETH_democratic_DEF:0 "Federal Democratic Republic of Ethiopia"
  ETH_fascism:0 "Ethiopian Empire"
  ETH_fascism_DEF:0 "Ethiopian Empire"
- ETH_communism:0 "Ethiopian Empire"
- ETH_communism_DEF:0 "Ethiopian Empire"
- ETH_neutrality:0 "Ethiopian Empire"
- ETH_neutrality_DEF:0 "Ethiopian Empire"
+ ETH_communism:0 "People's Democratic Republic of Ethiopia"
+ ETH_communism_DEF:0 "People's Democratic Republic of Ethiopia"
+ ETH_neutrality:0 "Ethiopia"
+ ETH_neutrality_DEF:0 "Ethiopia"
  
  #Tuscany
  TUS_democratic:0 "Duchy of Tuscany"
