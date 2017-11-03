@@ -1,0 +1,88 @@
+division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Artillery-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        artillery = { x = 2 y = 0 }
+		artillery = { x = 2 y = 1 }
+		artillery = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+	division= {	
+		name = "1. Infantrie Division"
+		location = 3312
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Infantrie Division"
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Infantrie Division"
+		location = 6332
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Infantrie Division"
+		location = 9570
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Infantrie Division"
+		location = 6469
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Artillery Division"
+		location = 495
+		division_template = "Artillery-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Artillery Division"
+		location = 6521
+		division_template = "Artillery-Division"
+		start_experience_factor = 0.3
+	}
+	#### NAVAL UNITS #####
+	### KRIEGSMARINE ###
+	navy = {				
+		name = "Kriegsmarine"			
+		base = 321 
+		location = 321  
+		ship = { name = "SMS Thetis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PRS } } }		
+		ship = { name = "SMS Niobe" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PRS } } }		
+		ship = { name = "SMS Amazone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }		
+	}	
+}

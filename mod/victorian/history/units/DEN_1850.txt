@@ -1,0 +1,36 @@
+division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		artillery = { x = 2 y = 1 }
+		artillery = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+	division= {	
+		name = "1. Artillery Division"
+		location = 6285
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Infantry Division"
+		location = 9347
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	
+	
+	
+}
