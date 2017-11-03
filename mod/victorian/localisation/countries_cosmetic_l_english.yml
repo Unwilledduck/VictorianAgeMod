@@ -27,15 +27,15 @@
  SOL_neutrality:0 "Somalian Tribes"
  SOL_neutrality_DEF:0 "Somalian Tribes"
  
- # Kingdom of Portugal
- POR_democratic:0 "Kingdom of Portugal"
- POR_democratic_DEF:0 "Kingdom of Portugal"
+ # Portugal
+ POR_democratic:0 "Portuguese Republic"
+ POR_democratic_DEF:0 "Portuguese Republic"
  POR_fascism:0 "Kingdom of Portugal"
  POR_fascism_DEF:0 "Kingdom of Portugal"
- POR_communism:0 "Kingdom of Portugal"
- POR_communism_DEF:0 "Kingdom of Portugal"
- POR_neutrality:0 "Kingdom of Portugal"
- POR_neutrality_DEF:0 "Kingdom of Portugal"
+ POR_communism:0 "Portuguese People's Republic"
+ POR_communism_DEF:0 "Portuguese People's Republic"
+ POR_neutrality:0 "Portugal"
+ POR_neutrality_DEF:0 "Portugal"
  
  # Hesse
  HES_democratic:0 "Hesse"
