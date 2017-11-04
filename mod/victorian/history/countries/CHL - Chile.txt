@@ -1,6 +1,6 @@
-﻿capital = 280
+﻿capital = 279
 
-oob = "BRA_1936"
+oob = "CHL_1850"
 
 set_research_slots = 2
 
@@ -12,9 +12,7 @@ set_technology = {
 	early_submarine = 1
 	early_destroyer = 1
 	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
+	
 	transport = 1
 	
 }
@@ -27,18 +25,18 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 60
+			popularity = 20
 		}
 		
 		communism = {
 			popularity = 10
 		}
 		neutrality = {
-			popularity = 10
+			popularity = 50
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -49,23 +47,13 @@ set_national_unity = 0.75
 
 
 create_country_leader = {
-	name = "Pedro II of Brazil"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "gfx/leaders/BRA/pedro_2.dds"
-	expire = "1965.1.1"
-	ideology = nazism
+	name = "Manuel Bulnes"
+	desc = "Manuel Bulnes"
+	picture = "gfx/leaders/CHL/bulnes.dds"
+	expire = "1866.10.18"
+	ideology = centrism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Jose Hugo"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
