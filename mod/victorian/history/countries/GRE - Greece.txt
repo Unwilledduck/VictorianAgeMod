@@ -53,8 +53,8 @@ set_national_unity = 0.9
 
 create_country_leader = {
 	name = "Otto of Greece"
-	desc = "POLITICS_IOANNIS_METAXAS_DESC"
-	picture = "Portrait_Greece_Otto.dds"
+	desc = "Otto of greece"
+	picture = "gfx/leaders/gre/otto_1.dds"
 	expire = "1862.10.23"
 	ideology = despotism
 	traits = {
