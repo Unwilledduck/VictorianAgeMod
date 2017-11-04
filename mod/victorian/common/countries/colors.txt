@@ -120,3 +120,7 @@ OVS = {
 	color = rgb { 255 165 0 }
 	color_ui = rgb { 255 165 0 }
 }
+BEL = {
+	color = rgb { 193 171 8 }
+	color_ui = rgb { 193 171 8 }
+}
