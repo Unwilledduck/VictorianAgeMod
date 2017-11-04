@@ -53,6 +53,48 @@
  CHL_neutrality_ADJ:0 "Chilean"
  CHL_communism_ADJ:0 "Chilean"
  
+ # Paraguay
+ PAR_democratic:0 "Paraguay"
+ PAR_democratic_DEF:0 "Paraguay"
+ PAR_fascism:0 "Paraguay"
+ PAR_fascism_DEF:0 "Paraguay"
+ PAR_communism:0 "Paraguay"
+ PAR_communism_DEF:0 "Paraguay"
+ PAR_neutrality:0 "Paraguay"
+ PAR_neutrality_DEF:0 "Paraguay"
+ PAR_fascism_ADJ:0 "Paraguayan"
+ PAR_democratic_ADJ:0 "Paraguayan"
+ PAR_neutrality_ADJ:0 "Paraguayan"
+ PAR_communism_ADJ:0 "Paraguayan"
+ 
+ # Uruguay
+ URU_democratic:0 "Uruguay"
+ URU_democratic_DEF:0 "Uruguay"
+ URU_fascism:0 "Uruguay"
+ URU_fascism_DEF:0 "Uruguay"
+ URU_communism:0 "Uruguay"
+ URU_communism_DEF:0 "Uruguay"
+ URU_neutrality:0 "Uruguay"
+ URU_neutrality_DEF:0 "Uruguay"
+ URU_fascism_ADJ:0 "Uruguayan"
+ URU_democratic_ADJ:0 "Uruguayan"
+ URU_neutrality_ADJ:0 "Uruguayan"
+ URU_communism_ADJ:0 "Uruguayan"
+ 
+ # bolivia
+ BOL_democratic:0 "bolivia"
+ BOL_democratic_DEF:0 "bolivia"
+ BOL_fascism:0 "bolivia"
+ BOL_fascism_DEF:0 "bolivia"
+ BOL_communism:0 "bolivia"
+ BOL_communism_DEF:0 "bolivia"
+ BOL_neutrality:0 "bolivia"
+ BOL_neutrality_DEF:0 "bolivia"
+ BOL_fascism_ADJ:0 "Bolivian"
+ BOL_democratic_ADJ:0 "Bolivian"
+ BOL_neutrality_ADJ:0 "Bolivian"
+ BOL_communism_ADJ:0 "Bolivian"
+ 
  # Luxemburg
  LUX_democratic:0 "Luxemburg"
  LUX_democratic_DEF:0 "Luxemburg"
@@ -66,6 +108,20 @@
  LUX_democratic_ADJ:0 "Luxembourger"
  LUX_neutrality_ADJ:0 "Luxembourger"
  LUX_communism_ADJ:0 "Luxembourger"
+ 
+ # United States of America
+ USA_democratic:0 "United States of America"
+ USA_democratic_DEF:0 "United States of America"
+ USA_fascism:0 "United States of America"
+ USA_fascism_DEF:0 "United States of America"
+ USA_communism:0 "United States of America"
+ USA_communism_DEF:0 "United States of America"
+ USA_neutrality:0 "United States of America"
+ USA_neutrality_DEF:0 "United States of America"
+ USA_fascism_ADJ:0 "American"
+ USA_democratic_ADJ:0 "American"
+ USA_neutrality_ADJ:0 "American"
+ USA_communism_ADJ:0 "American"
  
  # Somalia
  SOL_democratic:0 "Federal Republic of Somalia"
