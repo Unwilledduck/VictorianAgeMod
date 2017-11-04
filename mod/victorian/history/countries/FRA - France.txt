@@ -150,3 +150,10 @@ create_country_leader = {
 		#
 	}
 }
+create_navy_leader = {
+	name = "Vasily Zavoyko"
+	id = 989
+		picture = "gfx/leaders/FRA/ange.dds"
+	traits = { spotter }
+	skill = 4
+}
