@@ -289,3 +289,11 @@
  KON_communism_DEF:0 "Konbaung Dynasty"
  KON_neutrality:0 "Konbaung Dynasty"
  KON_neutrality_DEF:0 "Konbaung Dynasty"
+ 
+ # Greece
+ GRE_democratic:0 "Hellenic Republic"
+ GRE_democratic:0 "Hellenic Republic"
+ GRE_fascism:0 "Kingdom of Greece"
+ GRE_fascism_DEF:0 "Kingdom of Greece"
+ GRE_neutrality:0 "Greece"
+ GRE_neutrality_DEF:0 "Greece"

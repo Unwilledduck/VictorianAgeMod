@@ -414,3 +414,15 @@
  KON_democratic_ADJ:0 "Burmese"
  KON_neutrality_ADJ:0 "Burmese"
  KON_communism_ADJ:0 "Burmese"
+ 
+ # Greece
+ GRE_democratic:0 "Hellenic Republic"
+ GRE_democratic:0 "Hellenic Republic"
+ GRE_fascism:0 "Kingdom of Greece"
+ GRE_fascism_DEF:0 "Kingdom of Greece"
+ GRE_neutrality:0 "Greece"
+ GRE_neutrality_DEF:0 "Greece"
+ GRE_fascism_ADJ:0 "Greek"
+ GRE_democratic_ADJ:0 "Greek"
+ GRE_neutrality_ADJ:0 "Greek"
+ GRE_communism_ADJ:0 "Greek"

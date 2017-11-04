@@ -108,3 +108,7 @@ TWO = {
 	color = rgb { 245 245 245}
 	color_ui = rgb { 245 245 245 }
 }
+GRE = {
+	color = rgb { 93 181 227 }
+	color_ui = rgb { 121 235 255 }
+}
