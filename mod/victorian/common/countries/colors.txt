@@ -15,6 +15,10 @@ PRU = {
 	color = rgb { 46 150 87 }
 	color_ui = rgb { 46 150 87 }
 }
+VEN = {
+	color = rgb { 210 230 210 }
+	color_ui = rgb { 210 230 210 }
+}
 URU = {
 	color = rgb { 100 100 100 }
 	color_ui = rgb { 100 100 100 }
