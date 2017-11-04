@@ -411,3 +411,11 @@
  NEP_fascism_DEF:0 "Kingdom of Nepal"
  NEP_neutrality:0 "Nepal"
  NEP_neutrality_DEF:0 "Nepal"
+ 
+ # Bhutan
+ BHU_democratic:0 "Republic of Bhutan"
+ BHU_democratic_DEF:0 "Republic of Bhutan"
+ BHU_fascism:0 "Kingdom of Bhutan"
+ BHU_fascism_DEF:0 "Kingdom of Bhutan"
+ BHU_neutrality:0 "Bhutan"
+ BHU_neutrality_DEF:0 "Bhutan"
