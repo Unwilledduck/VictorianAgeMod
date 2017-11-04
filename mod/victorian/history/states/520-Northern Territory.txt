@@ -13,7 +13,7 @@ state={
 	}
 
 	history={
-		owner = AST
+		owner = UNK
 		buildings = {
 			infrastructure = 3
 			  = 1
