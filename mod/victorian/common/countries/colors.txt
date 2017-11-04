@@ -3,9 +3,17 @@ OTT = {
 	color = rgb { 171  190  152 }
 	color_ui = rgb { 171  190  152 }
 }
+GRA = {
+	color = rgb { 238 232 139 }
+	color_ui = rgb { 238 232 139 }
+}
 PAR = {
 	color = rgb { 0 100 0 }
 	color_ui = rgb { 0 100 0 }
+}
+PRU = {
+	color = rgb { 46 150 87 }
+	color_ui = rgb { 46 150 87 }
 }
 URU = {
 	color = rgb { 100 100 100 }
@@ -147,7 +155,7 @@ BEL = {
 	color = rgb { 193 171 8 }
 	color_ui = rgb { 193 171 8 }
 }
-PER = {
+PRU = {
 	color = rgb { 71 113 97 }
 	color_ui = rgb { 92 147 126 }
 }
