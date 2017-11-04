@@ -116,3 +116,7 @@ AST = {
 	color = rgb { 57 143 97 }
 	color_ui = rgb { 74 186 126 }
 }
+OVS = {
+	color = rgb { 255 165 0 }
+	color_ui = rgb { 255 165 0 }
+}
