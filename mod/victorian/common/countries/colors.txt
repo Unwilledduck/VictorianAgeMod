@@ -2,7 +2,18 @@
 OTT = {
 	color = rgb { 171  190  152 }
 	color_ui = rgb { 171  190  152 }
-
+}
+PAR = {
+	color = rgb { 0 100 0 }
+	color_ui = rgb { 0 100 0 }
+}
+URU = {
+	color = rgb { 100 100 100 }
+	color_ui = rgb { 100 100 100 }
+}
+BOL = {
+	color = rgb { 46 139 87 }
+	color_ui = rgb { 46 139 87 }
 }
 CHL = {
 	color = rgb { 106 90 205 }
