@@ -4,6 +4,18 @@ OTT = {
 	color_ui = rgb { 171  190  152 }
 
 }
+CHL = {
+	color = rgb { 106 90 205 }
+	color_ui = rgb { 106 90 205 }
+}
+MEX = {
+	color = rgb { 230 120 250  }
+	color_ui = rgb {230 120 250  }
+}
+ARG = {
+	color = rgb { 230 230 250  }
+	color_ui = rgb {230 230 250  }
+}
 SWD = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
