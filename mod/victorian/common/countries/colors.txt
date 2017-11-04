@@ -112,3 +112,7 @@ GRE = {
 	color = rgb { 93 181 227 }
 	color_ui = rgb { 121 235 255 }
 }
+AST = {
+	color = rgb { 57 143 97 }
+	color_ui = rgb { 74 186 126 }
+}
