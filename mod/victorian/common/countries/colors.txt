@@ -124,3 +124,7 @@ BEL = {
 	color = rgb { 193 171 8 }
 	color_ui = rgb { 193 171 8 }
 }
+PER = {
+	color = rgb { 71 113 97 }
+	color_ui = rgb { 92 147 126 }
+}
