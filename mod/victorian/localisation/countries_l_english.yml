@@ -6,6 +6,11 @@
  ACH_fascism_DEF:0 "Aceh Sultanate"
  ACH_communism:0 "Aceh's People"
  ACH_communism_DEF:0 "Aceh's People"
+ ACH_fascism_ADJ:0 "Indonesian"
+ ACH_democratic_ADJ:0 "Indonesian"
+ ACH_neutrality_ADJ:0 "Indonesian"
+ ACH_communism_ADJ:0 "Indonesian"
+ 
  
  # Luxemburg
  LUX_democratic:0 "Luxemburg"
@@ -16,6 +21,10 @@
  LUX_communism_DEF:0 "Luxemburg"
  LUX_neutrality:0 "Luxemburg"
  LUX_neutrality_DEF:0 "Luxemburg"
+ LUX_fascism_ADJ:0 "Luxembourger"
+ LUX_democratic_ADJ:0 "Luxembourger"
+ LUX_neutrality_ADJ:0 "Luxembourger"
+ LUX_communism_ADJ:0 "Luxembourger"
  
  # Somalia
  SOL_democratic:0 "Federal Republic of Somalia"
