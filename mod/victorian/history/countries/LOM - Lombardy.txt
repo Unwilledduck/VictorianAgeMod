@@ -1,6 +1,6 @@
 capital = 160	
 
-oob = "LOM_1936"
+oob = "LOM_1850"
 
 set_research_slots = 2
 

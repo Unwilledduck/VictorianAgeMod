@@ -139,4 +139,11 @@ create_corps_commander = {
 	traits = {}
 	skill = 3
 }
+create_navy_leader = {
+	name = "Heinrich Wilhelm Adalbert"
+	id = 2
+		picture = "gfx/leaders/PRS/adalbert.dds"
+	traits = { spotter }
+	skill = 2
+}
 

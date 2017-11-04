@@ -1,6 +1,6 @@
 capital = 2	
 
-oob = "PAP_1936"
+oob = "PAP_1850"
 
 set_research_slots = 3
 

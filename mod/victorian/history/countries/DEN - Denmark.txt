@@ -1,6 +1,6 @@
 capital = 37	
 
-oob = "DEN_1936"
+oob = "DEN_1850"
 
 set_research_slots = 3
 
