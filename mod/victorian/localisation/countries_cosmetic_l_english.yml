@@ -382,7 +382,7 @@
  
  # Greece
  GRE_democratic:0 "Hellenic Republic"
- GRE_democratic:0 "Hellenic Republic"
+ GRE_democratic_DEF:0 "Hellenic Republic"
  GRE_fascism:0 "Kingdom of Greece"
  GRE_fascism_DEF:0 "Kingdom of Greece"
  GRE_neutrality:0 "Greece"
@@ -390,7 +390,7 @@
  
  # Persia
  PER_democratic:0 "Persia"
- PER_democratic:0 "Persia"
+ PER_democratic_DEF:0 "Persia"
  PER_fascism:0 "Persia"
  PER_fascism_DEF:0 "Persia"
  PER_neutrality:0 "Persia"
@@ -398,8 +398,16 @@
  
  # Afghanistan
  AFG_democratic:0 "Afghanistan"
- AFG_democratic:0 "Afghanistan"
+ AFG_democratic_DEF:0 "Afghanistan"
  AFG_fascism:0 "Afghanistan"
  AFG_fascism_DEF:0 "Afghanistan"
  AFG_neutrality:0 "Afghanistan"
  AFG_neutrality_DEF:0 "Afghanistan"
+ 
+ # Nepal
+ NEP_democratic:0 "Federal Democratic Republic of Nepal"
+ NEP_democratic_DEF:0 "Federal Democratic Republic of Nepal"
+ NEP_fascism:0 "Kingdom of Nepal"
+ NEP_fascism_DEF:0 "Kingdom of Nepal"
+ NEP_neutrality:0 "Nepal"
+ NEP_neutrality_DEF:0 "Nepal"
