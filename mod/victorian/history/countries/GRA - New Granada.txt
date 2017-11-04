@@ -1,8 +1,8 @@
-﻿capital = 277
+﻿capital = 306
 
-oob = "MEX_1850"
+oob = "GRA_1850"
 
-set_research_slots = 2
+set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1
@@ -39,18 +39,18 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1849.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 20
-set_national_unity = 0.55
+set_national_unity = 0.60
 
 
 create_country_leader = {
-	name = "José Joaquín de Herrera"
-	desc = "José Joaquín de Herrera"
-	picture = "gfx/leaders/MEX/herrera.dds"
-	expire = "1854.2.10"
+	name = "José Hilario López"
+	desc = "José Hilario Lópeza"
+	picture = "gfx/leaders/GRA/lopez.dds"
+	expire = "1869.11.27"
 	ideology = centrism
 	traits = {
 		
