@@ -20,7 +20,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1840
+		start_year = 1918
 		folder = {
 			name = air_techs_folder
 			position = { x = 0 y = 2 }
@@ -53,7 +53,7 @@ technologies = {
 		}
 	
 		research_cost = 1.0 #Carrier Variant
-		start_year = 1840
+		start_year = 1918
 		
 		categories = {
 			naval_air
@@ -994,7 +994,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1840
+		start_year = 1918
 		folder = {
 			name = air_techs_folder
 			position = { x = 2 y = 2 }

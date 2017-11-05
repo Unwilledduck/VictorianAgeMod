@@ -533,7 +533,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1850
+		start_year = 1918
 		
 		folder = {
 			name = artillery_folder
@@ -740,7 +740,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1850
+		start_year = 1916
 		
 		folder = {
 			name = artillery_folder

@@ -8,7 +8,7 @@ bookmarks = {
 		default = yes
 		
 		"AHU"={
-			history = "AUS_GATHERING_STORM_DESC"
+			history = "AHU_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas={
 
@@ -24,7 +24,8 @@ bookmarks = {
 
 			}
 			focuses = {
-
+			OTT_Claim_Crimea
+			OTT_War
 			}
 		}
 		"UNK"={
@@ -54,7 +55,8 @@ bookmarks = {
 
 			}
 			focuses = {
-
+			Austro-Prussian-War
+			Second-Schleswig-War
 			}
 		}
 		"RUS"={
