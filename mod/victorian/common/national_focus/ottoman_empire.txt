@@ -1,18 +1,19 @@
 focus_tree = {
-	id = prussian_focus
+	id = ottoman_focus
 	
 	country = {
-		factor = 0
+		factor = 1
 				
 	modifier = {
 			add = 10
-			tag = PRS
+			tag = OTT
 		}
 	}
 	
 	default = yes
 	reset_on_civilwar = no
 	
+		
 	
 	focus = {
 		id = army_effort
@@ -162,12 +163,36 @@ focus_tree = {
 			}
 		}
 	}
+	
 	focus = {
-		id = Ready_For_War 
-		icon = GFX_goal_generic_production
+		id = OTT_Claim_Crimea
+		icon = GFX_goal_generic_small_arms
 		x = 5
 		y = 0
 		cost = 10
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				date > 1853.1.1
+			}
+		}	
+		
+		completion_reward = {
+		add_manpower = 25000
+		add_state_claim = 137
+		}
+	
+	}
+	focus = {
+		id = OTT_Ready_for_War 
+		icon = GFX_goal_generic_production
+		prerequisite = {focus = OTT_Claim_Crimea}
+		x = 5
+		y = 2
+		cost = 10
+			
+		
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -179,37 +204,19 @@ focus_tree = {
 	}
 	}
 	focus = {
-		id = Second-Schleswig-War
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = Ready_For_War}
-		x = 4
-		y = 2
-		cost = 10
-		completion_reward = {
-			add_manpower = 25000
-			declare_war_on = {target = DEN type = take_claimed_state}
-		}
-	
-	}
-	
-	focus = {
-		id = Austro-Prussian-War
+		id = OTT_War
 		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = {focus = Ready_For_War}
-		x = 6
-		y = 2
+		prerequisite = {focus = OTT_Ready_for_War }
+		x = 5
+		y = 4
 		cost = 10
 		
-		available = {
-			date >1855.1.1
-		}
-		historical_ai = {
-			date > 1864.1.1
-		}
 		completion_reward = {
-		add_manpower = 75000
-		declare_war_on = {target = AHU type = annex_everything}
+		add_manpower = 50000
+		declare_war_on = {target = RUS type = take_claimed_state
+		add_national_unity = 0.10
 		}
+	}
 	}
 	
 	
@@ -1786,4 +1793,6 @@ focus_tree = {
 
 }
 	
+
+
 }

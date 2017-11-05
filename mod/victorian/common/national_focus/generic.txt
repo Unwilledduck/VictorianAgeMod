@@ -1,19 +1,13 @@
 focus_tree = {
-	id = prussian_focus
+	id = generic_focus
 	
 	country = {
-		factor = 0
-				
-	modifier = {
-			add = 10
-			tag = PRS
-		}
+		factor = 1
 	}
 	
 	default = yes
 	reset_on_civilwar = no
-	
-	
+
 	focus = {
 		id = army_effort
 		icon = GFX_goal_generic_allies_build_infantry
@@ -162,12 +156,28 @@ focus_tree = {
 			}
 		}
 	}
+	
 	focus = {
-		id = Ready_For_War 
-		icon = GFX_goal_generic_production
+		id = Conscription
+		icon = GFX_goal_generic_small_arms
 		x = 5
 		y = 0
 		cost = 10
+		
+		completion_reward = {
+		add_manpower = 25000
+		}
+	
+	}
+	focus = {
+		id = Industrialization 
+		icon = GFX_goal_generic_production
+		prerequisite = {focus = Conscription}
+		x = 5
+		y = 2
+		cost = 10
+		
+		
 		completion_reward = {
 			add_tech_bonus = {
 				name = industrial_bonus
@@ -175,41 +185,56 @@ focus_tree = {
 				uses = 1
 				category = industry
 			}
-			add_manpower = 100000
-	}
-	}
-	focus = {
-		id = Second-Schleswig-War
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = Ready_For_War}
-		x = 4
-		y = 2
-		cost = 10
-		completion_reward = {
-			add_manpower = 25000
-			declare_war_on = {target = DEN type = take_claimed_state}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
 		}
-	
 	}
-	
+	}
 	focus = {
-		id = Austro-Prussian-War
+		id = Unity
 		icon = GFX_goal_generic_more_territorial_claims
-		prerequisite = {focus = Ready_For_War}
-		x = 6
-		y = 2
+		prerequisite = {focus = Industrialization}
+		x = 5
+		y = 4
 		cost = 10
 		
-		available = {
-			date >1855.1.1
-		}
-		historical_ai = {
-			date > 1864.1.1
-		}
 		completion_reward = {
-		add_manpower = 75000
-		declare_war_on = {target = AHU type = annex_everything}
+		add_manpower = 50000
+		add_national_unity = 0.10
 		}
+	
 	}
 	
 	
@@ -1784,6 +1809,4 @@ focus_tree = {
 		}
 	}	
 
-}
-	
 }
