@@ -91,16 +91,30 @@ create_country_leader = {
 
 
 create_corps_commander = {
-	name = "Folke Hagberg"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	name = "FitzRoy Somerset"
+	portrait_path = "gfx/leaders/UNK/raglan.dds"
 	traits = { commando }
+	skill = 4
+
+}
+create_corps_commander = {
+	name = "James Simpson"
+	portrait_path = "gfx/leaders/UNK/james_simpson.dds"
+	traits = {  }
 	skill = 3
+
+}
+create_corps_commander = {
+	name = "Sir William John Codrington"
+	portrait_path = "gfx/leaders/UNK/codrington.dds"
+	traits = {  }
+	skill = 2
 
 }
 
 create_navy_leader = {
-	name = "Claes Lindstrom"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	name = "Edmund Lyons"
+	portrait_path = "gfx/leaders/UNK/lyons.dds"
 	traits = { blockade_runner }
-	skill = 4
+	skill = 5
 }

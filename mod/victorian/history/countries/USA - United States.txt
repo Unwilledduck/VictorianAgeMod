@@ -75,29 +75,6 @@ create_country_leader = {
 		#
 	}
 }
-create_country_leader = {
-	name = "John Wick"
-	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1"
-	expire = "1895.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-}
-create_country_leader = {
-	name = "Jefferson Davis"
-	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1889.12.6"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
 
 create_corps_commander = {
 	name = "Ulysses S. Grant"
@@ -115,10 +92,10 @@ create_corps_commander = {
 }
 
 create_navy_leader = {
-	name = "Henry Halleck"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
-	traits = { blockade_runner }
-	skill = 3
+	name = "David Farragut"
+	portrait_path = "gfx/leaders/USA/farragut.dds"
+	traits = { spotter }
+	skill = 4
 }
 
 ### Ship Variants ###

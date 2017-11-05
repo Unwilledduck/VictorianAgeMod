@@ -22,6 +22,9 @@ set_technology = {
 	
 }
 
+give_guarantee = SCH
+puppet = SCH
+
 set_politics = {
 
 	parties = {

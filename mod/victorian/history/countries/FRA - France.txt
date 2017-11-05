@@ -150,10 +150,48 @@ create_country_leader = {
 		#
 	}
 }
+create_corps_commander = {
+	name = "Jacques Leroy de Saint Arnaud"
+	portrait_path = "gfx/leaders/FRA/saint_arnaud.dds"
+	traits = {}
+	skill = 3
+}
+create_corps_commander = {
+	name = "François Certain de Canrobert"
+	portrait_path = "gfx/leaders/FRA/le_jeune.dds"
+	traits = {}
+	skill = 4
+}
+create_corps_commander = {
+	name = "Aimable Pélissier"
+	portrait_path = "gfx/leaders/FRA/pelissier.dds"
+	traits = {}
+	skill = 4
+}
+create_corps_commander = {
+	name = "François Achille Bazaine"
+	portrait_path = "gfx/leaders/FRA/bazaine.dds"
+	traits = {}
+	skill = 3
+}
+create_navy_leader = {
+	name = "Heinrich Wilhelm Adalbert"
+	id = 2
+		picture = "gfx/leaders/PRS/adalbert.dds"
+	traits = { spotter }
+	skill = 2
+}
 create_navy_leader = {
 	name = "Vasily Zavoyko"
-	id = 989
+	id = 456
 		picture = "gfx/leaders/FRA/ange.dds"
 	traits = { spotter }
 	skill = 4
+}
+create_navy_leader = {
+	name = "Albin Roussin"
+	id = 897
+		picture = "gfx/leaders/FRA/roussin.dds"
+	traits = { spotter }
+	skill = 3
 }

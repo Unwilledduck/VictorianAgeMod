@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "SPR_1936"
+oob = "SPA_1850"
 
 set_research_slots = 4
 
@@ -156,4 +156,17 @@ create_country_leader = {
 	traits = {
 		#
 	}
+}
+create_corps_commander = {
+	name = "Narciso Clavería y Zaldúa"
+	portrait_path = "gfx/leaders/SPA/zaldua.dds"
+	traits = {}
+	skill = 2
+}
+create_navy_leader = {
+	name = "Carlos Palanca y Gutierrez"
+	id = 2
+		picture = "gfx/leaders/SPA/gutierrez.dds"
+	traits = {  }
+	skill = 2
 }

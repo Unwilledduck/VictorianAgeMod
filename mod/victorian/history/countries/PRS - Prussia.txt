@@ -127,7 +127,7 @@ create_country_leader = {
 }
 
 
-create_corps_commander = {
+create_field_marshal = {
 	name = "Otto von Bismarck"
 	portrait_path = "gfx/leaders/PRS/otto_von_Bismarck.dds"
 	traits = { hill_fighter }
@@ -138,6 +138,18 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/PRS/karl_Wilhelm.dds"
 	traits = {}
 	skill = 3
+}
+create_corps_commander = {
+	name = "Friedrich Graf von Wrangel"
+	portrait_path = "gfx/leaders/PRS/wrangel.dds"
+	traits = {}
+	skill = 2
+}
+create_corps_commander = {
+	name = "Helmuth Karl Bernhard Graf von Moltke"
+	portrait_path = "gfx/leaders/PRS/moltke.dds"
+	traits = {}
+	skill = 4
 }
 create_navy_leader = {
 	name = "Heinrich Wilhelm Adalbert"

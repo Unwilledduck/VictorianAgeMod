@@ -107,5 +107,20 @@ create_corps_commander = {
 	name = "Ludwig von Benedek"
 	portrait_path = "gfx/leaders/AHU/ludwig.dds"
 	traits = {  }
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Ferenc Gyulay"
+	portrait_path = "gfx/leaders/AHU/gyulai.dds"
+	traits = {  }
 	skill = 2
 }
+create_navy_leader = {
+	name = "Wilhelm von Tegetthoff"
+	id = 6
+	picture = "gfx/leaders/AHU/tegetthoff.dds"
+	traits = { spotter }
+	skill = 2
+}
+

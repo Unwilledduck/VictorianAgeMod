@@ -115,6 +115,13 @@ create_corps_commander = {
 	skill = 2
 
 }
+create_navy_leader = {
+	name = "Patrona Osman Pasha"
+	id = 3
+		picture = "gfx/leaders/OTT/osman_pasha.dds"
+	traits = { spotter }
+	skill = 2
+}
 
 ### Ship Variants ###
 
