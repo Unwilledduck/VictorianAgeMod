@@ -17,6 +17,16 @@
  MEX_neutrality:0 "Second Federal Republic of Mexico"
  MEX_neutrality_DEF:0 "Second Federal Republic of Mexico
  
+ # Schleswig Holsetin
+ SCH_democratic:0 "Schleswig- Holstein"
+ SCH_democratic_DEF:0 "Schleswig- Holstein"
+ SCH_fascism:0 "Schleswig- Holstein"
+ SCH_fascism_DEF:0 "Schleswig- Holstein"
+ SCH_communism:0 "Schleswig- Holstein"
+ SCH_communism_DEF:0 "Schleswig- Holstein"
+ SCH_neutrality:0 "Schleswig- Holstein"
+ SCH_neutrality_DEF:0 "Schleswig- Holstein"
+ 
  # Paraguay
  PAR_democratic:0 "Paraguay"
  PAR_democratic_DEF:0 "Paraguay"
