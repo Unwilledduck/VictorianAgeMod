@@ -18,13 +18,13 @@ units = {
 	# II. Armeekorps
 	division= {	
 		name = "2. Infantry Division"
-		location = 11666
+		location = 819
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "1. Infantry Division"
-		location = 11666
+		location = 819
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
