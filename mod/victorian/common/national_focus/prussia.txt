@@ -1,5 +1,5 @@
 focus_tree = {
-	id = prussian_focus
+	id = prussia
 	country = {
 		factor = 0
 		modifier = {
@@ -27,7 +27,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Ready_For_War
+		id = PRS_ready_for_war
+		text = PRS_ready_for_war
 		icon = GFX_goal_generic_production
 		cost = 10.00
 		x = 5
@@ -351,11 +352,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Second-Schleswig-War
+		id = PRS_second_schleswig_war
+		text = PRS_second_schleswig_war
 		icon = GFX_goal_generic_small_arms
 		cost = 10.00
 		prerequisite = {
-			focus = Ready_For_War
+			focus = PRS_ready_for_war
 		}
 		x = 4
 		y = 2
@@ -369,11 +371,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = Austro-Prussian-War
+		id = PRS_austro_prussian_war
+		text = PRS_austro_prussian_war
 		icon = GFX_goal_generic_more_territorial_claims
 		cost = 10.00
 		prerequisite = {
-			focus = Ready_For_War
+			focus = PRS_ready_for_war
 		}
 		x = 6
 		y = 2
