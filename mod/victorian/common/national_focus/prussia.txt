@@ -176,7 +176,7 @@ focus_tree = {
 				category = industry
 			}
 			add_manpower = 100000
-	}
+		}
 	}
 	focus = {
 		id = Second-Schleswig-War
@@ -1783,7 +1783,4 @@ focus_tree = {
 			}			
 		}
 	}	
-
-}
-	
 }
