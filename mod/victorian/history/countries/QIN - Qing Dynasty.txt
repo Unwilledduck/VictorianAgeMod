@@ -1,4 +1,4 @@
-capital = 608
+﻿capital = 608
 
 oob = "QIN_1850"
 

@@ -1,4 +1,4 @@
-capital = 160	
+﻿capital = 160	
 
 oob = "LOM_1850"
 

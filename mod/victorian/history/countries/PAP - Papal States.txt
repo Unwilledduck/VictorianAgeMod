@@ -1,4 +1,4 @@
-capital = 2	
+﻿capital = 2	
 
 oob = "PAP_1850"
 

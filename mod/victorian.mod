@@ -1,4 +1,4 @@
-name="Victorian Age"
+﻿name="Victorian Age"
 path="mod/victorian/"
 tags={
 	"Alternative History"

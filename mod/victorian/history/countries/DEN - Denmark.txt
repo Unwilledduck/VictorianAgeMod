@@ -1,4 +1,4 @@
-capital = 37	
+﻿capital = 37	
 
 oob = "DEN_1850"
 

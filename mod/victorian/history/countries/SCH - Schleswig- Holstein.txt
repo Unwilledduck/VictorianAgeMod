@@ -1,4 +1,4 @@
-capital = 58
+﻿capital = 58
 
 oob = "SCH_1850"
 
