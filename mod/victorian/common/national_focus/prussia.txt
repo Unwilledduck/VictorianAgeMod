@@ -1740,7 +1740,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = why_we_fight
+		id = PRS_why_we_fight
+		text = PRS_why_we_fight
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
@@ -1782,7 +1783,7 @@ focus_tree = {
 		cost = 10.00
 		prerequisite = {
 			focus = PRS_ideological_fanaticism
-			focus = why_we_fight
+			focus = PRS_why_we_fight
 		}
 		x = 19
 		y = 7
