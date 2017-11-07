@@ -9,7 +9,8 @@ focus_tree = {
 	}
 	default = no
 	focus = {
-		id = army_effort
+		id = PRS_army_effort
+		text = PRS_army_effort
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 10.00
 		x = 1
@@ -45,7 +46,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = naval_effort
+		id = PRS_naval_effort
+		text = PRS_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
 		cost = 10.00
 		x = 9
@@ -172,7 +174,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = industrial_effort
+		id = PRS_industrial_effort
+		text = PRS_industrial_effort
 		icon = GFX_goal_generic_production
 		cost = 10.00
 		x = 13
@@ -207,7 +210,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = political_effort
+		id = PRS_political_effort
+		text = PRS_political_effort
 		icon = GFX_goal_generic_demand_territory
 		cost = 10.00
 		x = 19
@@ -219,11 +223,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = equipment_effort
+		id = PRS_equipment_effort
+		text = PRS_equipment_effort
 		icon = GFX_goal_generic_small_arms
 		cost = 10.00
 		prerequisite = {
-			focus = army_effort
+			focus = PRS_army_effort
 		}
 		x = 0
 		y = 1
@@ -240,11 +245,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = equipment_effort_2
+		id = PRS_equipment_effort_2
+		text = PRS_equipment_effort_2
 		icon = GFX_goal_generic_army_artillery
 		cost = 10.00
 		prerequisite = {
-			focus = equipment_effort
+			focus = PRS_equipment_effort
 		}
 		x = 0
 		y = 2
@@ -261,11 +267,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = equipment_effort_3
+		id = PRS_equipment_effort_3
+		text = PRS_equipment_effort_3
 		icon = GFX_goal_generic_army_artillery2
 		cost = 10.00
 		prerequisite = {
-			focus = equipment_effort_2
+			focus = PRS_equipment_effort_2
 		}
 		x = 0
 		y = 3
@@ -282,11 +289,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = doctrine_effort
+		id = PRS_doctrine_effort
+		text = PRS_doctrine_effort
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10.00
 		prerequisite = {
-			focus = army_effort
+			focus = PRS_army_effort
 		}
 		x = 2
 		y = 1
@@ -303,11 +311,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = doctrine_effort_2
+		id = PRS_doctrine_effort_2
+		text = PRS_doctrine_effort_2
 		icon = GFX_goal_generic_army_doctrines
 		cost = 10.00
 		prerequisite = {
-			focus = doctrine_effort
+			focus = PRS_doctrine_effort
 		}
 		x = 2
 		y = 3
@@ -324,14 +333,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = special_forces
+		id = PRS_special_forces
+		text = PRS_special_forces
 		icon = GFX_goal_generic_special_forces
 		cost = 10.00
 		prerequisite = {
-			focus = equipment_effort_3
+			focus = PRS_equipment_effort_3
 		}
 		prerequisite = {
-			focus = doctrine_effort_2
+			focus = PRS_doctrine_effort_2
 		}
 		x = 1
 		y = 5
@@ -396,14 +406,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = flexible_navy
+		id = PRS_flexible_navy
+		text = PRS_flexible_navy
 		icon = GFX_goal_generic_build_navy
 		cost = 10.00
 		prerequisite = {
-			focus = naval_effort
+			focus = PRS_naval_effort
 		}
 		mutually_exclusive = {
-			focus = large_navy
+			focus = PRS_large_navy
 		}
 		x = 8
 		y = 1
@@ -435,14 +446,14 @@ focus_tree = {
 
 	}
 	focus = {
-		id = large_navy
+		id = PRS_large_navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		cost = 10.00
 		prerequisite = {
-			focus = naval_effort
+			focus = PRS_naval_effort
 		}
 		mutually_exclusive = {
-			focus = flexible_navy
+			focus = PRS_flexible_navy
 		}
 		x = 10
 		y = 1
@@ -470,12 +481,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = submarine_effort
+		id = PRS_submarine_effort
+		text = PRS_submarine_effort
 		icon = GFX_goal_generic_navy_submarine
 		cost = 10.00
 		prerequisite = {
-			focus = flexible_navy
-			focus = large_navy
+			focus = PRS_flexible_navy
+			focus = PRS_large_navy
 		}
 		x = 8
 		y = 2
@@ -507,11 +519,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = destroyer_effort
+		id = PRS_destroyer_effort
+		text = PRS_destroyer_effort
 		icon = GFX_goal_generic_wolf_pack
 		cost = 10.00
 		prerequisite = {
-			focus = submarine_effort
+			focus = PRS_submarine_effort
 		}
 		x = 8
 		y = 3
@@ -543,12 +556,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = cruiser_effort
+		id = PRS_cruiser_effort
+		text = PRS_cruiser_effort
 		icon = GFX_goal_generic_navy_cruiser
 		cost = 10.00
 		prerequisite = {
-			focus = large_navy
-			focus = flexible_navy
+			focus = PRS_large_navy
+			focus = PRS_flexible_navy
 		}
 		x = 10
 		y = 2
@@ -580,11 +594,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = capital_ships_effort
+		id = PRS_capital_ships_effort
+		text = PRS_capital_ships_effort
 		icon = GFX_goal_generic_navy_battleship
 		cost = 10.00
 		prerequisite = {
-			focus = cruiser_effort
+			focus = PRS_cruiser_effort
 		}
 		x = 10
 		y = 3
@@ -623,11 +638,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = construction_effort
+		id = PRS_construction_effort
+		text = PRS_construction_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = industrial_effort
+			focus = PRS_industrial_effort
 		}
 		x = 12
 		y = 1
@@ -690,11 +706,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = construction_effort_2
+		id = PRS_construction_effort_2
+		text = PRS_construction_effort_2
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = construction_effort
+			focus = PRS_construction_effort
 		}
 		x = 12
 		y = 2
@@ -757,11 +774,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = infrastructure_effort
+		id = PRS_infrastructure_effort
+		text = PRS_infrastructure_effort
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
-			focus = construction_effort_2
+			focus = PRS_construction_effort_2
 		}
 		x = 12
 		y = 3
@@ -848,11 +866,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = infrastructure_effort_2
+		id = PRS_infrastructure_effort_2
+		text = PRS_infrastructure_effort_2
 		icon = GFX_goal_generic_construct_infrastructure
 		cost = 10.00
 		prerequisite = {
-			focus = infrastructure_effort
+			focus = PRS_infrastructure_effort
 		}
 		x = 12
 		y = 4
@@ -939,11 +958,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = extra_tech_slot
+		id = PRS_extra_tech_slot
+		text = PRS_extra_tech_slot
 		icon = GFX_focus_research
 		cost = 10.00
 		prerequisite = {
-			focus = infrastructure_effort_2
+			focus = PRS_infrastructure_effort_2
 		}
 		x = 12
 		y = 5
@@ -957,11 +977,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = extra_tech_slot_2
+		id = PRS_extra_tech_slot_2
+		text = PRS_extra_tech_slot_2
 		icon = GFX_focus_research
 		cost = 10.00
 		prerequisite = {
-			focus = extra_tech_slot
+			focus = PRS_extra_tech_slot
 		}
 		x = 12
 		y = 6
@@ -978,11 +999,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = production_effort
+		id = PRS_production_effort
+		text = PRS_production_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = industrial_effort
+			focus = PRS_industrial_effort
 		}
 		x = 14
 		y = 1
@@ -1045,11 +1067,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = production_effort_2
+		id = PRS_production_effort_2
+		text = PRS_production_effort_2
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = production_effort
+			focus = PRS_production_effort
 		}
 		x = 14
 		y = 2
@@ -1112,11 +1135,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = production_effort_3
+		id = PRS_production_effort_3
+		text = PRS_production_effort_3
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		prerequisite = {
-			focus = production_effort_2
+			focus = PRS_production_effort_2
 		}
 		x = 14
 		y = 3
@@ -1179,11 +1203,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = construction_effort_3
+		id = PRS_construction_effort_3
+		text = PRS_construction_effort_3
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = infrastructure_effort
+			focus = PRS_infrastructure_effort
 		}
 		x = 14
 		y = 4
@@ -1246,14 +1271,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = collectivist_ethos
+		id = PRS_collectivist_ethos
+		text = PRS_collectivist_ethos
 		icon = GFX_goal_generic_national_unity
 		cost = 10.00
 		prerequisite = {
-			focus = political_effort
+			focus = PRS_political_effort
 		}
 		mutually_exclusive = {
-			focus = liberty_ethos
+			focus = PRS_liberty_ethos
 		}
 		x = 18
 		y = 1
@@ -1284,14 +1310,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = nationalism_focus
+		id = PRS_nationalism_focus
+		text = PRS_nationalism_focus
 		icon = GFX_goal_support_fascism
 		cost = 10.00
 		prerequisite = {
-			focus = collectivist_ethos
+			focus = PRS_collectivist_ethos
 		}
 		mutually_exclusive = {
-			focus = internationalism_focus
+			focus = PRS_internationalism_focus
 		}
 		x = 16
 		y = 2
@@ -1327,11 +1354,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = militarism
+		id = PRS_militarism
+		text = PRS_militarism
 		icon = GFX_goal_generic_political_pressure
 		cost = 10.00
 		prerequisite = {
-			focus = nationalism_focus
+			focus = PRS_nationalism_focus
 		}
 		x = 16
 		y = 3
@@ -1352,11 +1380,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = military_youth
+		id = PRS_military_youth
+		text = PRS_military_youth
 		icon = GFX_goal_generic_more_territorial_claims
 		cost = 10.00
 		prerequisite = {
-			focus = militarism
+			focus = PRS_militarism
 		}
 		x = 16
 		y = 4
@@ -1385,11 +1414,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = paramilitarism
+		id = PRS_paramilitarism
+		text = PRS_paramilitarism
 		icon = GFX_goal_generic_military_sphere
 		cost = 10.00
 		prerequisite = {
-			focus = military_youth
+			focus = PRS_military_youth
 		}
 		x = 16
 		y = 5
@@ -1400,14 +1430,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = internationalism_focus
+		id = PRS_internationalism_focus
+		text = PRS_internationalism_focus
 		icon = GFX_goal_support_communism
 		cost = 10.00
 		prerequisite = {
-			focus = collectivist_ethos
+			focus = PRS_collectivist_ethos
 		}
 		mutually_exclusive = {
-			focus = nationalism_focus
+			focus = PRS_nationalism_focus
 		}
 		x = 18
 		y = 2
@@ -1451,11 +1482,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = political_correctness
+		id = PRS_political_correctness
+		text = PRS_political_correctness
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 10.00
 		prerequisite = {
-			focus = internationalism_focus
+			focus = PRS_internationalism_focus
 		}
 		x = 18
 		y = 3
@@ -1473,11 +1505,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = indoctrination_focus
+		id = PRS_indoctrination_focus
+		text = PRS_indoctrination_focus
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = political_correctness
+			focus = PRS_political_correctness
 		}
 		x = 18
 		y = 4
@@ -1489,11 +1522,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = political_commissars
+		id = PRS_political_commissars
+		text = PRS_political_commissars
 		icon = GFX_goal_generic_forceful_treaty
 		cost = 10.00
 		prerequisite = {
-			focus = indoctrination_focus
+			focus = PRS_indoctrination_focus
 		}
 		x = 18
 		y = 5
@@ -1526,12 +1560,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = ideological_fanaticism
+		id = PRS_ideological_fanaticism
+		text = PRS_ideological_fanaticism
 		icon = GFX_goal_generic_demand_territory
 		cost = 10.00
 		prerequisite = {
-			focus = paramilitarism
-			focus = political_commissars
+			focus = PRS_paramilitarism
+			focus = PRS_political_commissars
 		}
 		x = 17
 		y = 6
@@ -1551,14 +1586,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = liberty_ethos
+		id = PRS_liberty_ethos
+		text = PRS_liberty_ethos
 		icon = GFX_goal_support_democracy
 		cost = 10.00
 		prerequisite = {
-			focus = political_effort
+			focus = PRS_political_effort
 		}
 		mutually_exclusive = {
-			focus = collectivist_ethos
+			focus = PRS_collectivist_ethos
 		}
 		x = 20
 		y = 1
@@ -1594,14 +1630,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = neutrality_focus
+		id = PRS_neutrality_focus
+		text = PRS_neutrality_focus
 		icon = GFX_goal_generic_neutrality_focus
 		cost = 10.00
 		prerequisite = {
-			focus = liberty_ethos
+			focus = PRS_liberty_ethos
 		}
 		mutually_exclusive = {
-			focus = interventionism_focus
+			focus = PRS_interventionism_focus
 		}
 		x = 20
 		y = 2
@@ -1620,11 +1657,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = deterrence
+		id = PRS_deterrence
+		text = PRS_deterrence
 		icon = GFX_goal_generic_defence
 		cost = 10.00
 		prerequisite = {
-			focus = neutrality_focus
+			focus = PRS_neutrality_focus
 		}
 		x = 20
 		y = 3
@@ -1635,14 +1673,15 @@ focus_tree = {
 
 	}
 	focus = {
-		id = interventionism_focus
+		id = PRS_interventionism_focus
+		text = PRS_interventionism_focus
 		icon = GFX_goal_generic_political_pressure
 		cost = 10.00
 		prerequisite = {
-			focus = liberty_ethos
+			focus = PRS_liberty_ethos
 		}
 		mutually_exclusive = {
-			focus = neutrality_focus
+			focus = PRS_neutrality_focus
 		}
 		x = 22
 		y = 2
@@ -1669,11 +1708,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = volunteer_corps
+		id = PRS_volunteer_corps
+		text = PRS_volunteer_corps
 		icon = GFX_goal_generic_allies_build_infantry
 		cost = 10.00
 		prerequisite = {
-			focus = interventionism_focus
+			focus = PRS_interventionism_focus
 		}
 		x = 22
 		y = 3
@@ -1684,11 +1724,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = foreign_expeditions
+		id = PRS_foreign_expeditions
+		text = PRS_foreign_expeditions
 		icon = GFX_goal_generic_more_territorial_claims
 		cost = 10.00
 		prerequisite = {
-			focus = volunteer_corps
+			focus = PRS_volunteer_corps
 		}
 		x = 22
 		y = 4
@@ -1703,8 +1744,8 @@ focus_tree = {
 		icon = GFX_goal_generic_propaganda
 		cost = 10.00
 		prerequisite = {
-			focus = foreign_expeditions
-			focus = deterrence
+			focus = PRS_foreign_expeditions
+			focus = PRS_deterrence
 		}
 		x = 20
 		y = 5
@@ -1735,11 +1776,12 @@ focus_tree = {
 
 	}
 	focus = {
-		id = technology_sharing
+		id = PRS_technology_sharing
+		text = PRS_technology_sharing
 		icon = GFX_goal_generic_scientific_exchange
 		cost = 10.00
 		prerequisite = {
-			focus = ideological_fanaticism
+			focus = PRS_ideological_fanaticism
 			focus = why_we_fight
 		}
 		x = 19
