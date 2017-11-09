@@ -2,11 +2,11 @@
 state={
 	id=107
 	name="STATE_107" # OTTbia
-	manpower = 1864700
+	manpower = 500000
 	
 	state_category = large_city
 	history={
-		owner = OTT
+		owner = SER
 		buildings = {
 			infrastructure = 6
 			arms_factory = 3
@@ -16,8 +16,8 @@ state={
 		victory_points = {
 			11586 15 
 		}
-		add_core_of = OTT
-		add_core_of = OTT
+		add_core_of = SER
+		
 	}
 
 	provinces={
