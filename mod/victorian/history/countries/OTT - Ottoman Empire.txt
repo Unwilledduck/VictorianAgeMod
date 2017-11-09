@@ -51,6 +51,8 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
+#diplomacy
+puppet = SER
 
 set_convoys = 20
 set_national_unity = 0.55

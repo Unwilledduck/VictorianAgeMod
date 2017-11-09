@@ -46,7 +46,7 @@ set_national_unity = 0.75
 
 create_country_leader = {
 	name = "William III"
-	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
+	desc = "Willem the Third"
 	picture = "gfx/leaders/NED/Willem_3.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
