@@ -375,6 +375,7 @@ focus_tree = {
 					add_manpower = 25000
 					declare_war_on = {
 							target = DEN
+							target = SCH
 							type = take_claimed_state
 						}
 				}
