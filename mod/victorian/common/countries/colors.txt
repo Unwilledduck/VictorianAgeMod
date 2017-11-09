@@ -3,6 +3,11 @@ OTT = {
 	color = rgb { 171  190  152 }
 	color_ui = rgb { 171  190  152 }
 }
+SER = {
+	color = rgb { 200 1 1 }
+	color_ui = rgb { 200 1 1 }
+}
+
 SWI = {
 	color = rgb { 33 14 19 }
 	color_ui = rgb { 33 14 19 }
