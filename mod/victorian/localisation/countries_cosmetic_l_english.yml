@@ -26,7 +26,16 @@
  SCH_communism_DEF:0 "Schleswig- Holstein"
  SCH_neutrality:0 "Schleswig- Holstein"
  SCH_neutrality_DEF:0 "Schleswig- Holstein"
- 
+
+ # Serbia
+ SER_democratic:0 "Serbia"
+ SER_democratic_DEF:0 "Serbia"
+ SER_fascism:0 "Serbia"
+ SER_fascism_DEF:0 "Serbia"
+ SER_communism:0 "Serbia"
+ SER_communism_DEF:0 "Serbia"
+ SER_neutrality:0 "Serbia"
+ SER_neutrality_DEF:0 "Serbia"
  # Paraguay
  PAR_democratic:0 "Paraguay"
  PAR_democratic_DEF:0 "Paraguay"

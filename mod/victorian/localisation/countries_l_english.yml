@@ -52,6 +52,20 @@
  VEN_neutrality_ADJ:0 "Venezuelan"
  VEN_communism_ADJ:0 "Venezuelan"
  
+ # Serbia
+ SER_democratic:0 "Serbia"
+ SER_democratic_DEF:0 "Serbia"
+ SER_fascism:0 "Serbia"
+ SER_fascism_DEF:0 "Serbia"
+ SER_communism:0 "Serbia"
+ SER_communism_DEF:0 "Serbia"
+ SER_neutrality:0 "Serbia"
+ SER_neutrality_DEF:0 "Serbia"
+ SER_fascism_ADJ:0 "Serbian"
+ SER_democratic_ADJ:0 "Serbian"
+ SER_neutrality_ADJ:0 "Serbian"
+ SER_communism_ADJ:0 "Serbian"
+ 
  # Argentina
  ARG_democratic:0 "Argentine Confederation"
  ARG_democratic_DEF:0 "Argentine Confederation"
