@@ -53,7 +53,7 @@ set_national_unity = 0.60
 
 create_country_leader = {
 	name = "Alexander Karađorđević"
-	desc = "Alexander Karađorđević prince of Serbia"
+	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
 	picture = "gfx/leaders/SRB/Portrait_Serbia_Alexander.dds"
 	expire = "1965.1.1"
 	ideology = centrism
