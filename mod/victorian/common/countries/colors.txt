@@ -1,7 +1,7 @@
 #reload countrycolors
 OTT = {
-	color = rgb { 170  253  130 }
-	color_ui = rgb { 170  253  130 }
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171  190  152 }
 }
 SRB = {
 	color = rgb { 13 39 147 }
@@ -73,8 +73,8 @@ PRS = {
 	color_ui = rgb {106  119  89}
 }
 RUS = {
-	color = rgb {  0  64  0 }
-	color_ui = rgb { 0  64  0}
+	color = rgb { 255  244  190 }
+	color_ui = rgb { 255  244  190 }
 }
 DEN = {
 	color = rgb {  153 116 93 }
@@ -189,8 +189,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 QIN = {
-	color = rgb { 248 211 7 }
-	color_ui = rgb { 248 211 7 }
+	color = rgb { 0  64  0 }
+	color_ui = rgb { 0  64  0 }
 }
 POR = {
 	color = rgb { 0 128 0 }
