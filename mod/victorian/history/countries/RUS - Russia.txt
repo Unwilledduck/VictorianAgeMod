@@ -158,3 +158,17 @@ create_equipment_variant = {
 	}
 }
 
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = MLD
+		autonomous_state = autonomy_integrated_puppet
+	}
+	set_autonomy = {
+		target = WAL
+		autonomous_state = autonomy_colony
+		freedom_level = 0.35
+	}

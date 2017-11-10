@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = OTT
-		add_core_of = OTT
+		owner = MTN
+		add_core_of = MTN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = OTT
+		add_core_of = MTN
 
 	}
 
