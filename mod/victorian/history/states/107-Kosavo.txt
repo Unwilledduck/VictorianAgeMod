@@ -15,7 +15,7 @@ state={
 		victory_points = {
 			11586 15 
 		}
-		add_core_of = SER
+		add_core_of = SRB
 
 	}
 
