@@ -1,6 +1,6 @@
 ﻿capital = 107	
 
-oob = "SRB_1950"
+oob = "SRB_1850"
 
 set_research_slots = 2
 
@@ -54,7 +54,7 @@ set_national_unity = 0.60
 create_country_leader = {
 	name = "Alexander Karađorđević"
 	desc = "Alexander Karađorđević prince of Serbia"
-	picture = "gfx/leaders/SRB/karadordevic.dds"
+	picture = "gfx/leaders/SRB/Portrait_Serbia_Alexander.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
