@@ -2,24 +2,24 @@
 state={
 	id=184
 	name="STATE_184"
-	manpower = 382500
-	
-	state_category = rural
-	
 	resources={
-		chromium=16
+		chromium=16.000
 	}
 
 	history={
 		owner = OTT
 		buildings = {
 			infrastructure = 4
+
 		}
 		add_core_of = OTT
-		
+
 	}
 
 	provinces={
-		6990 9791 9930 11774 11905 
+		3526 3936 6990 9791 9930 
 	}
+	manpower=382500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
