@@ -1,6 +1,6 @@
 ﻿capital = 141	
 
-oob = "SWD_1936"
+oob = "SWD_1850"
 
 set_research_slots = 3
 
@@ -117,15 +117,14 @@ create_navy_leader = {
 	skill = 4
 }
 
-### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Draken Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
+#### NAVAL UNITS #####
+	### KRIEGSMARINE ###
+	navy = {				
+		name = "Swedish Marine"			
+		base = 6050 
+		location = 6050  
+		ship = { name = "HSwMS Karl XIV Johann" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWD } } }		
+		
+	}	
 }
