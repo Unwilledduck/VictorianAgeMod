@@ -11,6 +11,9 @@ state={
 
 	history={
 		owner = PRS
+		victory_points = {
+			3488 12
+		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 5
