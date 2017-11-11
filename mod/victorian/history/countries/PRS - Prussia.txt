@@ -119,7 +119,7 @@ create_country_leader = {
 	name = "Frederick III"
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "gfx/leaders/PRS/Frederick_3.dds"
-	expire = "1965.1.1"
+	expire = "1961.1.1"
 	ideology = nazism
 	traits = {
 		#
@@ -127,6 +127,9 @@ create_country_leader = {
 }
 
 
+
+
+#generals
 create_field_marshal = {
 	name = "Otto von Bismarck"
 	portrait_path = "gfx/leaders/PRS/otto_von_Bismarck.dds"
@@ -153,9 +156,9 @@ create_corps_commander = {
 }
 create_navy_leader = {
 	name = "Heinrich Wilhelm Adalbert"
-	id = 2
+	id = 998
 		picture = "gfx/leaders/PRS/adalbert.dds"
-	traits = { spotter }
+	traits = {  }
 	skill = 2
 }
 
