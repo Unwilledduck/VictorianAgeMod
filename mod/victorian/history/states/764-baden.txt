@@ -1,0 +1,24 @@
+state={
+	id=764
+	name="STATE_764"
+	resources={
+		steel=4.000
+	}
+
+	history={
+		owner = 
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = 
+
+	}
+
+	provinces={
+		694 3530 3679 3692 6542 6568 6581 6712 11640 
+	}
+	manpower=465364
+	buildings_max_level_factor=1.000
+   state_category=town
+}
