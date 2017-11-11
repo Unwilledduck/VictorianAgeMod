@@ -8,6 +8,52 @@ focus_tree = {
 		}
 	}
 	default = no
+	
+	focus = {
+		id = PRS_German_Confederation
+		text = PRS_German_Confederation
+		icon = GFX_goal_generic_allies_build_infantry
+		available = {
+			is_puppet = no
+			has_army_manpower = { size > 199999 }
+		}
+		cost = 10.00
+		x = 5
+		y = 3
+			available_if_capitulated = yes
+			completion_reward = {
+				create_faction = "North German Confederation"
+				create_country_leader = { name = "Kaiser Wilhelm I" desc = "Kaiser Wilhelm I" picture = "gfx/leaders/PRS/kaiser_wilhelm_1.dds" expire = "1888.9.3" ideology = nazism traits = {  } }
+			}
+	}
+	
+	focus = {
+		id = PRS_Expand_the_confederation
+		text = PRS_Expend_the_confederation
+		icon = GFX_goal_generic_national_unity
+		prerequisite = {
+			focus = PRS_German_Confederation
+		}
+		available = {
+			is_puppet = no
+			has_army_manpower = { size > 249999 }
+		}
+		cost = 10.00
+		x = 5
+		y = 4
+			available_if_capitulated = yes
+			completion_reward = {
+			add_to_faction = HES
+			add_to_faction = HAN
+			add_to_faction = SAX
+			add_to_faction = OLD		
+			}
+	}
+	
+	
+	
+	
+	
 	focus = {
 		id = PRS_army_effort
 		text = PRS_army_effort
@@ -42,6 +88,7 @@ focus_tree = {
 							category = industry
 						}
 					add_manpower = 100000
+
 				}
 
 	}
