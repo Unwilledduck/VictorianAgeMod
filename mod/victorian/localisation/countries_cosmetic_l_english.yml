@@ -7,6 +7,16 @@
  ACH_communism:0 "Aceh's People"
  ACH_communism_DEF:0 "Aceh's People"
  
+ # Baden
+ BAD_democratic:0 "Baden"
+ BAD_democratic_DEF:0 "Baden"
+ BAD_fascism:0 "Baden"
+ BAD_fascism_DEF:0 "Baden"
+ BAD_communism:0 "Baden"
+ BAD_communism_DEF:0 "Baden"
+ BAD_neutrality:0 "Baden"
+ BAD_neutrality_DEF:0 "Baden"
+ 
  # Second Federal Republic of Mexico
  MEX_democratic:0 "Second Federal Republic of Mexico"
  MEX_democratic_DEF:0 "Second Federal Republic of Mexico"
