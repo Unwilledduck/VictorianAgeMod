@@ -7,7 +7,10 @@ SRB = {
 	color = rgb { 13 39 147 }
 	color_ui = rgb { 13 39 147 }
 }
-
+BAD = {
+	color = rgb { 160 160 160 }
+	color_ui = rgb { 160 160 160 }
+}
 SWI = {
 	color = rgb { 33 14 19 }
 	color_ui = rgb { 33 14 19 }
