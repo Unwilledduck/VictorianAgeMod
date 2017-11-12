@@ -52,11 +52,11 @@ set_national_unity = 0.60
 
 
 create_country_leader = {
-	name = "Alexander Karađorđević"
+	name = "Barbu știrbei"
 	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
-	picture = "gfx/leaders/SRB/Portrait_Serbia_Alexander.dds"
+	picture = "gfx/leaders/WAL/Barbu.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = falangism
 	traits = {
 		#
 	}

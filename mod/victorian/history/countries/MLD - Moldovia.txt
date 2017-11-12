@@ -52,11 +52,11 @@ set_national_unity = 0.60
 
 
 create_country_leader = {
-	name = "Alexander Karađorđević"
+	name = "Stamp of Moldovia"
 	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
-	picture = "gfx/leaders/SRB/Portrait_Serbia_Alexander.dds"
+	picture = "gfx/leaders/MLD/Stamp.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = falangism
 	traits = {
 		#
 	}

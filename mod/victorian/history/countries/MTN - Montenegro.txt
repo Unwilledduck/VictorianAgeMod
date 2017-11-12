@@ -53,8 +53,8 @@ set_national_unity = 0.60
 
 create_country_leader = {
 	name = "Danilo I"
-	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
-	picture = "gfx/leaders/MTN/Portrait_Serbia_Alexander.dds"
+	desc = "POLITICS_CRNA_GORA_DANILO_DESC"
+	picture = "gfx/leaders/MTN/Danilo.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
