@@ -211,3 +211,7 @@ MTN = {
 	color = rgb { 4 130 255 }
 	color_ui = rgb { 4 130 255 }
 }
+NEJ = {
+	color = rgb { 0 85 43 }
+	color_ui = rgb { 0 85 43 }
+}

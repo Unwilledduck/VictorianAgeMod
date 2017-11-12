@@ -52,7 +52,7 @@ set_national_unity = 0.60
 
 
 create_country_leader = {
-	name = "Alexander Karađorđević"
+	name = "Danilo I"
 	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
 	picture = "gfx/leaders/MTN/Portrait_Serbia_Alexander.dds"
 	expire = "1965.1.1"
