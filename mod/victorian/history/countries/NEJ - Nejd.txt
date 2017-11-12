@@ -52,9 +52,9 @@ set_national_unity = 0.60
 
 
 create_country_leader = {
-	name = "Unknown"
+	name = "Abdul Rahman bin Faisal"
 	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
-	picture = "gfx/leaders/NEJ/Portrait_Serbia_Alexander.dds"
+	picture = "gfx/leaders/NEJ/Abdul.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
