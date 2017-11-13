@@ -83,13 +83,13 @@ create_country_leader = {
 
 create_field_marshal = {
 	name = "Alexander Chernyshyow"
-	picture = "gfx/leaders/RUS/alexander_chernyshyow.dds"
+	picture = "Portrait_Russia_Alexander.dds"
 	traits = { old_guard }
 	skill = 3	
 }
 create_corps_commander = {
 	name = "Yegor Tolstoy"
-	portrait_path = "gfx/leaders/RUS/tolstoy.dds"
+	portrait_path = "Portrait_Russia_Yegor_Tolstoy.dds"
 	traits = {}
 	skill = 2
 }
@@ -102,21 +102,21 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Vladimir Istomin"
 	id = 789
-	picture = "gfx/leaders/RUS/vladimir_istomin.dds"
+	picture = "Portrait_Russia_Vladimir_Istomin.dds"
 	traits = { spotter }
 	skill = 4
 }
 create_navy_leader = {
 	name = "Yevfimiy Putyatin"
 	id = 790
-	picture = "gfx/leaders/RUS/putyatin.dds"
+	picture = "Portrait_Russia_Yevfimiy_Putyatin.dds"
 	traits = { spotter }
 	skill = 2
 }
 create_navy_leader = {
 	name = "Vasily Zavoyko"
 	id = 791
-	picture = "gfx/leaders/RUS/vasily_zavoyko.dds"
+	picture = "Portrait_Russia_Vasily_Zavoyko.dds"
 	traits = { spotter }
 	skill = 2
 }
