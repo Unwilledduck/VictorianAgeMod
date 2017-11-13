@@ -215,3 +215,7 @@ NEJ = {
 	color = rgb { 0 85 43 }
 	color_ui = rgb { 0 85 43 }
 }
+MEC = {
+	color = rgb { 206 103 0 }
+	color_ui = rgb { 206 103 0 }
+}
