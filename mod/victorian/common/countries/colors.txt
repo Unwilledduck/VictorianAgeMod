@@ -76,8 +76,8 @@ PRS = {
 	color_ui = rgb {106  119  89}
 }
 RUS = {
-	color = rgb { 0  64  0 }
-	color_ui = rgb { 0  64  0 }
+	color = rgb { 255  244  190 }
+	color_ui = rgb {255  244  190 }
 }
 DEN = {
 	color = rgb {  153 116 93 }
@@ -192,8 +192,8 @@ SWI = {
 	color_ui = rgb { 193 81 81 }
 }
 QIN = {
-	color = rgb { 234  191  21 }
-	color_ui = rgb { 234  191  21 }
+	color = rgb { 204 204 0 }
+	color_ui = rgb { 204 204 0 }
 }
 POR = {
 	color = rgb { 0 128 0 }
