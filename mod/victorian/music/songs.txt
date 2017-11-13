@@ -45,6 +45,30 @@ music = {
 	}
 }
 
+music = {
+	song = "general_peace_4"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}
+}
+
+music = {
+	song = "general_peace_5"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = no
+		}		
+	}
+}
+
 # WAR SONGS ####################
 
 music = {
@@ -70,8 +94,33 @@ music = {
 		}		
 	}	
 }
+
 music = {
 	song = "general_war_3"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "general_war_4"
+	
+	chance = {
+		modifier = {
+			factor = 1
+
+			has_war = yes
+		}		
+	}	
+}
+
+music = {
+	song = "general_war_5"
 	
 	chance = {
 		modifier = {
