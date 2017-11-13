@@ -7,7 +7,7 @@ state={
 	state_category = town
 
 	history={
-		owner = PRS
+		owner = MEC
 		victory_points = {
 			321 1
 		}
@@ -20,7 +20,7 @@ state={
 			}
 		
 		}
-		add_core_of = PRS
+		add_core_of = MEC
 	}
 
 	provinces={
