@@ -11,14 +11,6 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
-			9783 = {
-				naval_base = 3
-
-			}
-			9902 = {
-				naval_base = 1
-
-			}
 
 		}
 		add_core_of = OTT

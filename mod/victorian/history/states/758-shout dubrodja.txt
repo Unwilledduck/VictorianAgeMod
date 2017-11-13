@@ -4,10 +4,14 @@ state={
 	
 	history={
 		owner = OTT
+		victory_points = {
+			657 3 
+		}	
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
-
+		    dockyard = 1
+		
 		}
 		add_core_of = OTT
 
