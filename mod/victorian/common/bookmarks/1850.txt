@@ -24,8 +24,8 @@ bookmarks = {
 
 			}
 			focuses = {
-			OTT_Claim_Crimea
-			OTT_War
+			OTT_claim_crimea
+			OTT_war
 			}
 		}
 		"UNK"={
@@ -55,8 +55,8 @@ bookmarks = {
 
 			}
 			focuses = {
-			Austro-Prussian-War
-			Second-Schleswig-War
+			PRS_austro_prussian_war
+			PRS_second_schleswig_war
 			}
 		}
 		"RUS"={
