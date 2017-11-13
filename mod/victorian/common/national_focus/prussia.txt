@@ -24,7 +24,8 @@ focus_tree = {
 			completion_reward = {
 				create_faction = "North German Confederation"
 				create_country_leader = { name = "Kaiser Wilhelm I" desc = "Kaiser Wilhelm I" picture = "gfx/leaders/PRS/kaiser_wilhelm_1.dds" expire = "1888.9.3" ideology = nazism traits = {  } }
-			}
+                set_cosmetic_tag = GCO
+				}
 	}
 	
 	focus = {
@@ -43,6 +44,10 @@ focus_tree = {
 		y = 4
 			available_if_capitulated = yes
 			completion_reward = {
+		    annex_country = { target = SAX transfer_troops = yes }
+		    annex_country = { target = HAN transfer_troops = yes }
+            puppet = HES
+	        puppet = OLD
 			add_to_faction = HES
 			add_to_faction = HAN
 			add_to_faction = SAX

@@ -456,3 +456,11 @@
  JAP_fascism_DEF:0 "Japanese Empire"
  JAP_neutrality:0 "Japan"
  JAP_neutrality_DEF:0 "Japan"
+ 
+ # Germany
+ GCO_democratic:0 "North German Confederation"
+ GCO_democratic_DEF:0 "North German Confederation"
+ GCO_fascism:0 "North German Confederation"
+ GCO_fascism_DEF:0 "North German Confederation"
+ GCO_neutrality:0 "North German Confederation"
+ GCO_neutrality_DEF:0 "North German Confederation"
