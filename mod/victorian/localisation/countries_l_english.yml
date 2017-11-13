@@ -739,3 +739,17 @@
  MTN_democratic_ADJ:0 "Montenegrean"
  MTN_neutrality_ADJ:0 "Montenegrean"
  MTN_communism_ADJ:0 "Montenegrean"
+ 
+ # Orange Free State
+ OVS_fascism:0 "Orange Free State"
+ OVS_fascism_DEF:0 "Orange Free State"
+ OVS_democratic:0 "Orange Free State"
+ OVS_democratic_DEF:0 "Orange Free State"
+ OVS_neutrality:0 "Orange Free State"
+ OVS_neutrality_DEF:0 "Orange Free State"
+ OVS_communism:0 "Orange Free State"
+ OVS_communism_DEF:0 "Orange Free State"
+ OVS_fascism_ADJ:0 "African"
+ OVS_democratic_ADJ:0 "African"
+ OVS_neutrality_ADJ:0 "African"
+ OVS_communism_ADJ:0 "African"
