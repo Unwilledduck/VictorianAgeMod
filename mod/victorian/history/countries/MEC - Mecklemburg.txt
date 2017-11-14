@@ -1,4 +1,4 @@
-﻿capital = 107	
+﻿capital = 268	
 
 oob = "MEC_1850"
 
@@ -28,38 +28,40 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 2
 		}
 
 		fascism = {
-			popularity  = 100
+			popularity  = 2
 		}
 
 		communism = {
-			popularity = 0
+			popularity = 6
+		}
+		neutrality = {
+			popularity = 90
 		}
 	
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1845.9.18"
 	election_frequency = 48
 	elections_allowed = no
 }
 
-set_convoys = 0
+set_convoys = 40
 set_national_unity = 0.60
 
 
 create_country_leader = {
-	name = "Barbu știrbei"
-	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
+	name = "Frederick Francis II"
+	desc = "Frederick Francis II"
 	picture = "gfx/leaders/MEC/Barbu.dds"
-	expire = "1965.1.1"
-	ideology = falangism
+	expire = "1883.1.1"
+	ideology = centrism
 	traits = {
-		#
-	}
+	} 
 }
 
 

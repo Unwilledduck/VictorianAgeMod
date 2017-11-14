@@ -86,6 +86,7 @@ set_convoys = 25
 	}
 }
 
+puppet = MEC
 
 set_politics = {
 
