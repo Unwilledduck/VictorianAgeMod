@@ -22,9 +22,37 @@ focus_tree = {
 		y = 3
 			available_if_capitulated = yes
 			completion_reward = {
-				create_faction = "North German Confederation"
+				create_faction = "North German Confederation"              
+				}
+	}
+	focus = {
+		id = PRS_Unification
+		text = PRS_Unification
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = PRS_Expand_the_confederation
+		}
+		available = {
+			is_puppet = no
+			NOT = { has_war_with = AHU } 
+			country_exists = AHU
+		}
+		cost = 10.00
+		x = 5
+		y = 5
+			available_if_capitulated = yes
+			completion_reward = {
+				dismantle_faction = yes
+				set_cosmetic_tag = GCO
 				create_country_leader = { name = "Kaiser Wilhelm I" desc = "Kaiser Wilhelm I" picture = "gfx/leaders/PRS/kaiser_wilhelm_1.dds" expire = "1888.9.3" ideology = nazism traits = {  } }
-                set_cosmetic_tag = GCO
+				annex_country = { target = SAX transfer_troops = yes }
+				annex_country = { target = HAN transfer_troops = yes }
+				annex_country = { target = MEC transfer_troops = yes }
+				annex_country = { target = OLD transfer_troops = yes }
+				annex_country = { target = HES transfer_troops = yes }
+				annex_country = { target = BAV transfer_troops = yes }
+				annex_country = { target = BAD transfer_troops = yes }
+				annex_country = { target = WUR transfer_troops = yes }
 				}
 	}
 	
@@ -44,9 +72,7 @@ focus_tree = {
 		y = 4
 			available_if_capitulated = yes
 			completion_reward = {
-		    annex_country = { target = SAX transfer_troops = yes }
-		    annex_country = { target = HAN transfer_troops = yes }
-            puppet = HES
+		    puppet = HES
 	        puppet = OLD
 			add_to_faction = HES
 			add_to_faction = HAN
@@ -54,6 +80,7 @@ focus_tree = {
 			add_to_faction = OLD		
 			}
 	}
+	
 	
 	
 	
