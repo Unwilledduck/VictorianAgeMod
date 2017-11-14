@@ -223,3 +223,39 @@ OMA = {
 	color = rgb { 155 101 107 }
 	color_ui = rgb { 202 131 139 }
 }
+CUB = {
+	color = rgb { 66 43 108 }
+	color_ui = rgb { 66 43 108 }
+}
+ELS = {
+	color = rgb { 128 128 192 }
+	color_ui = rgb { 128 128 192 }
+}	
+HAI = {
+	color = rgb { 126 126 126 }
+	color_ui = rgb { 126 126 126 }
+}	
+DOM = {
+	color = rgb { 0 0 225 }
+	color_ui = rgb { 0 0 225 }
+}	
+COS = {
+	color = rgb { 128 0 64 }
+	color_ui = rgb { 128 0 64 }
+}   
+GUA = {
+	color = rgb { 64 128 128 }
+	color_ui = rgb { 64 128 128 }
+}    
+HON = {
+	color = rgb { 128 64 64 }
+	color_ui = rgb { 128 64 64 }
+}    
+ECU = {
+	color = rgb { 206 103 0 }
+	color_ui = rgb { 206 103 0 }
+}  
+NIC = {
+	color = rgb { 162 158 45 }
+	color_ui = rgb { 162 158 45 }
+}    
