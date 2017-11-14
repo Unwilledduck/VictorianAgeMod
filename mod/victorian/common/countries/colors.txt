@@ -219,3 +219,7 @@ MEC = {
 	color = rgb { 206 103 0 }
 	color_ui = rgb { 206 103 0 }
 }
+OMA = {
+	color = rgb { 155 101 107 }
+	color_ui = rgb { 202 131 139 }
+}

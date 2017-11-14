@@ -781,3 +781,17 @@
  MEC_democratic_ADJ:0 "Mecklemburg"
  MEC_neutrality_ADJ:0 "Mecklemburg"
  MEC_communism_ADJ:0 "Mecklemburg"
+ 
+ # Oman
+ OMA_fascism:0 "Oman"
+ OMA_fascism_DEF:0 "Oman"
+ OMA_democratic:0 "Oman"
+ OMA_democratic_DEF:0 "Oman"
+ OMA_neutrality:0 "Oman"
+ OMA_neutrality_DEF:0 "Oman"
+ OMA_communism:0 "Oman"
+ OMA_communism_DEF:0 "Oman"
+ OMA_fascism_ADJ:0 "Omani"
+ OMA_democratic_ADJ:0 "Omani"
+ OMA_neutrality_ADJ:0 "Omani"
+ OMA_communism_ADJ:0 "Omani"
