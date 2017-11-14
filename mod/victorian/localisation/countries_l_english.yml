@@ -795,3 +795,15 @@
  OMA_democratic_ADJ:0 "Omani"
  OMA_neutrality_ADJ:0 "Omani"
  OMA_communism_ADJ:0 "Omani"
+ 
+ # German Empire
+ GCO_democratic:0 "German Empire"
+ GCO_democratic_DEF:0 "German Empire"
+ GCO_fascism:0 "German Empire"
+ GCO_fascism_DEF:0 "German Empire"
+ GCO_neutrality:0 "German Empire"
+ GCO_neutrality_DEF:0 "German Empire"
+ GCO_fascism_ADJ:0 "German"
+ GCO_democratic_ADJ:0 "German"
+ GCO_neutrality_ADJ:0 "German"
+ GCO_communism_ADJ:0 "German"
