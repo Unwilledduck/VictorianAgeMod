@@ -11,7 +11,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				manpower = -0.25
+				manpower = -0.75
 			}
 		}
 }
