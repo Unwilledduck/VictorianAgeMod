@@ -1,0 +1,17 @@
+ideas = {
+
+	country = {
+	
+		UNK_great_famine_ireland = {
+			picture = UNK_great_famine_ireland
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			removal_cost = -1
+			
+			modifier = {
+				manpower = -0.25
+			}
+		}
+}
