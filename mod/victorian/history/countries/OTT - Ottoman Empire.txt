@@ -51,11 +51,16 @@ set_politics = {
 	election_frequency = 48
 	elections_allowed = yes
 }
-#diplomacy
-puppet = SER
 
 set_convoys = 20
 set_national_unity = 0.55
+
+# DIPLOMACY
+set_autonomy = {
+	target = SRB
+	target = MTN
+	autonomous_state =  autonomy_puppet
+}
 
 
 create_country_leader = {
