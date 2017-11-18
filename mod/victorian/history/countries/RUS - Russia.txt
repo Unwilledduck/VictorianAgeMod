@@ -138,24 +138,24 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Series IX Srednyaya"
-	type = submarine_2
+	name = "Iezekiil"
+	type = destroyer_1
 	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
 	}
 }
 
 create_equipment_variant = {
-	name = "Leningrad & Minsk Class"
+	name = "Imperator Aleksandr"
 	type = destroyer_1
 	upgrades = {
-		ship_torpedo_upgrade = 3
-		destroyer_engine_upgrade = 3
-		ship_ASW_upgrade = 3
-		ship_anti_air_upgrade = 3
+		ship_torpedo_upgrade = 2
+		destroyer_engine_upgrade = 2
+		ship_ASW_upgrade = 2
+		ship_anti_air_upgrade = 2
 	}
 }
 
