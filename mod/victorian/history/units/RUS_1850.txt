@@ -147,7 +147,41 @@ units = {
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	
+	#### NAVAL UNITS #####
+	### Navy ###
+	navy = {				
+		name = "Imperial Russian Navy"			
+		base = 957 
+		location = 957  
+		ship = { name = "Gangut" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }		
+		ship = { name = "Azo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }		
+		ship = { name = "Velikii Kniaz‘ Mikhail" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }		
+		ship = { name = "Katsbach" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Kul‘m" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Arsis" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Brien" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }
+		ship = { name = "Berezino" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Smolensk" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Leipzig" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Retvizan" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Finland" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Narva" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }	
+		ship = { name = "Pamiat" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Iezekiil"} } }
+		ship = { name = "Imperator Aleksandr" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Imperator Aleksandr"} } }
+		ship = { name = "Imperator Piotr I" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Imperator Aleksandr"} } }
+		ship = { name = "Sviatoi Georgii Pobedonosets" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = RUS version_name = "Imperator Aleksandr"} } }
+		ship = { name = "Imperatritsa Aleksandra" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = RUS} } }
+		ship = { name = "Emgeiten" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = RUS} } }
+		ship = { name = "Poltava" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = RUS} } }
+		ship = { name = "Vladimir' " definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = RUS} } }
+		ship = { name = "Lefort " definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = RUS} } }
+		ship = { name = "Vola" definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = RUS} } }
+		ship = { name = "Andrei " definition = light_cruiser equipment = { light_cruiser = { amount = 1 owner = RUS} } }
+		
+		
+		
+	}	
+}
 	
 	
 	
