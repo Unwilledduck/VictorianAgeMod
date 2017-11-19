@@ -57,8 +57,11 @@ set_national_unity = 0.55
 
 # DIPLOMACY
 set_autonomy = {
-	target = SRB
 	target = MTN
+	autonomous_state =  autonomy_puppet
+}
+set_autonomy = {
+	target = SRB
 	autonomous_state =  autonomy_puppet
 }
 

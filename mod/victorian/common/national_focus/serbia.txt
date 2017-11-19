@@ -1,0 +1,117 @@
+focus_tree = {
+	id = serbia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SRB
+		}
+	}
+	default = no
+	focus = {
+		id = SRB_Add_Autonomy
+		text = SRB_Add_Autonomy
+		icon = GFX_focus_generic_the_giant_wakes
+		cost = 15.00
+		x = 3
+		y = 0
+			available = {
+					is_puppet = yes
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_autonomy_ratio = {
+							value = 0.5
+							localization = SRB_Road_Too_Independence
+						}
+				}
+
+	}
+	focus = {
+		id = SRB_Elect_Milos
+		text = SRB_Elect_Milos
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		cost = 10.00
+		x = 8
+		y = 4
+			available = {
+					date > 1858.1.1
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					create_country_leader = {
+							name = "Milos Obrenovic"
+							desc = 'POLITICS_MILOS_DESC'
+							picture = "Portrait_Serbia_Milos.dds"
+							expire = '1965.1.1'
+							ideology = nazism
+							traits = {
+
+}
+						}
+				}
+
+	}
+	focus = {
+		id = SRB_Send_Ultimats_In_Turkey
+		text = SRB_Send_Ultimats_In_Turkey
+		icon = GFX_focus_generic_self_management
+		cost = 15.00
+		prerequisite = {
+			focus = SRB_Add_Autonomy
+		}
+		x = 3
+		y = 2
+			available = {
+					is_puppet = yes
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_autonomy_ratio = {
+							value = 0.5
+							localization = SRB_Crush_The_Muslims
+						}
+				}
+
+	}
+	focus = {
+		id = SRB_The_Empire_Is_Weak
+		text = SRB_The_Empire_Is_Weak
+		icon = GFX_focus_renounce_the_treaty_of_triannon
+		cost = 15.00
+		prerequisite = {
+			focus = SRB_Send_Ultimats_In_Turkey
+		}
+		x = 3
+		y = 4
+			available = {
+					is_puppet = yes
+				}
+			available_if_capitulated = yes
+			completion_reward = {
+					add_autonomy_ratio = {
+							value = 0.5
+							localization = SRB_Free_From_Tirany
+						}
+				}
+
+	}
+	focus = {
+		id = SRB_End_Of_Ottoman_Rule
+		text = SRB_End_Of_Ottoman_Rule
+		icon = GFX_goal_continuous_suppression
+		cost = 10.00
+		prerequisite = {
+			focus = SRB_The_Empire_Is_Weak
+		}
+		x = 3
+		y = 6
+        available = {
+			is_puppet = yes
+		}
+	available_if_capitulated = yes
+			completion_reward = {
+				end_puppet = OTT
+						}
+	}
+        

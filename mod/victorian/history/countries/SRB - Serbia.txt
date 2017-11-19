@@ -56,7 +56,17 @@ create_country_leader = {
 	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
 	picture = "gfx/leaders/SRB/Portrait_Serbia_Alexander.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+create_country_leader = {
+	name = "Alexander Karađorđević"
+	desc = "POLITICS_SERBIA_ALEXANDER_DESC"
+	picture = "gfx/leaders/SRB/Portrait_Serbia_Alexander.dds"
+	expire = "1965.1.1"
+	ideology = despotism
 	traits = {
 		#
 	}
