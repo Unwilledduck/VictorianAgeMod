@@ -397,6 +397,11 @@ focus_tree = {
 							target = RUS
 							type = take_claimed_state
 							add_national_unity = 0.10
+					        }
+					create_faction = "Allies" 
+					add_to_faction = UNK
+			        add_to_faction = FRA	
+		            set_state_controller = 137
 						}
 				}
 

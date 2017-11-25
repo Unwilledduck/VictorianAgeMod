@@ -21,7 +21,7 @@ focus_tree = {
 			available_if_capitulated = yes
 			completion_reward = {
 					add_autonomy_ratio = {
-							value = 0.5
+							value = 1.5
 							localization = SRB_Road_Too_Independence
 						}
 				}
@@ -68,7 +68,7 @@ focus_tree = {
 			available_if_capitulated = yes
 			completion_reward = {
 					add_autonomy_ratio = {
-							value = 0.5
+							value = 1.5
 							localization = SRB_Crush_The_Muslims
 						}
 				}
@@ -78,14 +78,13 @@ focus_tree = {
 		id = SRB_The_Empire_Is_Weak
 		text = SRB_The_Empire_Is_Weak
 		icon = GFX_focus_renounce_the_treaty_of_triannon
-		cost = 15.00
+		cost = 18.00
 		prerequisite = {
 			focus = SRB_Send_Ultimats_In_Turkey
 		}
 		x = 3
 		y = 4
 			available = {
-					is_puppet = yes
 				}
 			available_if_capitulated = yes
 			completion_reward = {
@@ -107,11 +106,94 @@ focus_tree = {
 		x = 3
 		y = 6
         available = {
-			is_puppet = yes
 		}
 	available_if_capitulated = yes
 			completion_reward = {
-				end_puppet = OTT
+			add_autonomy_ratio = {
+					value = 3.5
+					localization = SRB_The_Empire_Has_Folen
+						}
+			    }
+	}
+	focus = {
+		id = SRB_Retacke_Morava
+		text = SRB_Retake_Morava
+		icon = GFX_goal_generic_position_armies
+		cost = 10.00
+		prerequisite = {
+			focus = SRB_End_Of_Ottoman_Rule 
+		}
+		x = 8
+		y = 7
+        available = {
+			is_puppet = no
+		date > 1855.1.1
+		}
+	available_if_capitulated = yes
+			completion_reward = {
+				set_state_owner = 108
 						}
 	}
+	focus = {
+		id = SRB_Redy_Fore_War
+		text = SRB_Redy_Fore_War
+		icon = GFX_goal_generic_construct_mil_factory
+		cost = 10.00
+		x = 11
+		y = 0
+        available = {
+	  }
+	available_if_capitulated = no
+			completion_reward = {
+					random_owned_controlled_state = {
+								limit = {
+									free_building_slots = {
+											building = arms_factory
+											size > 3
+											include_locked = yes
+									}
+								}
+								add_extra_state_shared_building_slots = 1
+								add_building_construction = {
+									type = arms_factory
+									level = 4
+									instant_build = yes
+								}
+								set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+						}
+				}
+	}
+	focus = {
+		id = SRB_Civill_Factoris
+		text = SRB_Civill_Factoris
+		icon = GFX_goal_generic_construct_civ_factory
+		cost = 10.00
+		prerequisite = {
+			focus = SRB_Redy_Fore_War 
+		}
+		x = 11
+		y = 2
+        available = {
+	  }
+	available_if_capitulated = no
+			completion_reward = {
+            random_owned_controlled_state = {
+limit = {
+free_building_slots = {
+building = industrial_complex
+size > 3
+include_locked = yes
+}
+}
+add_extra_state_shared_building_slots = 1
+add_building_construction = {
+type = industrial_complex
+level = 6
+instant_build = yes
+}
+set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
+                            } 
+			}
+	}
+	
         
