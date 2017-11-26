@@ -389,6 +389,10 @@ focus_tree = {
 		prerequisite = {
 			focus = OTT_ready_for_war
 		}
+		 available = {
+			is_puppet = no
+		date > 1852.1.1
+		}
 		x = 5
 		y = 4
 			completion_reward = {
