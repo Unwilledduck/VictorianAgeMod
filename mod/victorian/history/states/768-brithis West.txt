@@ -1,0 +1,21 @@
+state={
+	id=768
+	name="STATE_768"
+	manpower = 9434342
+	
+	state_category = rural
+	
+	
+	history={
+		owner = UNK
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		7987 8103 10900 10907 12733 
+	}
+	buildings_max_level_factor=1.000
+}

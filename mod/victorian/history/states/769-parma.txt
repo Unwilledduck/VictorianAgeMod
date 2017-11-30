@@ -1,0 +1,25 @@
+state={
+	id=769
+	name="STATE_769"
+	manpower = 683160
+	
+	state_category = town
+	
+	resources={
+		aluminium=22
+	}
+
+	history={
+		owner = PAP
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = PAP
+	}
+
+	provinces={
+		3773 6790 
+	}
+	buildings_max_level_factor=1.000
+}

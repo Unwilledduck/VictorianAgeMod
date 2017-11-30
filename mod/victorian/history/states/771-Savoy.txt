@@ -1,0 +1,25 @@
+state={
+	id=771
+	name="STATE_771"
+	manpower = 71650
+	
+	state_category = town
+	
+	resources={
+		aluminium=22
+	}
+
+	history={
+		owner = SAR
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+		}
+		add_core_of = SAR
+	}
+
+	provinces={
+		778 6609 9603 9745 11573 
+	}
+	buildings_max_level_factor=1.000
+}

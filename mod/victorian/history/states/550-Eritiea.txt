@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = OTT
+		owner = UNK
 		victory_points = {
 			12766 1
 		}

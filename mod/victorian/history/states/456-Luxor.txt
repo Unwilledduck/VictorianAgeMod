@@ -1,21 +1,21 @@
-state=
-{
+
+state={
 	id=456
-	name="STATE_456" # Aswan
-	manpower = 4224516
-	
-	state_category = rural
-	
-	history = {
+	name="STATE_456"
+
+	history={
 		owner = OTT
 		buildings = {
 			infrastructure = 4
+
 		}
 
-		
+	}
 
-	}
 	provinces={
-		1028 1064 1151 1206 7030 7073 7144 10028 10097 10844 11974 11999 12044 12071 12771 
+		1028 1064 1080 1151 1206 4068 7030 7073 7144 9957 10028 10097 10126 11974 12002 12044 12071 12771 12889 
 	}
+	manpower=4224516
+	buildings_max_level_factor=1.000
+	state_category=rural
 }
