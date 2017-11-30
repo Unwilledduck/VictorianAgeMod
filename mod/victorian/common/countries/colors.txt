@@ -251,6 +251,22 @@ HON = {
 	color = rgb { 128 64 64 }
 	color_ui = rgb { 128 64 64 }
 }    
+MOR = {
+	color = rgb { 116 58 58 }
+	color_ui = rgb { 116 58 58 }
+} 
+ALG = {
+	color = rgb { 75 121 53 }
+	color_ui = rgb { 75 121 53 }
+} 
+PRM = {
+	color = rgb { 255 115 47 }
+	color_ui = rgb { 255 115 47 }
+} 
+MOD = {
+	color = rgb { 128 0 255 }
+	color_ui = rgb { 128 0 255 }
+} 
 ECU = {
 	color = rgb { 206 103 0 }
 	color_ui = rgb { 206 103 0 }

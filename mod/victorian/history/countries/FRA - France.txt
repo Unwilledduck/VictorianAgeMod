@@ -44,6 +44,16 @@ set_politics = {
 set_convoys = 150
 set_national_unity = 0.55
 
+# DIPLOMACY
+set_autonomy = {
+	target = ALG
+	autonomous_state =  autonomy_puppet
+}
+set_autonomy = {
+	target = MOR
+	autonomous_state =  autonomy_puppet
+}
+
 1939.1.1 = {
 
 	add_political_power = 1198
