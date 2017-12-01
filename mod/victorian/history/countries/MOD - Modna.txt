@@ -47,9 +47,9 @@ set_national_unity = 0.65
 
 
 create_country_leader = {
-	name = "Juan Manuel de Rosas"
-	desc = "Juan Manuel de Rosas"
-	picture = "gfx/leaders/ARG/rosas.dds"
+	name = "Francis V"
+	desc = "FRANCIS_V"
+	picture = "gfx/leaders/MOD/Francis_V_of_Modena.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
