@@ -18,7 +18,7 @@ focus_tree = {
 			has_army_manpower = { size > 199999 }
 		}
 		cost = 10.00
-		x = 5
+		x = 4
 		y = 3
 			available_if_capitulated = yes
 			completion_reward = {
@@ -32,13 +32,16 @@ focus_tree = {
 		prerequisite = {
 			focus = PRS_Expand_the_confederation
 		}
+		prerequisite = {
+			focus = PRS_austro_prussian_war
+		}
 		available = {
 			is_puppet = no
 			NOT = { has_war_with = AHU } 
 			country_exists = AHU
 		}
 		cost = 10.00
-		x = 5
+		x = 4
 		y = 5
 			available_if_capitulated = yes
 			completion_reward = {
@@ -68,7 +71,7 @@ focus_tree = {
 			has_army_manpower = { size > 249999 }
 		}
 		cost = 10.00
-		x = 5
+		x = 4
 		y = 4
 			available_if_capitulated = yes
 			completion_reward = {
@@ -469,9 +472,9 @@ focus_tree = {
 			focus = PRS_ready_for_war
 		}
 		x = 6
-		y = 2
+		y = 4
 			available = {
-					date > 1855.1.1
+					date > 1853.1.1
 				}
 			historical_ai = {
 					date > 1864.1.1
@@ -485,6 +488,32 @@ focus_tree = {
 				}
 
 	}
+	focus = {
+		id = PRS_franco_prussian_war
+		text = PRS_franco_prussian_war
+		icon = GFX_goal_generic_more_territorial_claims
+		cost = 10.00
+		prerequisite = {
+			focus = PRS_Unification
+		}
+		x = 4
+		y = 6
+			available = {
+					date > 1855.1.1
+				}
+			historical_ai = {
+					date > 1864.1.1
+				}
+			completion_reward = {
+					add_manpower = 75000
+					declare_war_on = {
+							target = FRA
+							type = annex_everything
+						}
+				}
+
+	}
+
 	focus = {
 		id = PRS_flexible_navy
 		text = PRS_flexible_navy
