@@ -20,8 +20,8 @@
  PRS_industrial_effort:0 "Industrial Effort"
  PRS_construction_effort:0 "Construction Effort"
  PRS_construction_effort_2:0 "Construction Effort II"
- PRS_infrastracture_effort:0 "Infrastracture Effort"
- PRS_infrastracture_effort_2:0 "Infrastracture Effort II"
+ PRS_infrastructure_effort:0 "Infrastructure Effort"
+ PRS_infrastructure_effort_2:0 "Infrastructure Effort II"
  PRS_extra_tech_slot:0 "Extra Tech Slot"
  PRS_extra_tech_slot_2:0 "Extra Tech Slot II"
  PRS_production_effort:0 "Armament Effort"
@@ -45,6 +45,10 @@
  PRS_volunteer_corps:0 "Volunteer Corps"
  PRS_foreign_expeditions:0 "Foreign Expeditions"
  PRS_German_Confederation:0 "German Confederation"
- PRS_Expand_the_confederation:0 "Expand the North German Confederation"
+ PRS_Expend_the_confederation:0 "Expand the North German Confederation"
  PRS_franco_prussian_war: 0 "Franco- Prussian War"
- `
+ PRS_Unification: 0 "Das Deutsches Reich"
+ PRS_franco_prussian_war: 0 "Test the weak French Empire"
+ PRS_nationalism_focus: 0 "Das Kaiserreich"
+ PRS_liberty_ethos: 0 "Liberty Ethos"
+ 
