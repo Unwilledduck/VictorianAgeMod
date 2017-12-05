@@ -33,7 +33,7 @@ focus_tree = {
 		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		cost = 10.00
 		prerequisite = {
-			focus = SRB_Restore_The_Monarchi 
+			focus = SRB_Restore_The_Monarchy 
 		}
 		x = 8
 		y = 4
@@ -119,7 +119,7 @@ focus_tree = {
 			    }
 	}
 	focus = {
-		id = SRB_Retacke_Morava
+		id = SRB_Retake_Morava
 		text = SRB_Retake_Morava
 		icon = GFX_goal_generic_position_armies
 		cost = 10.00
@@ -138,8 +138,8 @@ focus_tree = {
 						}
 	}
 	focus = {
-		id = SRB_Redy_Fore_War
-		text = SRB_Redy_Fore_War
+		id = SRB_Ready_For_War
+		text = SRB_Ready_For_War
 		icon = GFX_goal_generic_construct_mil_factory
 		cost = 10.00
 		x = 11
@@ -167,12 +167,12 @@ focus_tree = {
 				}
 	}
 	focus = {
-		id = SRB_Civill_Factoris
-		text = SRB_Civill_Factoris
+		id = SRB_Civil_Factories
+		text = SRB_Civil_Factories
 		icon = GFX_goal_generic_construct_civ_factory
 		cost = 10.00
 		prerequisite = {
-			focus = SRB_Redy_Fore_War 
+			focus = SRB_Ready_For_War 
 		}
 		x = 11
 		y = 2
@@ -199,8 +199,8 @@ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
 			}
 	}
 	focus = {
-		id = SRB_The_Muslims_Shuld_Disapare
-		text = SRB_The_Muslims_Shuld_Disapare
+		id = SRB_The_Muslims_Should_Disapare
+		text = SRB_The_Muslims_Should_Disapare
 		icon = GFX_goal_generic_military_deal
 		cost = 10.00
 		x = 7
@@ -215,12 +215,12 @@ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
                               }
 	}
 	focus = {
-		id = SRB_Principality_Name_Shuld_Die
-		text = SRB_Principality_Name_Shuld_Die
+		id = SRB_Principality_Name_Should_Die
+		text = SRB_Principality_Name_Should_Die
 		icon = GFX_goal_generic_dangerous_deal
 		cost = 10.00
 		prerequisite = {
-			focus = SRB_The_Muslims_Shuld_Disapare 
+			focus = SRB_The_Muslims_Should_Disapare 
 		}
 		x = 7
 		y = 2
@@ -233,12 +233,12 @@ set_state_flag = REPLACE_ME_WITH_UNIQUE_IDENTIFIER
                               }
 	}
 	focus = {
-		id = SRB_Restore_The_Monarchi
-		text = SRB_Restore_The_Monarchi
+		id = SRB_Restore_The_Monarchy
+		text = SRB_Restore_The_Monarchy
 		icon = GFX_goal_tfv_sever_ties_with_uk
 		cost = 10.00
 		prerequisite = {
-			focus = SRB_Principality_Name_Shuld_Die 
+			focus = SRB_Principality_Name_Should_Die 
 		}
 		x = 8
 		y = 3
