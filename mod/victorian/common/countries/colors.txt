@@ -1,7 +1,7 @@
 #reload countrycolors
 OTT = {
-	color = rgb { 171  190  152 }
-	color_ui = rgb { 171  190  152 }
+	color = rgb { 128 255 128 }
+	color_ui = rgb { 128 255 128 }
 }
 SRB = {
 	color = rgb { 13 39 147 }
@@ -267,6 +267,18 @@ MOD = {
 	color = rgb { 128 0 255 }
 	color_ui = rgb { 128 0 255 }
 } 
+HEJ = {
+	color = rgb { 164 0 0 }
+	color_ui = rgb { 164 0 0 }
+}   
+AFR = {
+	color = rgb { 223 119 26 }
+	color_ui = rgb { 223 119 26 }
+}   
+EGP = {
+	color = rgb { 230 230 70 }
+	color_ui = rgb { 230 230 70 }
+}   
 ECU = {
 	color = rgb { 206 103 0 }
 	color_ui = rgb { 206 103 0 }

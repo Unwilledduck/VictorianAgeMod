@@ -4,7 +4,7 @@ state={
 	name="STATE_679"
 
 	history={
-		owner = OTT
+		owner = HEJ
 		= {
 			12758 1 
 		}
@@ -19,7 +19,7 @@ state={
 			}
 
 		}
-		add_core_of = OTT
+		add_core_of = HEJ
 	}
 
 	provinces={

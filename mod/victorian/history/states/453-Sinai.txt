@@ -8,7 +8,7 @@ state={
 	
 	
 	history = {
-		owner = OTT
+		owner = EGP
 		buildings = {
 			infrastructure = 2
 			1155 = {
@@ -16,7 +16,7 @@ state={
 			}
 		}
 
-		add_core_of = OTT
+		add_core_of = EGP
 
 	}
 

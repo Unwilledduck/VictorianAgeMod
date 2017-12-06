@@ -6,7 +6,7 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = SPA
+		owner = MOR
 		buildings = {
 			infrastructure = 1
 			8038 = {

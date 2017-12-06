@@ -47,11 +47,11 @@ set_national_unity = 0.65
 set_cosmetic_tag = MOR_FRA
 
 create_country_leader = {
-	name = "Louis-Napoléon Bonaparte"
-	desc = "Louis-Napoléon Bonaparte"
-	picture = "gfx/leaders/FRA/Napoleon_3.dds"
+	name = "Abderrahman Ben Hicham"
+	desc = "Abderrahman_Ben_Hicham"
+	picture = "gfx/leaders/MOR/Abderrahman_Ben_Hicham.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = nazism
 	traits = {
 		#
 	}

@@ -64,7 +64,14 @@ set_autonomy = {
 	target = SRB
 	autonomous_state =  autonomy_puppet
 }
-
+set_autonomy = {
+	target = HEJ
+	autonomous_state =  autonomy_puppet
+}
+set_autonomy = {
+	target = EGP
+	autonomous_state =  autonomy_puppet
+}
 
 create_country_leader = {
 	name = "Abdulmejid I"

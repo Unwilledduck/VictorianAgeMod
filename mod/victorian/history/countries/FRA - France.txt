@@ -53,6 +53,10 @@ set_autonomy = {
 	target = MOR
 	autonomous_state =  autonomy_puppet
 }
+set_autonomy = {
+	target = AFR
+	autonomous_state =  autonomy_puppet
+}
 
 1939.1.1 = {
 

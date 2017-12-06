@@ -4,12 +4,12 @@ state={
 	name="STATE_552"
 
 	history={
-		owner = OTT
+		owner = EGP
 		buildings = {
 			infrastructure = 0
 
 		}
-		add_core_of = OTT
+		add_core_of = EGP
 
 	}
 
