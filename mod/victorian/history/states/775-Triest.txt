@@ -1,0 +1,28 @@
+state={
+	id=775
+	name="STATE_775"
+	
+	history={
+		owner = AHU
+		victory_points = {
+			6626 20 
+		}
+		add_core_of = AHU
+		buildings = {
+			infrastructure = 2
+			6626 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		6626 
+	}
+	manpower=56456
+	buildings_max_level_factor=1.000
+    state_category=city
+}

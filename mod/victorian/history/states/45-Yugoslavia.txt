@@ -1,21 +1,23 @@
 
 state={
 	id=45
-	name="STATE_45" # Vojvodina
-	manpower = 1026200
-	
-	state_category = rural
+	name="STATE_45"
 
 	history={
 		owner = AHU
 		buildings = {
 			infrastructure = 6
+
 		}
 		add_core_of = AHU
 		add_core_of = AHU
+
 	}
 
 	provinces={
-		619 3617 3623 9608 9621 
+		619 3617 3623 9621 
 	}
+	manpower=1026200
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

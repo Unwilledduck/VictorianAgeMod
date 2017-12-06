@@ -1,0 +1,24 @@
+state={
+	id=776
+	name="STATE_776"
+	history={
+		owner = AHU
+		add_core_of = AHU
+		buildings = {
+			infrastructure = 2
+			11735 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		11735 
+	}
+	manpower=56445
+	buildings_max_level_factor=1.000
+state_category=city
+}
