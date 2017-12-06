@@ -6,11 +6,6 @@ state={
 		add_core_of = AHU
 		buildings = {
 			infrastructure = 2
-			11735 = {
-				naval_base = 5
-
-			}
-
 		}
 
 	}

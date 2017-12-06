@@ -12,10 +12,6 @@ state={
 			infrastructure = 5
 			dockyard = 1
 			industrial_complex = 3
-			3924 = {
-				naval_base = 3
-
-			}
 
 		}
 		add_core_of = AHU
