@@ -1,0 +1,766 @@
+focus_tree = {
+	id = france_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+
+	focus = {
+		id = FRA_Rebuild
+		text = FRA_Rebuild
+		icon = GFX_goal_generic_allies_build_infantry
+		
+		x = 10
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	
+#diplomatic	
+	focus = {
+		id = FRA_Second_French_Republic
+		text = FRA_Second_French_Republic
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Rebuild
+		}
+		
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			add_national_unity = 0.02
+			}
+		}
+	
+	focus = {
+		id = FRA_1848_revolt
+		text = FRA_1848_revolt
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Second_French_Republic
+		}
+		
+		x = 1
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.1 }
+			add_popularity = { ideology = democratic popularity = 0.1 }
+			}
+		}
+	
+	focus = {
+		id = FRA_try_to_reform
+		text = FRA_try_to_reform
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_1848_revolt
+		}
+		
+		x = 0
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 150
+			add_popularity = { ideology = communism popularity = 0.21 }
+			}
+		}
+	focus = {
+		id = FRA_peoples_will
+		text = FRA_peoples_will
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_try_to_reform
+		}
+		x = 0
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.15 }
+			}
+		}
+	focus = {
+		id = FRA_revolution
+		text = FRA_revolution
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_peoples_will
+		}
+		x = 0
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { ideology = communism popularity = 0.15 }
+			set_politics = { ruling_party = communism elections_allowed = no }
+			SAR = { transfer_state = 772 }
+			add_national_unity = 0.10
+			}
+			
+		}
+		
+	focus = {
+		id = FRA_peoples_voice
+		text = FRA_peoples_voice
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_1848_revolt
+		}
+		
+		x = 2
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			add_popularity = { ideology = democratic popularity = 0.20 }
+			
+			}
+		}
+	focus = {
+		id = FRA_keep_the_republic
+		text = FRA_keep_the_republic
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_peoples_voice
+		}
+		
+		x = 2
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { ideology = fascism popularity = 0.21 }
+			add_popularity = { ideology = democratic popularity = 0.22 }
+			}
+		}	
+	focus = {
+		id = FRA_Strenghten_Ties
+		text = FRA_Strenghten_Ties
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_keep_the_republic
+		}
+		
+		x = 2
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_faction = "Entente"
+			add_national_unity = 0.02
+			}
+		}			
+	focus = {
+		id = FRA_Look_for_allies
+		text = FRA_Look_for_allies
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Strenghten_Ties
+		}
+		
+		x = 2
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_to_faction = UNK
+			add_research_slot = 1
+			}
+		}
+	focus = {
+		id = FRA_Trust_Napoleon
+		text = FRA_Trust_Napoleon
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Second_French_Republic
+		}
+		
+		x = 4
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_national_unity = 0.20
+			}
+		}
+	focus = {
+		id = FRA_Critizise_Assemblee
+		text = FRA_Critizise_Assemblee
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Trust_Napoleon
+		}
+		
+		x = 4
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_popularity = { ideology = democratic popularity = -0.1 }
+			}
+		}
+	focus = {
+		id = FRA_Coup_detat
+		text = FRA_Coup_detat
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Critizise_Assemblee
+		}
+		
+		x = 4
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			start_civil_war = { ideology = democratic size = 0.2 }
+			}
+		}	
+	focus = {
+		id = FRA_Constitution
+		text = FRA_Constitution
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Coup_detat
+		}
+		
+		
+		x = 4
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			add_national_unity = 0.2
+			}
+		}
+	focus = {
+		id = FRA_French_Second_Empire
+		text = FRA_French_Second_Empire
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Constitution
+		}
+		
+		x = 4
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_cosmetic_tag = SFE
+			}
+		}	
+#military		
+	focus = {
+		id = FRA_Military_Strugles
+		text = FRA_Military_Strugles
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Rebuild
+		}
+		
+		x = 6
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		army_experience = 5
+		add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.5
+							uses = 1
+							category = land_doctrine
+						}
+			}
+		}	
+focus = {
+		id = FRA_Taiping_Rebellion
+		text = FRA_Taiping_Rebellion
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Military_Strugles
+		}
+		
+		x = 6
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		if = {
+							limit = {
+									has_idea = neutrality_idea
+								}
+							remove_ideas = neutrality_idea
+						}
+					add_ideas = militarism_focus
+					army_experience = 20
+					set_rule = {
+							can_send_volunteers = yes
+						}
+			}
+		}
+focus = {
+		id = FRA_Armee
+		text = FRA_Armee
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Taiping_Rebellion
+		}
+		
+		x = 6
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.25
+							uses = 3
+							category = industry
+						}
+			}
+		}	
+focus = {
+		id = FRA_Franco
+		text = FRA_Franco
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Armee
+		}
+		
+		x = 6
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = PRS }
+		}
+		}
+#industial
+	focus = {
+		id = FRA_Industrial_Revolution
+		text = FRA_Industrial_Revolution
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Rebuild
+		}
+		
+		x = 10
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.5
+							uses = 2
+							category = industry
+						}
+			}
+			
+		}		
+	focus = {
+		id = FRA_Strong_France
+		text = FRA_Strong_France
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Industrial_Revolution
+		}
+		
+		x = 9
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			28 = { set_building_level = { type = bunker level = 1 province = { all_provinces = yes limit_to_border = yes level < 3	} }
+			}
+		}
+	}
+	focus = {
+		id = FRA_Paris
+		text = FRA_Paris
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Strong_France
+		}
+		
+		x = 9
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+	
+		completion_reward = {
+			add_manpower = 250000
+			16 = { set_building_level = { type = industrial_complex level = 2 province = { all_provinces = yes limit_to_border = yes level < 3	} } }
+			}
+		}
+focus = {
+		id = FRA_The_South
+		text = FRA_The_South
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Paris
+		}
+		
+		x = 9
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			22 = { set_building_level = { type = industrial_complex level = 3 province = { all_provinces = yes limit_to_border = yes level < 3	} } }
+			}
+		}
+
+focus = {
+		id = FRA_Colonial_Empire
+		text = FRA_Colonial_Empire
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Industrial_Revolution
+		}
+		
+		x = 12
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = SIA }
+			}
+		}
+focus = {
+		id = FRA_Algeria
+		text = FRA_Algeria
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Colonial_Empire
+		}
+		
+		x = 11
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		}
+focus = {
+		id = FRA_Asia
+		text = FRA_Asia
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = FRA_Colonial_Empire
+		}
+		
+		x = 13
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 50
+			}
+		}
+#navy
+focus = {
+		id = FRA_naval_effort
+		text = FRA_naval_effort
+		icon = GFX_goal_generic_construct_naval_dockyard
+		prerequisite = {
+			focus = FRA_Rebuild
+		}
+		cost = 10.00
+		x = 15
+		y = 1
+			available_if_capitulated = yes
+			available = {
+					any_state = {
+							is_coastal = yes
+							is_controlled_by = ROOT
+						}
+				}
+			complete_tooltip = {
+					navy_experience = 25
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+							type = dockyard
+							level = 3
+							instant_build = yes
+						}
+				}
+			completion_reward = {
+					navy_experience = 25
+					if = {
+							limit = {
+									NOT = {
+											any_owned_state = {
+													dockyard > 0
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+									any_owned_state = {
+											is_coastal = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_coastal = yes
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									any_owned_state = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									NOT = {
+											any_owned_state = {
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+								}
+							random_state = {
+									limit = {
+											controller = {
+													tag = ROOT
+												}
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+						}
+				}
+
+	}
+focus = {
+		id = FRA_large_navy
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 10.00
+		prerequisite = {
+			focus = FRA_naval_effort
+		}
+		
+		x = 15
+		y = 2
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 0.5
+							uses = 2
+							category = fleet_in_being_tree
+						}
+				}
+
+	}
+	focus = {
+		id = FRA_submarine_effort
+		text = FRA_submarine_effort
+		icon = GFX_goal_generic_navy_submarine
+		cost = 10.00
+		prerequisite = {
+				focus = FRA_large_navy
+		}
+		x = 15
+		y = 3
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = ss_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 1
+							technology = early_submarine
+							technology = basic_submarine
+							technology = improved_submarine
+							technology = advanced_submarine
+						}
+				}
+
+	}
+	focus = {
+		id = FRA_destroyer_effort
+		text = FRA_destroyer_effort
+		icon = GFX_goal_generic_wolf_pack
+		cost = 10.00
+		prerequisite = {
+			focus = FRA_submarine_effort
+		}
+		x = 15
+		y = 4
+			available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+					add_tech_bonus = {
+							name = dd_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 1
+							technology = early_destroyer
+							technology = basic_destroyer
+							technology = improved_destroyer
+							technology = advanced_destroyer
+						}
+				}
+
+	}
+	
