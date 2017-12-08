@@ -10,8 +10,8 @@ state={
 		buildings = {
 			infrastructure = 6
 		}
-		add_core_of = OTT
-		add_core_of = OTT
+		add_core_of = MTN
+		add_core_of = MTN
 	}
 
 	provinces={
