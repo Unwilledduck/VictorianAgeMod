@@ -1,7 +1,7 @@
 #reload countrycolors
 OTT = {
-	color = rgb { 128 255 128 }
-	color_ui = rgb { 128 255 128 }
+	color = rgb { 171  190  152 }
+	color_ui = rgb { 171  190  152 }
 }
 SRB = {
 	color = rgb { 13 39 147 }
