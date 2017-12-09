@@ -2,8 +2,9 @@
 
 equipments = {
 
+	# Musket
 	infantry_equipment = {
-		year = 1936
+		year = 1850
 	
 		is_archetype = yes
 		picture = archetype_infantry_equipment		
