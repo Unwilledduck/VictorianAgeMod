@@ -117,6 +117,18 @@ set_politics = {
 set_national_unity = 0.8
 
 create_country_leader = {
+	name = "Frederick William IV"
+	desc = "POLITICS_FREDERICK_WILLIAM_IV_DESC"
+	picture = "Portrait_Prussia_Frederick_William_IV.dds"
+	expire = "1961.1.2"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
+1888.3.9 = {
+create_country_leader = {
 	name = "Frederick III"
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "gfx/leaders/PRS/Frederick_3.dds"
@@ -124,6 +136,7 @@ create_country_leader = {
 	ideology = nazism
 	traits = {
 		#
+		}
 	}
 }
 
