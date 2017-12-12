@@ -43,12 +43,26 @@ set_convoys = 150
 set_national_unity = 0.5
 
 create_country_leader = {
-	name = "Alfonso XIII"
-	desc = "POLITICS_ALFONSO_XIII_DESC"
-	picture = "Portrait_Spain_Alfonso_XIII.dds"
-	expire = "1898.1.1"
+	name = "Antonio María Blanco"
+	desc = "POLITICS_ANTONIO_BLANCO_DESC"
+	picture = "Portrait_Spain_Royal_Coat.dds"
+	expire = "1850.7.29"
 	ideology = nazism
 	traits = {
 		#
 	}
+}
+
+1850.7.29 = {
+create_country_leader = {
+	name = "Antonio de Urbistondo y Eguía"
+	desc = "POLITICS_ANTONIO_Urbistondo_DESC"
+	picture = "Portrait_Spain_Antonio_Urbistondo.dds"
+	expire = "1853.12.20"
+	ideology = nazism
+	traits = {
+		#
+	}
+}
+
 }
