@@ -222,7 +222,12 @@ units = {
 		ship = { name = "Neptune" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Waterloo" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Trafalgar" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Bombay" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
+	
+	}	
+	navy = {				
+		name = " Royal Marines"			
+		base = 11374 
+		location = 11374  
 		ship = { name = "Sans Pareil" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Ajax" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Blenheim" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
@@ -234,9 +239,9 @@ units = {
 		ship = { name = "Pembroke" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Russell" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		
-	
-	}	
+	}
 }
+
 
 	
 }
