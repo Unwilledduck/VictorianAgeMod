@@ -51,6 +51,7 @@ focus_tree = {
 		id = FRA_1848_revolt
 		text = FRA_1848_revolt
 		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = FRA_Trust_Napoleon }
 		prerequisite = {
 			focus = FRA_Second_French_Republic
 		}
@@ -71,6 +72,7 @@ focus_tree = {
 		id = FRA_try_to_reform
 		text = FRA_try_to_reform
 		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = FRA_peoples_voice}
 		prerequisite = {
 			focus = FRA_1848_revolt
 		}
@@ -129,6 +131,7 @@ focus_tree = {
 		id = FRA_peoples_voice
 		text = FRA_peoples_voice
 		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = FRA_try_to_reform}
 		prerequisite = {
 			focus = FRA_1848_revolt
 		}
@@ -206,6 +209,7 @@ focus_tree = {
 		id = FRA_Trust_Napoleon
 		text = FRA_Trust_Napoleon
 		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = FRA_1848_revolt }
 		prerequisite = {
 			focus = FRA_Second_French_Republic
 		}
