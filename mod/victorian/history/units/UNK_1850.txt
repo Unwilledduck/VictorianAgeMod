@@ -201,11 +201,11 @@ units = {
 		ship = { name = "Algiers" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }		
 		ship = { name = "Albion" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }	
 		ship = { name = "Aboukir" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }	
-		ship = { name = "Vanguard" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }		
-		ship = { name = "Goliath" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }		
-		ship = { name = "Superb" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }	
-		ship = { name = "Meeanee" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }	
-		ship = { name = "Collingwood" definition = heavy_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }	
+		ship = { name = "Vanguard" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }		
+		ship = { name = "Goliath" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }		
+		ship = { name = "Superb" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }	
+		ship = { name = "Meeanee" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }	
+		ship = { name = "Collingwood" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = UNK } } }	
 		ship = { name = "Centurion" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Mars" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Lion" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }

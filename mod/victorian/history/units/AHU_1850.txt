@@ -252,7 +252,29 @@ units = {
 		start_experience_factor = 0.3
 	}
 	
-	
+	navy = {				
+		name = " Kaiserliche und Königliche Kriegsmarine"			
+		base = 11584 
+		location = 5812  
+		ship = { name = "SMS Venus" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	#frigates 4
+		ship = { name = "SMS Bellona" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	
+		ship = { name = "SMS Novara " definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	
+		ship = { name = "SMS Schwarzenberg" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	
+		ship = { name = "SMS Minerva" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }# 6 corvettes
+		ship = { name = "SMS Diana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Carolina " definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Pylades" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Pola" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Montecuccoli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Hussar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }# 7brigs
+		ship = { name = "SMS Taurus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Achilles" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Messagiere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Prinz Eugen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Volta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Kaiserin Elisabeth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		
+	}
 	
 	
 	
