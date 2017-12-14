@@ -211,33 +211,33 @@ units = {
 		ship = { name = "Lion" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Boscawen" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
 		ship = { name = "Cumberland" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Rodney" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Nile" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "London" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Nelson" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Prince Regent" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Royal George" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "St George" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Royal William" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Neptune" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Waterloo" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Trafalgar" definition = destroyer equipment = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-	
+		ship = { name = "Rodney" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Nile" definition = destroyer equipment = { destroyer_1= { amount = 1 owner = UNK } } }
+		ship = { name = "London" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Nelson" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Prince Regent" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Royal George" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "St George" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Royal William" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Neptune" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Waterloo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Trafalgar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+
 	}	
 	navy = {				
 		name = " Royal Marines"			
 		base = 11374 
 		location = 11374  
-		ship = { name = "Sans Pareil" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Ajax" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Blenheim" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Edinburgh" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Hogue" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Cornwallis" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Hastings" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Hawke" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Pembroke" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
-		ship = { name = "Russell" definition = destroyer = { light_cruiser_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Sans Pareil" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Ajax" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Blenheim" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Edinburgh" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Hogue" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Cornwallis" definition = destroyer equipment = {destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Hastings" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Hawke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Pembroke" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
+		ship = { name = "Russell" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = UNK } } }
 		
 	}
 }
