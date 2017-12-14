@@ -45,7 +45,9 @@ bookmarks = {
 
 			}
 			focuses = {
-
+			FRA_1848_revolt
+			FRA_Trust_Napoleon
+			FRA_Coup_detat
 			}
 		}
 		"PRS"={

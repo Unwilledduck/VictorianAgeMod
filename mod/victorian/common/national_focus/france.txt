@@ -12,7 +12,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Rebuild
 		text = FRA_Rebuild
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_home_defense
 		
 		x = 10
 		y = 0
@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Second_French_Republic
 		text = FRA_Second_French_Republic
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_support_the_left_right
 		prerequisite = {
 			focus = FRA_Rebuild
 		}
@@ -50,7 +50,8 @@ focus_tree = {
 	focus = {
 		id = FRA_1848_revolt
 		text = FRA_1848_revolt
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_self_management
+		mutually_exclusive = { focus = FRA_Trust_Napoleon }
 		prerequisite = {
 			focus = FRA_Second_French_Republic
 		}
@@ -70,7 +71,8 @@ focus_tree = {
 	focus = {
 		id = FRA_try_to_reform
 		text = FRA_try_to_reform
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_self_management
+		mutually_exclusive = { focus = FRA_peoples_voice}
 		prerequisite = {
 			focus = FRA_1848_revolt
 		}
@@ -106,7 +108,7 @@ focus_tree = {
 	focus = {
 		id = FRA_revolution
 		text = FRA_revolution
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_rom_parties_end
 		prerequisite = {
 			focus = FRA_peoples_will
 		}
@@ -128,7 +130,8 @@ focus_tree = {
 	focus = {
 		id = FRA_peoples_voice
 		text = FRA_peoples_voice
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_demand_territory
+		mutually_exclusive = { focus = FRA_try_to_reform}
 		prerequisite = {
 			focus = FRA_1848_revolt
 		}
@@ -148,7 +151,7 @@ focus_tree = {
 	focus = {
 		id = FRA_keep_the_republic
 		text = FRA_keep_the_republic
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_demand_territory
 		prerequisite = {
 			focus = FRA_peoples_voice
 		}
@@ -167,7 +170,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Strenghten_Ties
 		text = FRA_Strenghten_Ties
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 			focus = FRA_keep_the_republic
 		}
@@ -186,7 +189,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Look_for_allies
 		text = FRA_Look_for_allies
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_national_unity
 		prerequisite = {
 			focus = FRA_Strenghten_Ties
 		}
@@ -206,6 +209,7 @@ focus_tree = {
 		id = FRA_Trust_Napoleon
 		text = FRA_Trust_Napoleon
 		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = FRA_1848_revolt }
 		prerequisite = {
 			focus = FRA_Second_French_Republic
 		}
@@ -241,7 +245,7 @@ focus_tree = {
 	focus = {
 		id = FRA_Coup_detat
 		text = FRA_Coup_detat
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_secret_rearmament
 		prerequisite = {
 			focus = FRA_Critizise_Assemblee
 		}
@@ -279,7 +283,7 @@ focus_tree = {
 	focus = {
 		id = FRA_French_Second_Empire
 		text = FRA_French_Second_Empire
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_territory_or_war
 		prerequisite = {
 			focus = FRA_Constitution
 		}
@@ -322,7 +326,7 @@ focus_tree = {
 focus = {
 		id = FRA_Taiping_Rebellion
 		text = FRA_Taiping_Rebellion
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_air_production
 		prerequisite = {
 			focus = FRA_Military_Strugles
 		}
@@ -350,7 +354,7 @@ focus = {
 focus = {
 		id = FRA_Armee
 		text = FRA_Armee
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_attack_allies
 		prerequisite = {
 			focus = FRA_Taiping_Rebellion
 		}
@@ -373,7 +377,7 @@ focus = {
 focus = {
 		id = FRA_Franco
 		text = FRA_Franco
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = {
 			focus = FRA_Armee
 		}
@@ -392,7 +396,7 @@ focus = {
 	focus = {
 		id = FRA_Industrial_Revolution
 		text = FRA_Industrial_Revolution
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 			focus = FRA_Rebuild
 		}
@@ -416,7 +420,7 @@ focus = {
 	focus = {
 		id = FRA_Strong_France
 		text = FRA_Strong_France
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_territory_or_war
 		prerequisite = {
 			focus = FRA_Industrial_Revolution
 		}
@@ -435,7 +439,7 @@ focus = {
 	focus = {
 		id = FRA_Paris
 		text = FRA_Paris
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = {
 			focus = FRA_Strong_France
 		}
@@ -454,7 +458,7 @@ focus = {
 focus = {
 		id = FRA_The_South
 		text = FRA_The_South
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_build_tank
 		prerequisite = {
 			focus = FRA_Paris
 		}
@@ -473,7 +477,7 @@ focus = {
 focus = {
 		id = FRA_Colonial_Empire
 		text = FRA_Colonial_Empire
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_anschluss
 		prerequisite = {
 			focus = FRA_Industrial_Revolution
 		}

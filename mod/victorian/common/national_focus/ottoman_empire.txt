@@ -19,8 +19,12 @@ focus_tree = {
 					factor = 1
 					modifier = {
 							factor = 0
-							date > 1853.1.1
+							date > 1852.1.1
 						}
+				}
+			available = {
+					date > 1852.3.30
+					is_puppet = no
 				}
 			completion_reward = {
 					add_manpower = 25000
@@ -38,7 +42,7 @@ focus_tree = {
 		}
 		 available = {
 			is_puppet = no
-		date > 1852.1.1
+		date > 1853.6.1
 		}
 		x = 5
 		y = 4
@@ -49,9 +53,6 @@ focus_tree = {
 							type = take_claimed_state
 							add_national_unity = 0.10
 					        }
-					create_faction = "Allies" 
-					add_to_faction = UNK
-			        add_to_faction = FRA	
 		            set_state_controller = 774
 						}
 				}

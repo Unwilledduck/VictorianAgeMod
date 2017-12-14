@@ -10,6 +10,9 @@
 		infantry = { x = 1 y = 2 }
         infantry = { x = 2 y = 0 }
 	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
 }
 
 units = {
@@ -123,6 +126,133 @@ units = {
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
+		division= {	
+		name = "19. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}division= {	
+		name = "21. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "23. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "99. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "25. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "26. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "27. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "28. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "29. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	`	division= {	
+		name = "30. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "31. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "32. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "31. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "32. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "33. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "34. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "35. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "36. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	
+	
 	
 	
 	

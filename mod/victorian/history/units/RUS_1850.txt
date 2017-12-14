@@ -9,6 +9,8 @@
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
         infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
 	}
 }
 
@@ -131,18 +133,59 @@ units = {
 	}
 	division= {	
 		name = "20. Infantry Division"
-		location = 957
+		location = 206
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "21. Infantry Division"
-		location = 957
+		location = 206
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "22. Infantry Division"
+		location = 206
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}division= {	
+		name = "23. Infantry Division"
+		location = 206
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24. Infantry Division"
+		location = 3686
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "25. Infantry Division"
+		location = 3686
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "26. Infantry Division"
+		location = 3686
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "27. Infantry Division"
+		location = 3686
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "28. Infantry Division"
+		location = 957
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "29. Infantry Division"
 		location = 957
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3

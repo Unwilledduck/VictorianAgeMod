@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infanterie-Division"
+	name = "Heer"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -12,18 +12,6 @@
 		infantry = { x = 2 y = 1 }
 		infantry = { x = 2 y = 2 }
 	}
-}
-division_template = {
-	name = "Artillery-Division"
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
-       }
 	support = {
     artillery = { x = 0 y = 0 }
 	}
@@ -33,48 +21,97 @@ units = {
 	##### Oberkommando des Heeres #####
 	### 1. Armee (Wehrmacht-Gruppenkommando) ###
 	# II. Armeekorps
-	division= {	
-		name = "1. Infantrie Division"
-		location = 3312
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "2. Infantrie Division"
+division= {	
+		name = "1. Infantry Division"
 		location = 6521
-		division_template = "Infanterie-Division"
+		division_template = "Heer"
 		start_experience_factor = 0.3
 	}
 	division= {	
-		name = "3. Infantrie Division"
-		location = 6332
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "4. Infantrie Division"
-		location = 9570
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "5. Infantrie Division"
-		location = 6469
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "2. Artillery Division"
-		location = 495
-		division_template = "Artillery-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "1. Artillery Division"
+		name = "3. Infantry Division"
 		location = 6521
-		division_template = "Artillery-Division"
+		division_template = "Heer"
 		start_experience_factor = 0.3
 	}
+	division= {	
+		name = "4. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	
+	
+	
+	
+	
+	
+	
 	#### NAVAL UNITS #####
 	### KRIEGSMARINE ###
 	navy = {				

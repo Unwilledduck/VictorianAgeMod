@@ -52,18 +52,8 @@ units = {
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
-	division= {	
-		name = "7. Infantry Division"
-		location = 3957
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
-	division= {	
-		name = "8. Infantry Division"
-		location = 9671
-		division_template = "Infanterie-Division"
-		start_experience_factor = 0.3
-	}
+
+	
 
 	
 }
