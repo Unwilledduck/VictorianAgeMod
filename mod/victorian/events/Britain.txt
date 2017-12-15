@@ -1,28 +1,28 @@
-﻿add_namespace = unk
+﻿add_namespace = eng
 
 #Great Famine (Ireland)
 country_event = {
-	id = unk.1
-	title = unk.1.t
-	desc = unk.1.d
+	id = eng.1
+	title = eng.1.t
+	desc = eng.1.d
 	picture = GFX_report_event_famine_ireland
 	
 	fire_only_once = yes
 	
 	trigger = {
-		original_tag = UNK
+		original_tag = ENG
 		date > 1850.1.1
 		date < 1850.2.1
-		not = { has_country_flag = unk_famine_ireland }
+		not = { has_country_flag = eng_famine_ireland }
 	}
 	
 	immediate = {
-		set_country_flag = unk_famine_ireland
+		set_country_flag = eng_famine_ireland
 		add_ideas = UNK_great_famine_ireland
 	}
 	
 	option = {
-		name = unk.1.o1
+		name = eng.1.o1
 		
 		news_event = {
 			hours = 6

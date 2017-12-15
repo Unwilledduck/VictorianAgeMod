@@ -18,14 +18,14 @@ news_event = {
 	option = {
 		name = news.1.a
 		trigger = {
-			original_tag = UNK
+			original_tag = ENG
 		}
 	}
 	
 	option = {
 		name = news.1.b
 		trigger = {
-			NOT = { original_tag = UNK }
+			NOT = { original_tag = ENG }
 		}
 	}
 }
