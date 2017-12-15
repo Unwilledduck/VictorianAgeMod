@@ -14,4 +14,17 @@ ideas = {
 				conscription = -0.20
 			}
 		}
+		
+		UNK_Board_of_Ordonance = {
+			picture = UNK_great_famine_ireland
+		
+			allowed = { always = no }
+			allowed_civil_war = { always = yes }
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription = -0.20
+			}
+		}
 }
