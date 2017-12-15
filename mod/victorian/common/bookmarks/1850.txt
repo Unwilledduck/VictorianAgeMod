@@ -35,7 +35,9 @@ bookmarks = {
 
 			}
 			focuses = {
-
+			UNK_Royal_Navy
+			UNK_Great_Game
+			UNK_Industrial_Revolution
 			}
 		}
 		"FRA"={
