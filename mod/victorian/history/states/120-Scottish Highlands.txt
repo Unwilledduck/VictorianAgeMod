@@ -13,7 +13,7 @@ state= {
 
 	history=
 	{
-		owner = UNK
+		owner = ENG
 		victory_points = { 11064 1 }
 		buildings = {
 			infrastructure = 4
@@ -27,7 +27,7 @@ state= {
 				naval_base = 1	
 			}
 		}
-		add_core_of = UNK
+		add_core_of = ENG
 	}
 
 	provinces=

@@ -1,6 +1,6 @@
 ﻿capital = 126	
 
-oob = "UNK_1850"
+oob = "ENG_1850"
 
 set_research_slots = 4
 
@@ -59,7 +59,7 @@ set_national_unity = 0.85
 create_country_leader = {
 	name = "Queen Victoria"
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "gfx/leaders/UNK/victoria.dds"
+	picture = "gfx/leaders/ENG/victoria.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -70,7 +70,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "John Russell"
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "gfx/leaders/UNK/john_russel.dds"
+	picture = "gfx/leaders/ENG/john_russel.dds"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -81,7 +81,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Arthur Wellesley"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "gfx/leaders/UNK/wellington.dds"
+	picture = "gfx/leaders/ENG/wellington.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
@@ -92,21 +92,21 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "FitzRoy Somerset"
-	portrait_path = "gfx/leaders/UNK/raglan.dds"
+	portrait_path = "gfx/leaders/ENG/raglan.dds"
 	traits = { commando }
 	skill = 4
 
 }
 create_corps_commander = {
 	name = "James Simpson"
-	portrait_path = "gfx/leaders/UNK/james_simpson.dds"
+	portrait_path = "gfx/leaders/ENG/james_simpson.dds"
 	traits = {  }
 	skill = 3
 
 }
 create_corps_commander = {
 	name = "Sir William John Codrington"
-	portrait_path = "gfx/leaders/UNK/codrington.dds"
+	portrait_path = "gfx/leaders/ENG/codrington.dds"
 	traits = {  }
 	skill = 2
 
@@ -114,7 +114,7 @@ create_corps_commander = {
 
 create_navy_leader = {
 	name = "Edmund Lyons"
-	portrait_path = "gfx/leaders/UNK/lyons.dds"
+	portrait_path = "gfx/leaders/ENG/lyons.dds"
 	traits = { blockade_runner }
 	skill = 5
 }

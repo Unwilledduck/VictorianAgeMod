@@ -1,13 +1,13 @@
 
 state={
 	id=471
-	name="STATE_471" # Northwestern UNKada
+	name="STATE_471" # Northwestern ENGada
 	manpower = 27681
 	
 	state_category = wasteland
 
 	history={
-		owner = UNK
+		owner = ENG
 		buildings = {
 			infrastructure = 1
 			10548 = {
