@@ -28,16 +28,16 @@ bookmarks = {
 			OTT_war
 			}
 		}
-		"ENG"={
-			history = "ENG_GATHERING_STORM_DESC"
+		"UNK"={
+			history = "UNK_GATHERING_STORM_DESC"
 			ideology = fascism
 			ideas = {
 
 			}
 			focuses = {
-			ENG_Royal_Navy
-			ENG_Great_Game
-			ENG_Industrial_Revolution
+			UNK_Royal_Navy
+			UNK_Great_Game
+			UNK_Industrial_Revolution
 			}
 		}
 		"FRA"={
