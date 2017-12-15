@@ -1,6 +1,6 @@
 ﻿l_english:
  # United Kingdom
- UNK_great_famine_ireland:0 "The Great Famine"
- UNK_great_famine_ireland_desc:0 "The Great Famine was a period of mass starvation, disease, and emigration in Ireland between 1845 and 1849 as a result of the failed potato harvest."
- UNK_Board_of_Ordonance:0 "Board of Ordonance"
- UNK_Board_of_Ordonance_desc:0 "Special Artillery Branch in the Army"
+ ENG_great_famine_ireland:0 "The Great Famine"
+ ENG_great_famine_ireland_desc:0 "The Great Famine was a period of mass starvation, disease, and emigration in Ireland between 1845 and 1849 as a result of the failed potato harvest."
+ ENG_Board_of_Ordonance:0 "Board of Ordonance"
+ ENG_Board_of_Ordonance_desc:0 "Special Artillery Branch in the Army"
