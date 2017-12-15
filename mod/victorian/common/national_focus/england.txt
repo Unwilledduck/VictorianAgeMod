@@ -4,15 +4,15 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = UNK
+			tag = ENG
 		}
 	}
 	default = no
 
 	#main one
 	focus = {
-		id = UNK_long_live_the_queen
-		text = UNK_long_live_the_queen
+		id = ENG_long_live_the_queen
+		text = ENG_long_live_the_queen
 		icon = GFX_focus_generic_home_defense
 		
 		x = 10
@@ -28,11 +28,11 @@ focus_tree = {
 	
 	#navy
 	focus = {
-		id = UNK_Royal_Navy
-		text = UNK_Royal_Navy
+		id = ENG_Royal_Navy
+		text = ENG_Royal_Navy
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = {
-			focus = UNK_long_live_the_queen
+			focus = ENG_long_live_the_queen
 		}
 		
 		x = 2
@@ -47,11 +47,11 @@ focus_tree = {
 			}
 		}
 	focus = {
-		id = UNK_Proud_Navy
-		text = UNK_Proud_Navy
+		id = ENG_Proud_Navy
+		text = ENG_Proud_Navy
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = {
-			focus = UNK_Royal_Navy
+			focus = ENG_Royal_Navy
 		}
 		x = 2
 		y = 2
@@ -61,16 +61,16 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 20
-			create_navy_leader = { name = "Sir George Cockburn" gfx = "gfx/leaders/UNK/cockburn.dds" traits = { } skill = 3 }
+			create_navy_leader = { name = "Sir George Cockburn" gfx = "gfx/leaders/ENG/cockburn.dds" traits = { } skill = 3 }
 			}
 		}
 		
 		focus = {
-		id = UNK_New_Ships
-		text = UNK_New_Ships
+		id = ENG_New_Ships
+		text = ENG_New_Ships
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = {
-			focus = UNK_Proud_Navy
+			focus = ENG_Proud_Navy
 		}
 		x = 1
 		y = 3
@@ -83,11 +83,11 @@ focus_tree = {
 			}
 		}
 				
-		focus = UNK_Small_Navy
-		text = UNK_Small_Navy
+		focus = ENG_Small_Navy
+		text = ENG_Small_Navy
 		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = {
-			focus = UNK_New_Ships
+			focus = ENG_New_Ships
 		}
 		x = 1
 		y = 4
@@ -109,11 +109,11 @@ focus_tree = {
 			}
 		}
 		
-		focus = UNK_Ships
-		text = UNK_Ships
+		focus = ENG_Ships
+		text = ENG_Ships
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = {
-			focus = UNK_Proud_Navy
+			focus = ENG_Proud_Navy
 		}
 		x = 3
 		y = 3
@@ -130,11 +130,11 @@ focus_tree = {
 		
 		#Army
 		focus = {
-		id = UNK_British_Army
-		text = UNK_British_Army
+		id = ENG_British_Army
+		text = ENG_British_Army
 		icon = GFX_goal_generic_position_armies
 		prerequisite = {
-			focus = UNK_long_live_the_queen
+			focus = ENG_long_live_the_queen
 		}
 		
 		x = 7
@@ -149,11 +149,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Opium_War
-		text = UNK_Opium_War
+		id = ENG_Opium_War
+		text = ENG_Opium_War
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = {
-			focus = UNK_British_Army
+			focus = ENG_British_Army
 		}
 		
 		x = 6
@@ -169,11 +169,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Weapons_1
-		text = UNK_Weapons_1
+		id = ENG_Weapons_1
+		text = ENG_Weapons_1
 		icon = GFX_goal_generic_build_tank``
 		prerequisite = {
-			focus = UNK_Opium_War
+			focus = ENG_Opium_War
 		}
 		
 		x = 5
@@ -189,11 +189,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Weapons_2
-		text = UNK_Weapons_2
+		id = ENG_Weapons_2
+		text = ENG_Weapons_2
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = {
-			focus = UNK_Weapons_1
+			focus = ENG_Weapons_1
 		}
 		
 		x = 5
@@ -209,11 +209,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Weapons_3
-		text = UNK_Weapons_3
+		id = ENG_Weapons_3
+		text = ENG_Weapons_3
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = {
-			focus = UNK_Weapons_2
+			focus = ENG_Weapons_2
 		}
 		
 		x = 5
@@ -229,11 +229,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Weapons_4
-		text = UNK_Weapons_4
+		id = ENG_Weapons_4
+		text = ENG_Weapons_4
 		icon = GFX_goal_generic_military_deal
 		prerequisite = {
-			focus = UNK_Weapons_3
+			focus = ENG_Weapons_3
 		}
 		
 		x = 5
@@ -249,11 +249,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Ordonance
-		text = UNK_Ordonance
+		id = ENG_Ordonance
+		text = ENG_Ordonance
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = {
-			focus = UNK_Opium_War
+			focus = ENG_Opium_War
 		}
 		
 		x = 7
@@ -264,16 +264,16 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
-			add_ideas = UNK_Board_of_Ordonance
+			add_ideas = ENG_Board_of_Ordonance
 			}
 		}
 		
 		focus = {
-		id = UNK_Artillery_1
-		text = UNK_Artillery_1
+		id = ENG_Artillery_1
+		text = ENG_Artillery_1
 		icon = GFX_goal_generic_alliance
 		prerequisite = {
-			focus = UNK_Ordonance
+			focus = ENG_Ordonance
 		}
 		
 		x = 7
@@ -290,11 +290,11 @@ focus_tree = {
 		
 		#Political
 		focus = {
-		id = UNK_Ministery
-		text = UNK_Ministery
+		id = ENG_Ministery
+		text = ENG_Ministery
 		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {
-			focus = UNK_long_live_the_queen
+			focus = ENG_long_live_the_queen
 		}
 		
 		x = 11
@@ -309,12 +309,12 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Great_Game
-		text = UNK_Great_Game
+		id = ENG_Great_Game
+		text = ENG_Great_Game
 		icon = GFX_goal_generic_secret_weapon
 		prerequisite = {
-			focus = UNK_Ministery
-			focus = UNK_British_Army
+			focus = ENG_Ministery
+			focus = ENG_British_Army
 		}
 		
 		x = 9
@@ -330,11 +330,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Anglo_Sikh
-		text = UNK_Anglo_Sikh
+		id = ENG_Anglo_Sikh
+		text = ENG_Anglo_Sikh
 		icon = GFX_goal_generic_special_forces
 		prerequisite = {
-			focus = UNK_Great_Game
+			focus = ENG_Great_Game
 		}
 		
 		x = 9
@@ -349,11 +349,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Join_Ottoman_Empire
-		text = UNK_Join_Ottoman_Empire
+		id = ENG_Join_Ottoman_Empire
+		text = ENG_Join_Ottoman_Empire
 		icon = GFX_focus_generic_home_defense
 		prerequisite = {
-			focus = UNK_Great_Game
+			focus = ENG_Great_Game
 		}
 		available = {
 					date > 1851.1.1
@@ -376,11 +376,11 @@ focus_tree = {
 		
 		#industrial
 		focus = {
-		id = UNK_Industrial_Revolution
-		text = UNK_Industrial_Revolution
+		id = ENG_Industrial_Revolution
+		text = ENG_Industrial_Revolution
 		icon = GFX_focus_generic_home_defense
 		prerequisite = {
-			focus = UNK_long_live_the_queen
+			focus = ENG_long_live_the_queen
 		}
 		
 		x = 16
@@ -395,11 +395,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Railways
-		text = UNK_Railways
+		id = ENG_Railways
+		text = ENG_Railways
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-			focus = UNK_Industrial_Revolution
+			focus = ENG_Industrial_Revolution
 		}
 		
 		x = 14
@@ -457,11 +457,11 @@ focus_tree = {
 		
 		
 		focus = {
-		id = UNK_Expand_Railroad
-		text = UNK_Expand_Railroad
+		id = ENG_Expand_Railroad
+		text = ENG_Expand_Railroad
 		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-			focus = UNK_Railways
+			focus = ENG_Railways
 		}
 		
 		x = 14
@@ -518,11 +518,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_British_Rail
-		text = UNK_British_Rail
+		id = ENG_British_Rail
+		text = ENG_British_Rail
 		icon = GFX_goal_generic_construction
 		prerequisite = {
-			focus = UNK_Expand_Railroad
+			focus = ENG_Expand_Railroad
 		}
 		
 		x = 14
@@ -579,11 +579,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_London_Underground
-		text = UNK_London_Underground
+		id = ENG_London_Underground
+		text = ENG_London_Underground
 		icon = GFX_goal_generic_position_armies
 		prerequisite = {
-			focus = UNK_British_Rail
+			focus = ENG_British_Rail
 		}
 		
 		x = 14
@@ -608,11 +608,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Expand_Underground
-		text = UNK_Expand_Underground
+		id = ENG_Expand_Underground
+		text = ENG_Expand_Underground
 		icon = GFX_goal_generic_position_armies
 		prerequisite = {
-			focus = UNK_London_Underground
+			focus = ENG_London_Underground
 		}
 		
 		x = 14
@@ -646,11 +646,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Advanced_Steam_Engines
-		text = UNK_Advanced_Steam_Engines
+		id = ENG_Advanced_Steam_Engines
+		text = ENG_Advanced_Steam_Engines
 		icon = GFX_goal_generic_positive_trade_relations
 		prerequisite = {
-			focus = UNK_Industrial_Revolution
+			focus = ENG_Industrial_Revolution
 		}
 		
 		x = 16
@@ -665,11 +665,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Factories_1
-		text = UNK_Factories_1
+		id = ENG_Factories_1
+		text = ENG_Factories_1
 		icon = GFX_goal_generic_production
 		prerequisite = {
-			focus = UNK_Advanced_Steam_Engines
+			focus = ENG_Advanced_Steam_Engines
 		}
 		
 		x = 16
@@ -684,11 +684,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Factories_2
-		text = UNK_Factories_2
+		id = ENG_Factories_2
+		text = ENG_Factories_2
 		icon = GFX_goal_generic_production
 		prerequisite = {
-			focus = UNK_Factories_1
+			focus = ENG_Factories_1
 		}
 		
 		x = 16
@@ -703,11 +703,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Factories_3
-		text = UNK_Factories_3
+		id = ENG_Factories_3
+		text = ENG_Factories_3
 		icon = GFX_goal_generic_production
 		prerequisite = {
-			focus = UNK_Factories_2
+			focus = ENG_Factories_2
 		}
 		
 		x = 16
@@ -722,11 +722,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Mines_1
-		text = UNK_Mines_1
+		id = ENG_Mines_1
+		text = ENG_Mines_1
 		icon = GFX_goal_generic_oil_refinery
 		prerequisite = {
-			focus = UNK_Factories_3
+			focus = ENG_Factories_3
 		}
 		
 		x = 16
@@ -741,11 +741,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Mines_2
-		text = UNK_Mines_2
+		id = ENG_Mines_2
+		text = ENG_Mines_2
 		icon = GFX_goal_generic_oil_refinery
 		prerequisite = {
-			focus = UNK_Mines_1
+			focus = ENG_Mines_1
 		}
 		
 		x = 16
@@ -760,11 +760,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Sewer_System
-		text = UNK_Sewer_System
+		id = ENG_Sewer_System
+		text = ENG_Sewer_System
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = {
-			focus = UNK_Industrial_Revolution
+			focus = ENG_Industrial_Revolution
 		}
 		
 		x = 18
@@ -775,16 +775,16 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
-			remove_ideas = UNK_great_famine_ireland
+			remove_ideas = ENG_great_famine_ireland
 			}
 		}
 		
 		focus = {
-		id = UNK_Roads
-		text = UNK_Roads
+		id = ENG_Roads
+		text = ENG_Roads
 		icon = GFX_goal_generic_construction2
 		prerequisite = {
-			focus = UNK_Sewer_System
+			focus = ENG_Sewer_System
 		}
 		
 		x = 18
@@ -820,11 +820,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Living_Conditions
-		text = UNK_Living_Conditions
+		id = ENG_Living_Conditions
+		text = ENG_Living_Conditions
 		icon = GFX_focus_generic_home_defense
 		prerequisite = {
-			focus = UNK_Roads
+			focus = ENG_Roads
 		}
 		
 		x = 18
@@ -840,11 +840,11 @@ focus_tree = {
 		}
 		
 		focus = {
-		id = UNK_Concrete
-		text = UNK_Concerete
+		id = ENG_Concrete
+		text = ENG_Concerete
 		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = {
-			focus = UNK_Living_Conditions
+			focus = ENG_Living_Conditions
 		}
 		
 		x = 18
