@@ -1,0 +1,660 @@
+focus_tree = {
+	id = england_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = UNK
+		}
+	}
+	default = no
+
+	#main one
+	focus = {
+		id = UNK_long_live_the_queen
+		text = UNK_long_live_the_queen
+		icon = GFX_focus_generic_home_defense
+		
+		x = 10
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	#navy
+	focus = {
+		id = UNK_Royal_Navy
+		text = UNK_Royal_Navy
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_long_live_the_queen
+		}
+		
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 10
+			131 = { add_building_construction = { type = dockyard province = 6363 level = 2 instant_build = yes } }
+			}
+		}
+	focus = {
+		id = UNK_Proud_Navy
+		text = UNK_Proud_Navy
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Royal_Navy
+		}
+		x = 2
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_New_Ships
+		text = UNK_New_Ships
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Proud_Navy
+		}
+		x = 1
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+				
+		focus = UNK_Small_Navy
+		text = UNK_Small_Navy
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_New_Ships
+		}
+		x = 1
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = UNK_Ships
+		text = UNK_Ships
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Proud_Navy
+		}
+		x = 3
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		
+		
+		#Army
+		focus = {
+		id = UNK_British_Army
+		text = UNK_British_Army
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_long_live_the_queen
+		}
+		
+		x = 7
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Opium_War
+		text = UNK_Opium_War
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_British_Army
+		}
+		
+		x = 6
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Weapons_1
+		text = UNK_Weapons_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Opium_War
+		}
+		
+		x = 5
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Weapons_2
+		text = UNK_Weapons_2
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Weapons_1
+		}
+		
+		x = 5
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Weapons_3
+		text = UNK_Weapons_3
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Weapons_2
+		}
+		
+		x = 5
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Weapons_4
+		text = UNK_Weapons_4
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Weapons_3
+		}
+		
+		x = 5
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Ordonance
+		text = UNK_Ordonance
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Opium_War
+		}
+		
+		x = 7
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Artillery_1
+		text = UNK_Artillery_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Ordonance
+		}
+		
+		x = 7
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		#Political
+		focus = {
+		id = UNK_Ministery
+		text = UNK_Ministery
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_long_live_the_queen
+		}
+		
+		x = 11
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Great_Game
+		text = UNK_Great_Game
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Ministery
+			focus = UNK_British_Army
+		}
+		
+		x = 9
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Anglo_Sikh
+		text = UNK_Anglo_Sikh
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Great_Game
+		}
+		
+		x = 9
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Join_Ottoman_Empire
+		text = UNK_Join_Ottoman_Empire
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Great_Game
+		}
+		
+		x = 11
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		#industrial
+		focus = {
+		id = UNK_Industrial_Revolution
+		text = UNK_Industrial_Revolution
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_long_live_the_queen
+		}
+		
+		x = 16
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Railways
+		text = UNK_Railways
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Industrial_Revolution
+		}
+		
+		x = 14
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Expand_Railroad
+		text = UNK_Expand_Railroad
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Railways
+		}
+		
+		x = 14
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_British_Rail
+		text = UNK_British_Rail
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Expand_Railroad
+		}
+		
+		x = 14
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_London_Underground
+		text = UNK_London_Underground
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_British_Rail
+		}
+		
+		x = 14
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Expand_Underground
+		text = UNK_Expand_Underground
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_London_Underground
+		}
+		
+		x = 14
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Advanced_Steam_Engines
+		text = UNK_Advanced_Steam_Engines
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Industrial_Revolution
+		}
+		
+		x = 16
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Factories_1
+		text = UNK_Factories_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Advanced_Steam_Engines
+		}
+		
+		x = 16
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Factories_2
+		text = UNK_Factories_2
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Factories_1
+		}
+		
+		x = 16
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Factories_3
+		text = UNK_Factories_3
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Factories_2
+		}
+		
+		x = 16
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Mines_1
+		text = UNK_Mines_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Factories_3
+		}
+		
+		x = 16
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Mines_2
+		text = UNK_Mines_2
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Mines_1
+		}
+		
+		x = 16
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Sewer_System
+		text = UNK_Sewer_System
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Industrial_Revolution
+		}
+		
+		x = 18
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Roads
+		text = UNK_Roads
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Sewer_System
+		}
+		
+		x = 18
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Living_Conditions
+		text = UNK_Living_Conditions
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Roads
+		}
+		
+		x = 18
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		focus = {
+		id = UNK_Concrete
+		text = UNK_Concerete
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = UNK_Living_Conditions
+		}
+		
+		x = 18
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		
+		
+		
+		
