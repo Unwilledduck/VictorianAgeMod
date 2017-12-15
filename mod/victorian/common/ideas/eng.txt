@@ -2,8 +2,8 @@ ideas = {
 
 	country = {
 	
-		UNK_great_famine_ireland = {
-			picture = UNK_great_famine_ireland
+		ENG = {
+			picture = ENG
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }
@@ -15,8 +15,8 @@ ideas = {
 			}
 		}
 		
-		UNK_Board_of_Ordonance = {
-			picture = UNK_great_famine_ireland
+		ENG_Board_of_Ordonance = {
+			picture = ENG
 		
 			allowed = { always = no }
 			allowed_civil_war = { always = yes }

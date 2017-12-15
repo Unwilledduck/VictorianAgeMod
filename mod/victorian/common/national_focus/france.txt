@@ -201,7 +201,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_to_faction = UNK
+			add_to_faction = ENG
 			add_research_slot = 1
 			}
 		}
