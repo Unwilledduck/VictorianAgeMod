@@ -70,7 +70,7 @@ units = {
 	}
 	division= {	
 		name = "152e Régiment d'Infantrie"
-		location = 11885
+		location = 9737
 		division_template = "Infanterie"
 		start_experience_factor = 0.3
 	}
@@ -113,7 +113,7 @@ units = {
 #foreign
 	division= {	
 		name = "2e Régiment Etranger d'Infanterie"
-		location = 11936
+		location = 11516
 		division_template = "Infanterie"
 		start_experience_factor = 0.3
 	}
@@ -161,7 +161,7 @@ units = {
 	}
 	division= {	
 		name = "2e Régiment Etranger du Génie"
-		location = 11885
+		location = 12885
 		division_template = "Infanterie"
 		start_experience_factor = 0.3
 	}

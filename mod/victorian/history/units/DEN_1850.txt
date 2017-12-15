@@ -10,8 +10,7 @@
 		infantry = { x = 1 y = 2 }
         infantry = { x = 2 y = 0 }
 	}
-	support = {
-       
+	support = {       
         artillery = { x = 0 y = 0 }
 	}
 }
@@ -22,13 +21,13 @@ units = {
 	# II. Armeekorps
 	division= {	
 		name = "1. Artillery Division"
-		location = 6285
+		location = 3277
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
 	division= {	
 		name = "1. Infantry Division"
-		location = 9347
+		location = 3277
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
