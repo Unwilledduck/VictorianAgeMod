@@ -11,7 +11,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = -0.20
+				conscription = -0.02
 			}
 		}
 		
