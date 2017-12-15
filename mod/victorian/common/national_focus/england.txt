@@ -30,7 +30,7 @@ focus_tree = {
 	focus = {
 		id = UNK_Royal_Navy
 		text = UNK_Royal_Navy
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = {
 			focus = UNK_long_live_the_queen
 		}
@@ -49,7 +49,7 @@ focus_tree = {
 	focus = {
 		id = UNK_Proud_Navy
 		text = UNK_Proud_Navy
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_navy_battleship
 		prerequisite = {
 			focus = UNK_Royal_Navy
 		}
@@ -60,14 +60,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			navy_experience = 20
+			create_navy_leader = { name = "Sir George Cockburn" gfx = "gfx/leaders/UNK/cockburn.dds" traits = { } skill = 3 }
 			}
 		}
 		
 		focus = {
 		id = UNK_New_Ships
 		text = UNK_New_Ships
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_navy_battleship
 		prerequisite = {
 			focus = UNK_Proud_Navy
 		}
@@ -78,13 +79,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			create_equipment_variant = { name = "Princess Royal Class" type = light_cruiser_1 upgrades = { ship_reliability_upgrade = 3 ship_engine_upgrade = 3 ship_gun_upgrade = 3 ship_anti_air_upgrade = 3 }}
 			}
 		}
 				
 		focus = UNK_Small_Navy
 		text = UNK_Small_Navy
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = {
 			focus = UNK_New_Ships
 		}
@@ -95,13 +96,22 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+							name = dd_bonus
+							bonus = 0.5
+							ahead_reduction = 1
+							uses = 1
+							technology = early_destroyer
+							technology = basic_destroyer
+							technology = improved_destroyer
+							technology = advanced_destroyer
+						}
 			}
 		}
 		
 		focus = UNK_Ships
 		text = UNK_Ships
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = {
 			focus = UNK_Proud_Navy
 		}
@@ -112,7 +122,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+		131 = { add_building_construction = { type = dockyard province = 6363 level = 4 instant_build = yes } }
 			}
 		}
 		
@@ -122,7 +132,7 @@ focus_tree = {
 		focus = {
 		id = UNK_British_Army
 		text = UNK_British_Army
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 			focus = UNK_long_live_the_queen
 		}
@@ -134,14 +144,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_manpower = 100000
 			}
 		}
 		
 		focus = {
 		id = UNK_Opium_War
 		text = UNK_Opium_War
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = {
 			focus = UNK_British_Army
 		}
@@ -153,14 +163,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 50
+			army_experience = 15
 			}
 		}
 		
 		focus = {
 		id = UNK_Weapons_1
 		text = UNK_Weapons_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_build_tank``
 		prerequisite = {
 			focus = UNK_Opium_War
 		}
@@ -172,14 +183,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			army_experience = 10
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
 			}
 		}
 		
 		focus = {
 		id = UNK_Weapons_2
 		text = UNK_Weapons_2
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_army_doctrines
 		prerequisite = {
 			focus = UNK_Weapons_1
 		}
@@ -191,14 +203,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			army_experience = 10
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
 			}
 		}
 		
 		focus = {
 		id = UNK_Weapons_3
 		text = UNK_Weapons_3
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_military_sphere
 		prerequisite = {
 			focus = UNK_Weapons_2
 		}
@@ -210,14 +223,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			army_experience = 10
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
 			}
 		}
 		
 		focus = {
 		id = UNK_Weapons_4
 		text = UNK_Weapons_4
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_military_deal
 		prerequisite = {
 			focus = UNK_Weapons_3
 		}
@@ -229,14 +243,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			army_experience = 10
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
 			}
 		}
 		
 		focus = {
 		id = UNK_Ordonance
 		text = UNK_Ordonance
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_army_artillery
 		prerequisite = {
 			focus = UNK_Opium_War
 		}
@@ -249,13 +264,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_ideas = UNK_Board_of_Ordonance
 			}
 		}
 		
 		focus = {
 		id = UNK_Artillery_1
 		text = UNK_Artillery_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_alliance
 		prerequisite = {
 			focus = UNK_Ordonance
 		}
@@ -267,7 +283,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			army_experience = 10
+			add_tech_bonus = { bonus = 0.5 uses = 2 category = artillery }
 			}
 		}
 		
@@ -275,7 +292,7 @@ focus_tree = {
 		focus = {
 		id = UNK_Ministery
 		text = UNK_Ministery
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_neutrality_focus
 		prerequisite = {
 			focus = UNK_long_live_the_queen
 		}
@@ -287,14 +304,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 150
 			}
 		}
 		
 		focus = {
 		id = UNK_Great_Game
 		text = UNK_Great_Game
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_secret_weapon
 		prerequisite = {
 			focus = UNK_Ministery
 			focus = UNK_British_Army
@@ -307,14 +324,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+				create_wargoal = { type = annex_everything target = AFG }
+				army_experience = 25
 			}
 		}
 		
 		focus = {
 		id = UNK_Anglo_Sikh
 		text = UNK_Anglo_Sikh
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_special_forces
 		prerequisite = {
 			focus = UNK_Great_Game
 		}
@@ -326,7 +344,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			release_puppet= AFG
 			}
 		}
 		
@@ -337,6 +355,13 @@ focus_tree = {
 		prerequisite = {
 			focus = UNK_Great_Game
 		}
+		available = {
+					date > 1851.1.1
+					
+				}
+			historical_ai = {
+					date > 1853.1.1
+				}
 		
 		x = 11
 		y = 3
@@ -345,7 +370,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_to_war = { targeted_alliance = OTT enemy = RUS }
 			}
 		}
 		
@@ -365,14 +390,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = { bonus = 0.5 uses = 2 category = industry }
 			}
 		}
 		
 		focus = {
 		id = UNK_Railways
 		text = UNK_Railways
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
 			focus = UNK_Industrial_Revolution
 		}
@@ -383,15 +408,58 @@ focus_tree = {
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-			add_political_power = 100
+			completion_reward = {
+			
+				126 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+				129 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+				130 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+				132 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 3
+							instant_build = yes
+						}
+					}
+				}
+					
 			}
 		}
+		
 		
 		focus = {
 		id = UNK_Expand_Railroad
 		text = UNK_Expand_Railroad
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
 			focus = UNK_Railways
 		}
@@ -403,14 +471,56 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			
+				126 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				129 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				130 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				132 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+					
 			}
 		}
 		
 		focus = {
 		id = UNK_British_Rail
 		text = UNK_British_Rail
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construction
 		prerequisite = {
 			focus = UNK_Expand_Railroad
 		}
@@ -422,14 +532,56 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			
+				131 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				122 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				338 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+				128 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+					
 			}
 		}
 		
 		focus = {
 		id = UNK_London_Underground
 		text = UNK_London_Underground
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 			focus = UNK_British_Rail
 		}
@@ -441,14 +593,24 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			126 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 10
+							instant_build = yes
+						}
+					}
+				}
+			add_political_power = 50
 			}
 		}
 		
 		focus = {
 		id = UNK_Expand_Underground
 		text = UNK_Expand_Underground
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 			focus = UNK_London_Underground
 		}
@@ -460,14 +622,33 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
-			}
+			338 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 8
+							instant_build = yes
+						}
+					}
+				}
+			127 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 8
+							instant_build = yes
+						}
+					}
+				}
+				}
 		}
 		
 		focus = {
 		id = UNK_Advanced_Steam_Engines
 		text = UNK_Advanced_Steam_Engines
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_positive_trade_relations
 		prerequisite = {
 			focus = UNK_Industrial_Revolution
 		}
@@ -479,14 +660,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus =  { bonus = 0.25 uses = 2 category = industry }	
 			}
 		}
 		
 		focus = {
 		id = UNK_Factories_1
 		text = UNK_Factories_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_production
 		prerequisite = {
 			focus = UNK_Advanced_Steam_Engines
 		}
@@ -498,14 +679,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
-			}
+			126 = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes } }
+		}
 		}
 		
 		focus = {
 		id = UNK_Factories_2
 		text = UNK_Factories_2
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_production
 		prerequisite = {
 			focus = UNK_Factories_1
 		}
@@ -517,14 +698,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			132 = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes } }
 			}
 		}
 		
 		focus = {
 		id = UNK_Factories_3
 		text = UNK_Factories_3
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_production
 		prerequisite = {
 			focus = UNK_Factories_2
 		}
@@ -536,14 +717,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			132 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
 			}
 		}
 		
 		focus = {
 		id = UNK_Mines_1
 		text = UNK_Mines_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_oil_refinery
 		prerequisite = {
 			focus = UNK_Factories_3
 		}
@@ -555,14 +736,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_resource = { type = steel amount = 8 state = 130 }
 			}
 		}
 		
 		focus = {
 		id = UNK_Mines_2
 		text = UNK_Mines_2
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_oil_refinery
 		prerequisite = {
 			focus = UNK_Mines_1
 		}
@@ -574,14 +755,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_resource = { type = steel amount = 8 state = 132 }
 			}
 		}
 		
 		focus = {
 		id = UNK_Sewer_System
 		text = UNK_Sewer_System
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = {
 			focus = UNK_Industrial_Revolution
 		}
@@ -594,13 +775,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			remove_ideas = UNK_great_famine_ireland
 			}
 		}
 		
 		focus = {
 		id = UNK_Roads
 		text = UNK_Roads
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = UNK_Sewer_System
 		}
@@ -612,7 +794,28 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			120 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				
+			136 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+				
 			}
 		}
 		
@@ -632,13 +835,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_manpower = 75000
 			}
 		}
 		
 		focus = {
 		id = UNK_Concrete
 		text = UNK_Concerete
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_scientific_exchange
 		prerequisite = {
 			focus = UNK_Living_Conditions
 		}
@@ -650,7 +854,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus =  { bonus = 0.25 uses = 2 category = industry }	
+			add_research_slot = 1
 			}
 		}
 		
