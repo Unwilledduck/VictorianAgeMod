@@ -10,6 +10,16 @@ technologies = {
 			leads_to_tech = interwar_artillery 
 			research_cost_coeff = 1
 		}
+
+		path = {
+			leads_to_tech = interwar_antitank
+			research_cost_coeff = 1
+		}
+		
+		path = {
+			leads_to_tech = interwar_antiair 
+			research_cost_coeff = 1
+		}
 		
 		research_cost = 1.5
 		
@@ -27,17 +37,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1852.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1854.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1856.1.1"
+				date > "1939.1.1"
 			}
 		}
 	}
@@ -58,7 +68,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1850
+		start_year = 1936
 		
 		folder = {
 			name = artillery_folder
@@ -74,17 +84,17 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				date > "1852.1.1"
+				date > "1937.1.1"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1854.1.1"
+				date > "1938.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1856.1.1"
+				date > "1939.1.1"
 			}
 		}
 	}
@@ -109,7 +119,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1856
+		start_year = 1939
 		
 		folder = {
 			name = artillery_folder
@@ -125,17 +135,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1854.1.9"
+				date > "1938.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1856.1.1"
+				date > "1939.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1856.1.6"
+				date > "1939.1.6"
 			}
 		}
 	}
@@ -161,7 +171,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1858
+		start_year = 1940
 		
 		folder = {
 			name = artillery_folder
@@ -177,17 +187,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1858.1.6"
+				date > "1940.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1860.1.1"
+				date > "1941.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1862.1.1"
+				date > "1942.1.1"
 			}
 		}
 	}
@@ -208,7 +218,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1860
+		start_year = 1941
 		
 		folder = {
 			name = artillery_folder
@@ -224,12 +234,12 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1860.1.6"
+				date > "1941.1.6"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1862.1.1"
+				date > "1942.1.1"
 			}
 		}
 	}
@@ -254,7 +264,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1862
+		start_year = 1942
 		
 		folder = {
 			name = artillery_folder
@@ -270,17 +280,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1860.1.9"
+				date > "1941.1.9"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1862.1.1"
+				date > "1942.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1862.1.6"
+				date > "1942.1.6"
 			}
 		}
 	}
@@ -296,7 +306,7 @@ technologies = {
 		
 		research_cost = 1
 
-		start_year = 1864
+		start_year = 1943
 		
 		folder = {
 			name = artillery_folder
@@ -312,17 +322,17 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				date > "1864.1.6"
+				date > "1943.1.6"
 			}
 			
 			modifier = {
 				factor = 2
-				date > "1866.1.1"
+				date > "1944.1.1"
 			}
 			
 			modifier = {
 				factor = 5
-				date > "1868.1.1"
+				date > "1945.1.1"
 			}
 		}
 	}
@@ -348,4 +358,726 @@ technologies = {
 			}
 		}
 	}
+	
+	rocket_artillery = {
+
+		enable_equipments = {
+			rocket_artillery_equipment_1
+		}
+#		enable_subunits = {
+#			rocket_artillery_brigade
+#		}
+		
+		path = {
+			leads_to_tech = rocket_artillery2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+	
+	rocket_artillery2 = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.15
+		}
+		
+		path = {
+			leads_to_tech = rocket_artillery3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1941
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+	
+	rocket_artillery3 = {
+
+		rocket_artillery = {
+			soft_attack = 0.15
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.15
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.15
+		}
+
+		path = {
+			leads_to_tech = rocket_artillery4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1942
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+	
+	rocket_artillery4 = {
+	
+		enable_equipments = {
+			rocket_artillery_equipment_2
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.3
+		}
+
+		#rocket_artillery = {
+		#	soft_attack = 0.15
+		#}
+		#rocket_artillery_brigade = {
+		#	soft_attack = 0.15
+		#}
+
+		research_cost = 1
+
+		start_year = 1943
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
+		}
+		
+		categories = {
+			rocketry
+		}
+	}
+	
+	interwar_antiair = {
+
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+
+		enable_building = {
+			building = anti_air
+			level = 5
+		}
+		
+		path = {
+			leads_to_tech = antiair1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1936
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.1"
+			}
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	
+	antiair1 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = antiair2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1939
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	
+	antiair2 = {
+	
+		enable_equipments = {
+			anti_air_equipment_2
+		}
+
+		#anti_air = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
+		
+		path = {
+			leads_to_tech = antiair3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	
+	antiair3 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = antiair4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1941
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	
+	antiair4 = {
+
+		anti_air = {
+			air_attack = 0.1
+		}
+		anti_air_brigade = {
+			air_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = antiair5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1942
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	
+	antiair5 = {
+
+		enable_equipments = {
+			anti_air_equipment_3
+		}
+		
+		#anti_air = {
+		#	air_attack = 0.1
+		#}
+		#anti_air_brigade = {
+		#	air_attack = 0.1
+		#}
+		
+		research_cost = 1
+
+		start_year = 1943
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	
+	interwar_antitank = {
+
+		enable_equipments = {
+			anti_tank_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = antitank1
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1936
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1937.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1938.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1939.1.1"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 30
+						}
+					}
+				}
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
+	antitank1 = {
+
+		anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.2
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.2
+		}
+		
+		path = {
+			leads_to_tech = antitank2
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1939
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 30
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				date > "1939.1.6"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1940.1.1"
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
+	antitank2 = {
+		
+		enable_equipments = {
+			anti_tank_equipment_2
+		}
+		
+		#anti_tank = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
+		#anti_tank_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
+		
+		path = {
+			leads_to_tech = antitank3
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1940
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1939.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1940.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1940.1.6"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 32
+						}
+					}
+				}
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
+	antitank3 = {
+
+		anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		
+		path = {
+			leads_to_tech = antitank4
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1941
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1941.1.6"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1943.1.1"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 32
+						}
+					}
+				}
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
+	antitank4 = {
+
+		anti_tank = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+		anti_tank_brigade = {
+			hard_attack = 0.1
+			ap_attack = 0.1
+		}
+	
+		path = {
+			leads_to_tech = antitank5
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1942
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1942.1.6"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1943.1.1"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 35
+						}
+					}
+				}
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
+	antitank5 = {
+			
+		enable_equipments = {
+			anti_tank_equipment_3
+		}	
+			
+		#anti_tank = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
+		#anti_tank_brigade = {
+		#	hard_attack = 0.1
+		#	ap_attack = 0.05
+		#}
+		
+		research_cost = 1
+
+		start_year = 1943
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 7 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 2
+				date > "1942.1.9"
+			}
+			
+			modifier = {
+				factor = 2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 5
+				date > "1943.1.6"
+			}
+			modifier = {
+				factor = 10
+				any_enemy_country = {
+					ROOT = {
+						estimated_intel_max_armor = {
+							tag = PREV
+							value > 35
+						}
+					}
+				}
+			}
+		}
+		
+		categories = {
+			artillery
+			cat_anti_tank
+		}
+	}
+	
 }
