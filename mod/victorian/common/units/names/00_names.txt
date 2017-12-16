@@ -86,18 +86,6 @@ generic = {
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
-	anti_tank_brigade = {
-		prefix = ""
-		generic = { "Anti-Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	anti_air_brigade = {
-		prefix = ""
-		generic = { "Anti-Air Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
 	engineer = {
 		prefix = ""
 		generic = { "Engineer Company" }
@@ -143,36 +131,6 @@ generic = {
 	cavalry = {
 		prefix = ""
 		generic = { "Cavalry Division" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	light_armor = {
-		prefix = ""
-		generic = { "Light Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	medium_armor = {
-		prefix = ""
-		generic = { "Medium Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	heavy_armor = {
-		prefix = ""
-		generic = { "Heavy Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	modern_armor = {
-		prefix = ""
-		generic = { "Modern Tank Brigade" }
-		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
-		unique = {}
-	}
-	super_heavy_armor = {
-		prefix = ""
-		generic = { "Super Heavy Tank Brigade" }
 		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
 		unique = {}
 	}
