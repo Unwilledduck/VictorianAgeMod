@@ -1,0 +1,75 @@
+focus_tree = {
+	id = confederate
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CON
+		}
+	}
+	default = no
+
+focus = {
+		id = CON_International
+		text = CON_International
+		icon = GFX_goal_generic_allies_build_infantry
+		available = {
+			
+		}
+		cost = 5
+		x = 10
+		y = 0
+			available_if_capitulated = yes
+			completion_reward = {add_political_power = 100 }
+	}
+focus = {
+		id = CON_Military
+		text = CON_Military
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = CON_International
+		}
+		available = {
+			
+		}
+		cost = 5
+		x = 10
+		y = 1
+			available_if_capitulated = yes
+			completion_reward = {
+			army_experience = 25
+			add_manpower = 10000
+			}
+focus = {
+		id = CON_Volunteers_1
+		text = CON_Volunteers_1
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = CON_Military
+		}
+		cost = 5
+		x = 8
+		y = 2
+			available_if_capitulated = yes
+			completion_reward = {
+			add_manpower = 25000
+			}
+				
+	}
+focus = {
+		id = CON_Volunteers_2
+		text = CON_Volunteers_2
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {
+			focus = CON_Volunteers_1
+		}
+		cost = 5
+		x = 8
+		y = 3
+			available_if_capitulated = yes
+			completion_reward = {
+			add_manpower = 25000
+			}
+				
+	}	
+}
