@@ -405,3 +405,7 @@ SYR = {
 	color = rgb { 100  100  150 }
 	color_ui = rgb { 100  100  150 }
 }
+HAW = {
+	color = rgb { 255  88  9 }
+	color_ui = rgb { 255  88  9 }
+}

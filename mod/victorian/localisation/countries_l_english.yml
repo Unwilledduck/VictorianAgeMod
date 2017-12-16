@@ -987,3 +987,15 @@
  EGY_democratic_ADJ:0 "Egypt"
  EGY_neutrality_ADJ:0 "Egypt"
  EGY_communism_ADJ:0 "Egypt"
+
+ # Hawaii
+ HAW_democratic:0 "Republic Of Hawaii"
+ HAW_democratic_DEF:0 "Republic Of Hawaii"
+ HAW_fascism:0 "Kingdom Of Hawaii"
+ HAW_fascism_DEF:0 "Kingdom Of Hawaii"
+ HAW_neutrality:0 "Kingdom Of Hawaii"
+ HAW_neutrality_DEF:0 "Kingdom Of Hawaii"
+ HAW_fascism_ADJ:0 "Kingdom Of Hawaii"
+ HAW_democratic_ADJ:0 "Hawaii"
+ HAW_neutrality_ADJ:0 "Hawaii"
+ HAW_communism_ADJ:0 "Hawaii"
