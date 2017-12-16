@@ -275,7 +275,7 @@ AFR = {
 	color = rgb { 223 119 26 }
 	color_ui = rgb { 223 119 26 }
 }   
-EGP = {
+EGY = {
 	color = rgb { 230 230 70 }
 	color_ui = rgb { 230 230 70 }
 }   

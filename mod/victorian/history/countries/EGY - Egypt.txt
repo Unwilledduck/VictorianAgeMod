@@ -1,6 +1,6 @@
 ﻿capital = 52	
 
-oob = "EGP_1936"
+oob = "EGY_1936"
 
 set_research_slots = 3
 
@@ -58,7 +58,7 @@ set_cosmetic_tag = OTT_EGP
 create_country_leader = {
 	name = "Muhammad Said Pascha"
 	desc = "POLITICS_PER_ALBIN_Pascha_DESC"
-	picture = "gfx/leaders/EGP/Muhammad_Said_Pascha.dds"
+	picture = "gfx/leaders/EGY/Muhammad_Said_Pascha.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
