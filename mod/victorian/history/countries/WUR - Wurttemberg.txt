@@ -1,8 +1,8 @@
 ﻿capital = 50	
 
-oob = "WUR_1936"
+oob = "WUR_1850"
 
-set_research_slots = 3
+set_research_slots = 2
 
 add_ideas = {
 }

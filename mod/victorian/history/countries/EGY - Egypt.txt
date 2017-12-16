@@ -1,6 +1,6 @@
 ﻿capital = 52	
 
-oob = "EGY_1936"
+oob = "EGY_1850"
 
 set_research_slots = 3
 

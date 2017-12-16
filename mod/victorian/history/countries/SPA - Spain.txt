@@ -2,7 +2,7 @@
 
 oob = "SPA_1850"
 
-set_research_slots = 4
+set_research_slots = 3
 
 set_technology = {
 	infantry_weapons = 1

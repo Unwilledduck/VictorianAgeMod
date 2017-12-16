@@ -1,6 +1,6 @@
 ﻿capital = 7
 
-oob = "NED_1936"
+oob = "NED_1850"
 
 set_research_slots = 3
 

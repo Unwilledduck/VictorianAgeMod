@@ -1,8 +1,8 @@
 ﻿capital = 55	
 
-oob = "HES_1936"
+oob = "HES_1850"
 
-set_research_slots = 3
+set_research_slots = 2
 
 add_ideas = {
 }
