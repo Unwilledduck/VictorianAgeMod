@@ -13,7 +13,6 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			air_base = 3
 			3653 = {
 				naval_base = 2
 				coastal_bunker = 1
@@ -23,14 +22,6 @@ state={
 		}
 		add_core_of = RUS
 		add_core_of = GEO
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
-
 	}
 
 	provinces={

@@ -15,7 +15,6 @@ state={
 		owner = SWD
 		buildings = {
 			infrastructure = 3
-			air_base = 1
 			192 = {
 				naval_base = 3
 			}

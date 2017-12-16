@@ -14,17 +14,11 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 3
 			3338 = {
 				naval_base = 3
 			}
 		}
 		add_core_of = RUS
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 2
-			}
-		}
 	}
 
 	provinces={

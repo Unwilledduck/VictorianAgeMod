@@ -10,18 +10,10 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-			air_base = 2
 
 		}
 		add_core_of = RUS
 		add_core_of = ARM
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 3
-
-			}
-
-		}
 
 	}
 

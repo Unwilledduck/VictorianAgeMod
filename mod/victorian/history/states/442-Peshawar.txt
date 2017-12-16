@@ -10,7 +10,6 @@ state={
 		owner = ENG
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 		}
 		 
 	}

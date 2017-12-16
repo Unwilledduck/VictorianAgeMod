@@ -21,7 +21,6 @@ state={
 			infrastructure = 7
 			arms_factory = 3
 			industrial_complex = 5
-			air_base = 6
 		}
 		add_core_of = AHU
 
@@ -29,11 +28,6 @@ state={
 			owner = AHU
 			controller = AHU
 			add_core_of = AHU
-		}
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-			}
 		}
 	}
 
