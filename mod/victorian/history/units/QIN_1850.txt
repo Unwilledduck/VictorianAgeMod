@@ -15,7 +15,7 @@
 units = {
 	division= {	
 		name = "1. Infantry Division"
-		location = `re9843
+		location = 9843
 		division_template = "Infanterie-Division"
 		start_experience_factor = 0.3
 	}
