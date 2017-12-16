@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 	
-		ENG = {
+		ENG_great_famine_ireland = {
 			picture = ENG
 		
 			allowed = { always = no }
