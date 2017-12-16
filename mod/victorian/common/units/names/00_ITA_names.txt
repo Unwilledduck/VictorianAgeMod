@@ -100,17 +100,6 @@
 			"Leonardo Da Vinci" "Dante Alighieri" 
 		} 
 	} 
-	carrier = { 
-		prefix = "RN" 
-		generic = { "Portaerei" } 
-		unique = { 
-			# Cancelled/Not completed/Reconstructed (1 Aquila class, 1 Sparviero class) 
-			"Aquila" "Sparviero" 
-			# Fictional names start here (1 fictional, 1 pre-WWI Europa class, 1 WWI Giuseppe Miraglia class) 
-			"Falco" "Europa" "Giuseppe Miraglia" 
-		} 
-	} 
-	air_wing_names_template = AIR_WING_NAME_ITA_FALLBACK
 
 	infantry = { 
 		prefix = "" 
@@ -133,24 +122,6 @@
 	cavalry = { 
 		prefix = "" 
 		generic = { "Divisione Celere" } 
-		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
-		unique = {} 
-	} 
-	motorized = { 
-		prefix = "" 
-		generic = { "Divisione Motorizzata" } 
-		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
-		unique = {} 
-	} 
-	light_armor = { 
-		prefix = "" 
-		generic = { "Divisione Corazzata" } 
-		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
-		unique = {} 
-	} 
-	medium_armor = { 
-		prefix = "" 
-		generic = { "Divisione Corazzata" } 
 		generic_pattern = "UNIT_GENERIC_NAME_ITA" 
 		unique = {} 
 	} 
