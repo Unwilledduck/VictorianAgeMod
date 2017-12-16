@@ -18,65 +18,7 @@ set_technology = {
 	early_heavy_cruiser = 1
 	early_battleship = 1
 	early_battlecruiser = 1
-	transport = 1
 	
-}
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "SAR_1939"
-	set_technology = {
-		early_bomber = 1
-		tactical_bomber1 = 1
-		improved_light_tank = 1 
-		basic_medium_tank = 1 
-		gw_artillery = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		basic_submarine = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
 }
 
 set_politics = {
@@ -104,35 +46,6 @@ set_politics = {
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = yes
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 30
-			}
-	
-			neutrality = {
-				popularity  = 20
-			}
-
-			communism = {
-				popularity = 5
-			}
-
-			fascism = {
-				popularity = 45
-			}
-		
-		}
-		
-		ruling_party = fascism
-		last_election = "1936.9.20"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }
 
 set_convoys = 25
