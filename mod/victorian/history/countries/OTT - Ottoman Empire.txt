@@ -69,7 +69,7 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 set_autonomy = {
-	target = EGP
+	target = EGY
 	autonomous_state =  autonomy_puppet
 }
 
