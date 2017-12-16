@@ -303,3 +303,7 @@ RAJ = {
 	color = rgb { 170  10  10 }
 	color_ui = rgb { 200  10  10 }
 }
+SIA = {
+	color = rgb { 171 190 152 }
+	color_ui = rgb { 222 247 198 }
+}
