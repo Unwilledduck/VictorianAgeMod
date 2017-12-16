@@ -432,11 +432,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
 				tag = ENG
 			}
 		}
@@ -475,11 +470,6 @@ technologies = {
 			
 			modifier = {
 				factor = 2
-				tag = GER
-			}
-			
-			modifier = {
-				factor = 2
 				tag = ENG
 			}
 		}
@@ -509,11 +499,6 @@ technologies = {
 			modifier = {
 				factor = 2
 				tag = USA
-			}
-			
-			modifier = {
-				factor = 2
-				tag = GER
 			}
 			
 			modifier = {
