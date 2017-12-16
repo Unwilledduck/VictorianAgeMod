@@ -309,7 +309,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				NOT = { tag = GER }
 			}
 			
 			modifier = {
@@ -532,7 +531,6 @@ technologies = {
 
 			modifier = {
 				factor = 2
-				tag = GER
 			}
 			
 			modifier = {
