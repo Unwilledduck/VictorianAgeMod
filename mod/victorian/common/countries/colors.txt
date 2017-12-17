@@ -55,7 +55,7 @@ SWD = {
 	color = rgb { 36 132 247 }
 	color_ui = rgb { 47 172 255 }
 }
-SPA = {
+SPR = {
 	color = rgb { 242 205 94 }
 	color_ui = rgb { 255 255 122 }
 }
