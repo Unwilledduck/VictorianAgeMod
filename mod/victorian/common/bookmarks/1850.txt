@@ -24,7 +24,7 @@ bookmarks = {
 
 			}
 			focuses = {
-			OTT_Ready_For_War
+			OTT_Ready_for_War
 			OTT_Peaceful
 			}
 		}
