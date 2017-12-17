@@ -1,6 +1,6 @@
 ﻿capital = 6
 
-oob = "BEL_1936"
+oob = "BEL_1850"
 
 set_research_slots = 2
 
@@ -16,7 +16,6 @@ set_technology = {
 	early_heavy_cruiser = 1
 	early_battleship = 1
 	early_battlecruiser = 1
-	transport = 1
 	
 }
 
