@@ -1011,3 +1011,15 @@
  ECU_democratic_ADJ:0 "Ecuador"
  ECU_neutrality_ADJ:0 "Ecuador"
  ECU_communism_ADJ:0 "Ecuador"
+
+ # Liberia
+ LIB_democratic:0 "Liberia"
+ LIB_democratic_DEF:0 "Liberia"
+ LIB_fascism:0 "Liberia"
+ LIB_fascism_DEF:0 "Liberia"
+ LIB_neutrality:0 "Liberia"
+ LIB_neutrality_DEF:0 "Liberia"
+ LIB_fascism_ADJ:0 "Liberia"
+ LIB_democratic_ADJ:0 "Liberia"
+ LIB_neutrality_ADJ:0 "Liberia"
+ LIB_communism_ADJ:0 "Liberia"

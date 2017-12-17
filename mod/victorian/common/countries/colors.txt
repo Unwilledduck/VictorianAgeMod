@@ -409,3 +409,7 @@ HAW = {
 	color = rgb { 255  88  9 }
 	color_ui = rgb { 255  88  9 }
 }
+LIB = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 152 130 191 }
+}
