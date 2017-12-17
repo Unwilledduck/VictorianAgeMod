@@ -1,12 +1,43 @@
 ai_historical_focus_list_FRA = {
 	ai_national_focuses = {
-		# List all the focuses that the AI needs to take on first in order.
+		FRA_metropolitan_france
+		FRA_industrial_expansion
+		FRA_initiate_government_reform
+		FRA_support_status_quo
+		FRA_navy_focus
+		FRA_revise_versailles
+		FRA_capital_ship_focus
+		FRA_defensive_focus
+		FRA_fortification_focus
+		FRA_infantry_focus
+		FRA_artillery_focus
+		FRA_heavy_armor_focus
+		FRA_military_factories
+		FRA_improved_screen_ships
+		FRA_go_with_britain
+		FRA_algerie_france
+		FRA_colonial_industry
+		FRA_colonial_military_factories
+		FRA_extra_research_slot
+		FRA_naval_doctrine
+		FRA_alpine_forts
+		FRA_extend_the_maginot_line
+		FRA_strengthen_government_support
+		FRA_defensive_strategems
+		FRA_army_reform
+		FRA_air_focus
+		FRA_fighter_focus
+		FRA_cas_focus
+		FRA_heavy_fighter_focus
+		FRA_air_doctrine
+		FRA_jet_effort
 	}
 }
 
 ai_focus_defense_FRA = {
 	research = {
 		defensive = 5.0	
+		radar_tech = 1.0
 		construction_tech = 2.0
 		artillery = 2.0
 	}
@@ -16,6 +47,8 @@ ai_focus_aggressive_FRA = {
 	research = {
 		offensive = 5.0
 		synth_resources = 1.0
+		motorized_equipment = 2.0
+		armor = 2.0
 	}
 }
 
@@ -39,10 +72,17 @@ ai_focus_military_equipment_FRA = {
 
 ai_focus_military_advancements_FRA = {
 	research = {
+		armor = 15.0
+		jet_technology = 5.0
 		land_doctrine = 100.0
+		rocketry = 7.5
+		radar_tech = 3.0
 		encryption_tech = 7.5
 		decryption_tech = 7.5
 		synth_resources = 3.0
+		motorized_equipment = 4.0
+		nuclear = 5.0
+		night_vision = 5.0
 	}
 }
 
@@ -70,4 +110,26 @@ ai_focus_naval_FRA = {
         cv_tech = 3.0
         ss_tech = 5.0
     }
+}
+
+ai_focus_naval_air_FRA = {
+	research = {
+		naval_air = 4.0
+		naval_bomber = 3.0
+	}
+}
+
+ai_focus_aviation_FRA = {
+	research = {
+		air_doctrine = 50.0
+		light_air = 4.0
+		light_fighter = 4.0
+		jet_technology = 1.0
+		cas_bomber = 2.0		
+		medium_air = 4.0
+		tactical_bomber = 5.0
+		heavy_air = 1.5
+		air_equipment = 5.0
+		para_tech = 10
+	}
 }
