@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "SPA_1850"
+oob = "SPR_1850"
 
 set_research_slots = 3
 
@@ -74,7 +74,7 @@ set_autonomy = {
 create_country_leader = {
 	name = "Isabella II Maria Louisa"
 	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "GFX/leaders/SPA/isabella_2.dds"
+	picture = "GFX/leaders/SPR/isabella_2.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -94,14 +94,14 @@ create_country_leader = {
 }
 create_corps_commander = {
 	name = "Narciso Clavería y Zaldúa"
-	portrait_path = "gfx/leaders/SPA/zaldua.dds"
+	portrait_path = "gfx/leaders/SPR/zaldua.dds"
 	traits = {}
 	skill = 2
 }
 create_navy_leader = {
 	name = "Carlos Palanca y Gutierrez"
 	id = 2
-		picture = "gfx/leaders/SPA/gutierrez.dds"
+		picture = "gfx/leaders/SPR/gutierrez.dds"
 	traits = {  }
 	skill = 2
 }

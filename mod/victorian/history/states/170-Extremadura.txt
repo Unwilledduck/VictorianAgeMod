@@ -11,13 +11,13 @@ state={
 	}
 
 	history={
-		owner = SPA
+		owner = SPR
 		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 		}
-		add_core_of = SPA
+		add_core_of = SPR
 	}
 
 	provinces={
