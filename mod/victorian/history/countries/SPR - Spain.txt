@@ -37,7 +37,7 @@ set_politics = {
 	ruling_party = fascism
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 150
@@ -92,6 +92,7 @@ create_country_leader = {
 		#
 	}
 }
+
 create_corps_commander = {
 	name = "Narciso Clavería y Zaldúa"
 	portrait_path = "gfx/leaders/SPR/zaldua.dds"
