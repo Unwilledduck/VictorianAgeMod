@@ -82,7 +82,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			end_puppet = SRB
+			end_puppet = SER
 			add_political_power = 75
 			add_national_unity = 0.05
 			}
