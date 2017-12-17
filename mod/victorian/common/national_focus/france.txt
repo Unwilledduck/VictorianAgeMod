@@ -432,9 +432,9 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			28 = { set_building_level = { type = bunker level = 1 province = 1346 { all_provinces = yes limit_to_border = yes level < 3	} }
-		}
+			28 = { set_building_level = { type = bunker level = 1 province = 1346 { all_provinces = yes limit_to_border = yes level < 3	} } }
 	}
+}
 	focus = {
 		id = FRA_Paris
 		text = FRA_Paris
@@ -451,7 +451,7 @@ focus = {
 	
 		completion_reward = {
 			add_manpower = 250000
-			16 = { set_building_level = { type = industrial_complex level = 2 province = 9505 { all_provinces = yes limit_to_border = yes level < 3 } } }
+			16 = { set_building_level = { type = industrial_complex level = 2 province = { all_provinces = yes limit_to_border = yes level < 3 } } }
 			}
 		}
 focus = {
@@ -743,28 +743,27 @@ focus = {
 			ai_will_do = {
 					factor = 1
 					modifier = {
-							factor = 0
-							all_owned_state = {
-									OR = {
-											is_coastal = no
-											dockyard < 1
-										}
-								}
-						}
+					factor = 0
+					all_owned_state = {
+					OR = {
+					is_coastal = no
+					dockyard < 1
+					}
 				}
+			}
+		}
 			completion_reward = {
 					add_tech_bonus = {
-							name = dd_bonus
-							bonus = 0.5
-							ahead_reduction = 1
-							uses = 1
-							technology = early_destroyer
-							technology = basic_destroyer
-							technology = improved_destroyer
-							technology = advanced_destroyer
-						}
-				}
+					name = dd_bonus
+					bonus = 0.5
+					ahead_reduction = 1
+					uses = 1
+					technology = early_destroyer
+					technology = basic_destroyer
+					technology = improved_destroyer
+					technology = advanced_destroyer
+			}
+		}
 
 	}
 }
-	
