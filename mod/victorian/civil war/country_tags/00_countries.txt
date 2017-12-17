@@ -1,6 +1,6 @@
 ACH	= "countries/Aceh.txt"
 SPA = "countries/Spain.txt"
-CON = "countries/Confederate.txt"
+CON = "countries/Confederate States.txt"
 COS = "countries/Costa Rica.txt"
 ELS = "countries/El Salvador.txt"
 GUA = "countries/Guatemla.txt"
