@@ -1,0 +1,57 @@
+﻿capital = 285
+
+oob = "HAI_1850"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	gw_artillery = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	early_battlecruiser = 1
+	transport = 1
+	
+}
+
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 98
+		}
+		
+		communism = {
+			popularity = 2
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = fascism
+	last_election = "1934.9.15"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Faustin Soulouque"
+	desc = "POLITICS_FAUSTIN_DESC"
+	picture = "gfx/leaders/HAI/Portreit_Haiti_Faustin_Soulouque.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	traits = {
+		#
+	}
+}
