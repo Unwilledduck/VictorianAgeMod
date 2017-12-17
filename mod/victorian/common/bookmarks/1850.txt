@@ -24,8 +24,8 @@ bookmarks = {
 
 			}
 			focuses = {
-			OTT_claim_crimea
-			OTT_war
+			OTT_Ready_For_War
+			OTT_Peaceful
 			}
 		}
 		"ENG"={
