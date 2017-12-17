@@ -300,12 +300,12 @@
  SAR_communism_DEF:0 "Lombardy states"
  
  # Spain
- SPA_democratic:0 "Spanish Republic"
- SPA_democratic_DEF:0 "Spanish Republic"
- SPA_fascism:0 "Spanish Empire"
- SPA_fascism_DEF:0 "Spanish Empire"
- SPA_communism:0 "Spain"
- SPA_communism_DEF:0 "Spain"
+ SPR_democratic:0 "Spanish Republic"
+ SPR_democratic_DEF:0 "Spanish Republic"
+ SPR_fascism:0 "Spanish Empire"
+ SPR_fascism_DEF:0 "Spanish Empire"
+ SPR_communism:0 "Spain"
+ SPR_communism_DEF:0 "Spain"
  
  # Sweden-Norway
  SWD_democratic:0 "United Kingdoms of Sweden and Norway"
