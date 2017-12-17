@@ -7,7 +7,6 @@ focus_tree = {
 			tag = ENG
 		}
 	}
-}
 	default = no
 
 	#main one
@@ -857,8 +856,9 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus =  { bonus = 0.25 uses = 2 category = industry }	
 			add_research_slot = 1
-			}
 		}
+	}
+}
 		
 		
 		

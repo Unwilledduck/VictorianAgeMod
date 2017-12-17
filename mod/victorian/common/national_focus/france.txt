@@ -7,7 +7,6 @@ focus_tree = {
 			tag = FRA
 		}
 	}
-}
 	default = no
 
 	focus = {
@@ -768,4 +767,5 @@ focus = {
 				}
 
 	}
+}
 	
