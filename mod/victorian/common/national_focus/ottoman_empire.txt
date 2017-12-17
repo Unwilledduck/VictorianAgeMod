@@ -498,7 +498,6 @@ focus_tree = {
 						}
 					}
 				}
-			}
 			756 = {
 					if = {
 						limit = { is_controlled_by = ROOT }
@@ -510,6 +509,7 @@ focus_tree = {
 					}
 				}
 			}
+		}
 		
 	focus = {
 		id = OTT_Infrastructure_3
