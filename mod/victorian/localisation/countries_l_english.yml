@@ -999,3 +999,15 @@
  HAW_democratic_ADJ:0 "Hawaii"
  HAW_neutrality_ADJ:0 "Hawaii"
  HAW_communism_ADJ:0 "Hawaii"
+
+ # Ecuador
+ ECU_democratic:0 "Ecuador"
+ ECU_democratic_DEF:0 "Ecuador"
+ ECU_fascism:0 "Ecuador"
+ ECU_fascism_DEF:0 "Ecuador"
+ ECU_neutrality:0 "Ecuador"
+ ECU_neutrality_DEF:0 "Ecuador"
+ ECU_fascism_ADJ:0 "Ecuador"
+ ECU_democratic_ADJ:0 "Ecuador"
+ ECU_neutrality_ADJ:0 "Ecuador"
+ ECU_communism_ADJ:0 "Ecuador"
