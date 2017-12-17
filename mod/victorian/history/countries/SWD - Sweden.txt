@@ -19,8 +19,6 @@ set_technology = {
 	early_heavy_cruiser = 1
 	early_battleship = 1
 	early_battlecruiser = 1
-	transport = 1
-	
 }
 
 
@@ -115,16 +113,5 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
 	traits = { blockade_runner }
 	skill = 4
-}
-
-
-#### NAVAL UNITS #####
-	### KRIEGSMARINE ###
-	navy = {				
-		name = "Swedish Marine"			
-		base = 6050 
-		location = 6050  
-		ship = { name = "HSwMS Karl XIV Johann" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SWD } } }		
-		
 	}	
 }
