@@ -61,7 +61,7 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 set_autonomy = {
-	target = SRB
+	target = SER
 	autonomous_state =  autonomy_puppet
 }
 set_autonomy = {
