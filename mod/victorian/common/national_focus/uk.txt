@@ -7,6 +7,7 @@ focus_tree = {
 			tag = ENG
 		}
 	}
+}
 	default = no
 
 	#main one
@@ -83,7 +84,8 @@ focus_tree = {
 			}
 		}
 				
-		focus = ENG_Small_Navy
+		focus = {
+		id = ENG_Small_Navy
 		text = ENG_Small_Navy
 		icon = GFX_goal_generic_navy_anti_submarine
 		prerequisite = {
@@ -97,19 +99,20 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-							name = dd_bonus
-							bonus = 0.5
-							ahead_reduction = 1
-							uses = 1
-							technology = early_destroyer
-							technology = basic_destroyer
-							technology = improved_destroyer
-							technology = advanced_destroyer
-						}
+					name = dd_bonus
+					bonus = 0.5
+					ahead_reduction = 1
+					uses = 1
+					technology = early_destroyer
+					technology = basic_destroyer
+					technology = improved_destroyer
+					technology = advanced_destroyer
+				}
 			}
 		}
 		
-		focus = ENG_Ships
+		focus = {
+		id = ENG_Ships
 		text = ENG_Ships
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = {
@@ -122,11 +125,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		131 = { add_building_construction = { type = dockyard province = 6363 level = 4 instant_build = yes } }
+			131 = { add_building_construction = { type = dockyard province = 6363 level = 4 instant_build = yes } }
 			}
 		}
-		
-		
 		
 		#Army
 		focus = {
