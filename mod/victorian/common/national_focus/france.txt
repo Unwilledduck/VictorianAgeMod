@@ -432,9 +432,10 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			28 = { set_building_level = { type = bunker level = 1 province = 1346 { all_provinces = yes limit_to_border = yes level < 3	} } }
+			28 = { set_building_level = { type = bunker level = 3 province = { all_provinces = yes limit_to_border = yes level < 3	} } }
+		}
 	}
-}
+	
 	focus = {
 		id = FRA_Paris
 		text = FRA_Paris
@@ -454,7 +455,7 @@ focus = {
 			16 = { set_building_level = { type = industrial_complex level = 2 province = { all_provinces = yes limit_to_border = yes level < 3 } } }
 			}
 		}
-focus = {
+	focus = {
 		id = FRA_The_South
 		text = FRA_The_South
 		icon = GFX_goal_generic_build_tank
@@ -473,7 +474,7 @@ focus = {
 			}
 		}
 
-focus = {
+	focus = {
 		id = FRA_Colonial_Empire
 		text = FRA_Colonial_Empire
 		icon = GFX_goal_anschluss
@@ -491,7 +492,7 @@ focus = {
 			create_wargoal = { type = annex_everything target = SIA }
 			}
 		}
-focus = {
+	focus = {
 		id = FRA_Algeria
 		text = FRA_Algeria
 		icon = GFX_goal_generic_allies_build_infantry
@@ -509,7 +510,7 @@ focus = {
 			add_political_power = 50
 			}
 		}
-focus = {
+	focus = {
 		id = FRA_Asia
 		text = FRA_Asia
 		icon = GFX_goal_generic_allies_build_infantry
@@ -527,8 +528,8 @@ focus = {
 			add_political_power = 50
 			}
 		}
-#navy
-focus = {
+	#navy
+	focus = {
 		id = FRA_naval_effort
 		text = FRA_naval_effort
 		icon = GFX_goal_generic_construct_naval_dockyard
