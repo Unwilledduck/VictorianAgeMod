@@ -1,1 +1,900 @@
-focus_tree = {}
+focus_tree = {
+	id = usa_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = USA
+		}
+	}
+	default = no
+
+#diplomatic	
+	focus = {
+		id = USA_Our_Nation
+		text = USA_United_States
+		icon = GFX_focus_generic_home_defense
+		
+		x = 10
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Politics
+		text = USA_Politics
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Our_Nation
+		}
+		
+		x = 3
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Foreign
+		text = USA_Foreign
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Politics
+		}
+		
+		x = 1
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Isolate
+		text = USA_Isolate
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Foreign
+		}
+		mutually_exclusive = {
+			focus = USA_Connect
+		}
+		
+		x = 0
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Connect
+		text = USA_Connect
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Foreign
+		}
+		mutually_exclusive = {
+			focus = USA_Isolate
+		}
+		x = 2
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Local
+		text = USA_Local
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Politics
+		}
+		x = 5
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Free_states
+		text = USA_Free_states
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Local
+		}
+		mutually_exclusive = {
+			focus = USA_1850_Compromise
+		}
+		x = 4
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Release_States
+		text = USA_Release_States
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Free_states
+		}
+		x = 4
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Mexico
+		text = USA_Mexico
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Release_States
+		}
+		x = 4
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}	
+	focus = {
+		id = USA_1850_Compromise
+		text = USA_1850_Compromise
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Local
+		}
+		mutually_exclusive = {
+			focus = USA_Free_states
+		}
+		x = 6
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Gold_Rush
+		text = USA_Gold_Rush
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_1850_Compromise
+		}
+		x = 6
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+
+
+#industry
+
+	focus = {
+		id = USA_Industry
+		text = USA_Industry
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Our_Nation
+		}
+		
+		x = 10
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = USA_Infra
+		text = USA_Infra
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Industry
+		}
+		
+		x = 8
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Roads
+		text = USA_Roads
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Infra
+		}
+		
+		x = 8
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Pony_express
+		text = USA_Pony_express
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Roads
+		}
+		prerequisite = {
+			focus = USA_Gold_Rush
+		}
+		
+		x = 7
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	focus = {
+		id = USA_American_Express
+		text = USA_American_Express
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Pony_express
+		}
+			
+		x = 7
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	focus = {
+		id = USA_Factories
+		text = USA_Factories
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Industry
+		}
+		
+		x = 11
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Parts
+		text = USA_Parts
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Factories
+		}
+		
+		x = 10
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Industry_1
+		text = USA_Industry_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Parts
+		}
+		
+		x = 10
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Industry_2
+		text = USA_Industry_2
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Industry_1
+		}
+		
+		x = 10
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Industry_3
+		text = USA_Industry_3
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Industry_2
+		}
+		
+		x = 10
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Industry_4
+		text = USA_Industry_4
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Industry_3
+		}
+		
+		x = 10
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+#Army
+	
+	focus = {
+		id = USA_Millitary
+		text = USA_Millitary
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Our_Nation
+		}
+		
+		x = 14
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	focus = {
+		id = USA_New_Techs
+		text = USA_New_Techs
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Millitary
+		}
+		
+		x = 13
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	focus = {
+		id = USA_Artillery_1
+		text = USA_Artillery_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_New_Techs
+		}
+		prerequisite = {
+			focus = USA_Factories
+		}
+		
+		x = 12
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	
+	focus = {
+		id = USA_Artillery_2
+		text = USA_Artillery_2
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Artillery_1
+		}
+		
+		
+		x = 12
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = USA_Infantry
+		text = USA_Infantry
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Artillery_2
+		}
+	
+		
+		x = 12
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Infantry_1
+		text = USA_Infantry_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Infantry
+		}
+	
+		
+		x = 12
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	focus = {
+		id = USA_Navy
+		text = USA_Navy
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_New_Techs
+		}
+				
+		x = 14
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Navy_2
+		text = USA_Navy_2
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Navy
+		}
+				
+		x = 14
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	focus = {
+		id = USA_Navy_3
+		text = USA_Navy_3
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Navy_2
+		}
+				
+		x = 14
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Navy_4
+		text = USA_Navy_4
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Navy_3
+		}
+				
+		x = 14
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+
+	
+	focus = {
+		id = USA_Tactics
+		text = USA_Tactics
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Millitary
+		}
+		
+		x = 15
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Army
+		text = USA_Army
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Tactics
+		}
+		
+		x = 16
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	focus = {
+		id = USA_Army_1
+		text = USA_Army_1
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Army
+		}
+		
+		x = 16
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Army_2
+		text = USA_Army_2
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Army_1
+		}
+		
+		x = 16
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}	
+	
+	focus = {
+		id = USA_Army_3
+		text = USA_Army_3
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Army_2
+		}
+		
+		x = 16
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+		
+		
+		
+#Civil War
+
+	focus = {
+		id = USA_Racial
+		text = USA_Racial
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Our_Nation
+		}
+		x = 19
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+	
+	focus = {
+		id = USA_Racial
+		text = USA_Racial
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Our_Nation
+		}
+		x = 19
+		y = 1
+		cost = 5
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Slavery
+		text = USA_Slavery
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Racial
+		}
+		x = 19
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Kansas-Nebraska
+		text = USA_Kansas-Nebraska
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Slavery
+		}
+		x = 19
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Pro_Slavery
+		text = USA_Pro_Slavery
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Kansas-Nebraska
+		}
+		mutually_exclusive = {
+			focus = USA_Free_Slaves
+		}
+		x = 18
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+		
+	focus = {
+		id = USA_Slaves_North
+		text = USA_Slaves_North
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Pro_Slavery
+		}
+		x = 18
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}
+			
+	focus = {
+		id = USA_Free_Slaves
+		text = USA_Free_Slaves
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Kansas-Nebraska
+		}
+		mutually_exclusive = {
+			focus = USA_Pro_Slavery
+		}
+		x = 20
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}	
+	
+	focus = {
+		id = USA_South_Free
+		text = USA_South_Free
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_Free_Slaves
+		}
+		
+		x = 20
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}	
+			
+	focus = {
+		id = USA_Civil_War
+		text = USA_Civil_War
+		icon = GFX_focus_generic_home_defense
+		prerequisite = {
+			focus = USA_South_Free
+			focus = USA_Slaves_North
+		}
+		
+		
+		x = 19
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 100
+			}
+		}	
+			
+			
+			
+}
