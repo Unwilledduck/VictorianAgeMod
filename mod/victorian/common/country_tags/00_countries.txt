@@ -1,4 +1,8 @@
 ACH	= "countries/Aceh.txt"
+UTH = "countries/Utah"
+ORE = "countries/Oregon.txt"
+UNO = "countries/Unorganized.txt"
+NME = "countries/New Mexico.txt"
 SPR = "countries/Spain.txt"
 COS = "countries/Costa Rica.txt"
 ELS = "countries/El Salvador.txt"

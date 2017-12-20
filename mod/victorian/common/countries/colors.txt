@@ -1,4 +1,20 @@
 #reload countrycolors
+UNO  = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+UTH = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+NME = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+ORE = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
 OTT = {
 	color = rgb { 171  190  152 }
 	color_ui = rgb { 171  190  152 }
