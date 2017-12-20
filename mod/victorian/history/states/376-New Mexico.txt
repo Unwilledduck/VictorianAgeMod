@@ -1,4 +1,4 @@
-
+#newmexico
 state={
 	id=376
 	name="STATE_376"
@@ -7,18 +7,18 @@ state={
 	state_category = rural
 	
 	resources={
-		oil=20
-		aluminium=52
+		oil=5
+		aluminium=20
 	}
 
 
 	history={
-		owner = USA
+		owner = NME
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = USA
+		add_core_of = NME
 	}
 
 	provinces={

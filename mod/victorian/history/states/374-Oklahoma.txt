@@ -1,4 +1,4 @@
-
+UNorganized Territory
 state={
 	id=374
 	name="STATE_374"
@@ -7,18 +7,17 @@ state={
 	state_category = city
 	
 	resources={
-		oil=100
-		aluminium=32
+	
 	}
 
 
 	history={
-		owner = USA
+		owner = UNO
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 1
+			industrial_complex = 1
 		}
-		add_core_of = USA
+		add_core_of = UNO
 		victory_points = {
 			1806 1 
 		}

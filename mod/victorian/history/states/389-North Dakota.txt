@@ -10,12 +10,12 @@ state={
 	}
 
 	history={
-		owner = USA
+		owner = UNO
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = USA
+		add_core_of = UNO
 		victory_points = {
 			1836 1 
 		}

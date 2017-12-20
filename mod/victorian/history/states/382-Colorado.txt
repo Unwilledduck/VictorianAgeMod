@@ -4,18 +4,18 @@ state={
 	name="STATE_382"
 	manpower = 1035790
 	resources={
-		oil=20
+		oil=10
 	}
 	
 	state_category = town
 
 	history={
-		owner = USA
+		owner = UTH
 		buildings = {
-			infrastructure = 4
+			infrastructure = 1
 			industrial_complex = 1
 		}
-		add_core_of = USA
+		add_core_of = UTH
 		victory_points = {
 			1827 5 
 		}

@@ -6,11 +6,11 @@ state={
 	state_category = rural
 	
 	history={
-		owner = USA
+		owner = UNO
 		buildings = {
-			infrastructure = 3
+			infrastructure = 1
 		}
-		add_core_of = USA
+		add_core_of = UNO
 	}
 
 	provinces={
