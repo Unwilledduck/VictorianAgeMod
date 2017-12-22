@@ -13,7 +13,7 @@ focus_tree = {
 	focus = {
 		id = USA_Our_Nation
 		text = USA_United_States
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_generic_strike_at_democracy3
 		
 		x = 10
 		y = 0
@@ -22,13 +22,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 150
 			}
 		}
 	focus = {
 		id = USA_Politics
 		text = USA_Politics
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_anschluss
 		prerequisite = {
 			focus = USA_Our_Nation
 		}
@@ -40,13 +40,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = 200
 			}
 		}
 	focus = {
 		id = USA_Foreign
 		text = USA_Foreign
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_air_doctrine
 		prerequisite = {
 			focus = USA_Politics
 		}
@@ -64,7 +64,7 @@ focus_tree = {
 	focus = {
 		id = USA_Isolate
 		text = USA_Isolate
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		prerequisite = {
 			focus = USA_Foreign
 		}
@@ -80,12 +80,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_national_unity = 0.02
+			set_rule = { can_create_factions = no }
 			}
 		}
 	focus = {
 		id = USA_Connect
 		text = USA_Connect
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_demand_sudetenland
 		prerequisite = {
 			focus = USA_Foreign
 		}
@@ -99,13 +101,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			set_rule = { can_create_factions = yes }
+			add_national_unity = 0.01
 			}
 		}
 	focus = {
 		id = USA_Local
 		text = USA_Local
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_major_alliance
 		prerequisite = {
 			focus = USA_Politics
 		}
@@ -116,13 +119,13 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_national_unity = 0.05
 			}
 		}
 	focus = {
 		id = USA_Free_states
 		text = USA_Free_states
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = {
 			focus = USA_Local
 		}
@@ -136,13 +139,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_national_unity = 0.02
+			end_puppet = UTH
+			end_puppet = ORE
+			
 			}
 		}
 	focus = {
 		id = USA_Release_States
 		text = USA_Release_States
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_generic_little_entente
 		prerequisite = {
 			focus = USA_Free_states
 		}
@@ -153,13 +159,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_national_unity = 0.1
+			ORE = { transfer_state = 378 }	
+			
 			}
 		}
 	focus = {
 		id = USA_Mexico
 		text = USA_Mexico
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_generic_concessions
 		prerequisite = {
 			focus = USA_Release_States
 		}
@@ -170,13 +178,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_political_power = -50
+			MEX = { set_state_owner = 377 }
+			MEX = { set_state_owner = 376 }
+			375 = { set_demilitarized_zone = yes }
 			}
 		}	
 	focus = {
 		id = USA_1850_Compromise
 		text = USA_1850_Compromise
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_national_unity
 		prerequisite = {
 			focus = USA_Local
 		}
@@ -190,13 +201,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			annex_country = { target = ORE }
+			annex_country = { target = UNO }
+			annex_country = { target = NME }
+			annex_country = { target = UTH }
+			add_political_power = -75
+			add_national_unity = -0.02
 			}
 		}
 	focus = {
 		id = USA_Gold_Rush
 		text = USA_Gold_Rush
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
 			focus = USA_1850_Compromise
 		}
@@ -207,7 +223,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_resource = { type = steel amount = 50 state = 378 }
+			add_manpower = 25000
 			}
 		}
 
@@ -218,7 +235,7 @@ focus_tree = {
 	focus = {
 		id = USA_Industry
 		text = USA_Industry
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
 			focus = USA_Our_Nation
 		}
@@ -230,14 +247,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = { bonus = 0.25 uses = 2 category = industry }
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = industry }
 			}
 		}
 
 	focus = {
 		id = USA_Infra
 		text = USA_Infra
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construction
 		prerequisite = {
 			focus = USA_Industry
 		}
@@ -250,12 +268,44 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			362 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			360 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			361 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			
 			}
+			
 		}
 	focus = {
 		id = USA_Roads
 		text = USA_Roads
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = USA_Infra
 		}
@@ -267,14 +317,53 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			363 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			365 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			364 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
+			366 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 2
+							instant_build = yes
+						}
+					}
+				}
 			}
 		}
 		
 	focus = {
 		id = USA_Pony_express
 		text = USA_Pony_express
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_cavalry
 		prerequisite = {
 			focus = USA_Roads
 		}
@@ -289,14 +378,93 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
-			}
+			375 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			374 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			382 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			383 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			380 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			379 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			378 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			377 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
 		}
+	}
 	
 	focus = {
 		id = USA_American_Express
 		text = USA_American_Express
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_position_armies
 		prerequisite = {
 			focus = USA_Pony_express
 		}
@@ -308,14 +476,173 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			375 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			374 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			382 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			383 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			380 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			379 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			378 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			377 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			375 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			374 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			382 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			383 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			380 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			379 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			378 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
+			377 = {
+					if = {
+						limit = { is_controlled_by = ROOT }
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+					}
+				}
 			}
 		}
 	
 	focus = {
 		id = USA_Factories
 		text = USA_Factories
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construction
 		prerequisite = {
 			focus = USA_Industry
 		}
@@ -327,14 +654,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			357 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			
 			}
 		}
 		
 	focus = {
 		id = USA_Parts
 		text = USA_Parts
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construction2
 		prerequisite = {
 			focus = USA_Factories
 		}
@@ -346,13 +674,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			358 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			364 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
 			}
 		}
 	focus = {
 		id = USA_Industry_1
 		text = USA_Industry_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_air_production
 		prerequisite = {
 			focus = USA_Parts
 		}
@@ -364,14 +693,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
-			}
+			363 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			369 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			396 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
 		}
+	}
 		
 	focus = {
 		id = USA_Industry_2
 		text = USA_Industry_2
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {
 			focus = USA_Industry_1
 		}
@@ -383,14 +714,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			365 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			378 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
 			}
 		}
+	
 		
 	focus = {
 		id = USA_Industry_3
 		text = USA_Industry_3
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {
 			focus = USA_Industry_2
 		}
@@ -402,13 +735,15 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			376 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+			377 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
 			}
 		}
+	
 	focus = {
 		id = USA_Industry_4
 		text = USA_Industry_4
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_civilian
 		prerequisite = {
 			focus = USA_Industry_3
 		}
@@ -420,7 +755,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			362 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+			362 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			367 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
+			367 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
 			}
 		}
 
@@ -429,7 +767,7 @@ focus_tree = {
 	focus = {
 		id = USA_Millitary
 		text = USA_Millitary
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_generic_military_mission
 		prerequisite = {
 			focus = USA_Our_Nation
 		}
@@ -441,14 +779,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.5
+							uses = 1
+							category = land_doctrine
+						}
 			}
+			
 		}
 	
 	focus = {
 		id = USA_New_Techs
 		text = USA_New_Techs
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_generic_little_entente
 		prerequisite = {
 			focus = USA_Millitary
 		}
@@ -460,13 +804,18 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.3
+							uses = 2
+							category = land_doctrine
+						}
 			}
 		}
 	focus = {
 		id = USA_Artillery_1
 		text = USA_Artillery_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_army_artillery
 		prerequisite = {
 			focus = USA_New_Techs
 		}
@@ -481,7 +830,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = { bonus = 0.5 uses = 2 category = artillery }
 			}
 		}
 	
@@ -502,14 +851,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = { bonus = 0.5 uses = 2 category = artillery }
 			}
 		}
 
 	focus = {
 		id = USA_Infantry
 		text = USA_Infantry
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_rhineland
 		prerequisite = {
 			focus = USA_Artillery_2
 		}
@@ -522,14 +871,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.3
+							uses = 2
+							category = land_doctrine
+						}
 			}
 		}
 		
 	focus = {
 		id = USA_Infantry_1
 		text = USA_Infantry_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_small_arms
 		prerequisite = {
 			focus = USA_Infantry
 		}
@@ -542,14 +896,19 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.3
+							uses = 2
+							category = land_doctrine
+						}
 			}
 		}
 
 	focus = {
 		id = USA_Navy
 		text = USA_Navy
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_amphibious_assault
 		prerequisite = {
 			focus = USA_New_Techs
 		}
@@ -561,14 +920,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			navy_experience = 25
 			}
 		}
 		
 	focus = {
 		id = USA_Navy_2
 		text = USA_Navy_2
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_build_navy
 		prerequisite = {
 			focus = USA_Navy
 		}
@@ -580,14 +939,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			navy_experience = 10
+			add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 0.5
+							uses = 2
+							category = fleet_in_being_tree
+						}
 			}
 		}
 	
 	focus = {
 		id = USA_Navy_3
 		text = USA_Navy_3
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = {
 			focus = USA_Navy_2
 		}
@@ -599,14 +964,119 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			if = {
+							limit = {
+									NOT = {
+											any_owned_state = {
+													dockyard > 0
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+									any_owned_state = {
+											is_coastal = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_coastal = yes
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									any_owned_state = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									NOT = {
+											any_owned_state = {
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+								}
+							random_state = {
+									limit = {
+											controller = {
+													tag = ROOT
+												}
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+						}
+			add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 0.8
+							uses = 1
+							category = fleet_in_being_tree
+						}
 			}
 		}
 		
 	focus = {
 		id = USA_Navy_4
 		text = USA_Navy_4
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = {
 			focus = USA_Navy_3
 		}
@@ -618,7 +1088,112 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			if = {
+							limit = {
+									NOT = {
+											any_owned_state = {
+													dockyard > 0
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+									any_owned_state = {
+											is_coastal = yes
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											is_coastal = yes
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									any_owned_state = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+								}
+							random_owned_controlled_state = {
+									limit = {
+											dockyard > 0
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+							set_country_flag = naval_effort_built
+						}
+					if = {
+							limit = {
+									NOT = {
+											has_country_flag = naval_effort_built
+										}
+									NOT = {
+											any_owned_state = {
+													free_building_slots = {
+															building = dockyard
+															size > 2
+															include_locked = yes
+														}
+												}
+										}
+								}
+							random_state = {
+									limit = {
+											controller = {
+													tag = ROOT
+												}
+											free_building_slots = {
+													building = dockyard
+													size > 2
+													include_locked = yes
+												}
+										}
+									add_extra_state_shared_building_slots = 3
+									add_building_construction = {
+											type = dockyard
+											level = 3
+											instant_build = yes
+										}
+								}
+						}
+						add_tech_bonus = {
+							name = fleet_in_being_bonus
+							bonus = 1.0
+							uses = 1
+							category = fleet_in_being_tree
+						}
 			}
 		}
 
@@ -626,7 +1201,7 @@ focus_tree = {
 	focus = {
 		id = USA_Tactics
 		text = USA_Tactics
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_focus_secret_rearmament
 		prerequisite = {
 			focus = USA_Millitary
 		}
@@ -638,14 +1213,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+		army_experience = 25
+		add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.5
+							uses = 1
+							category = land_doctrine
+						}
 			}
 		}
 		
 	focus = {
 		id = USA_Army
 		text = USA_Army
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_major_war
 		prerequisite = {
 			focus = USA_Tactics
 		}
@@ -657,14 +1238,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			army_experience = 25
+		add_tech_bonus = {
+							name = land_doc_bonus
+							bonus = 0.25
+							uses = 2
+							category = land_doctrine
+						}
 			}
 		}
 	
 	focus = {
 		id = USA_Army_1
 		text = USA_Army_1
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_military_deal
 		prerequisite = {
 			focus = USA_Army
 		}
@@ -676,14 +1263,24 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			if = {
+							limit = {
+									has_idea = neutrality_idea
+								}
+							remove_ideas = neutrality_idea
+						}
+					add_ideas = militarism_focus
+					army_experience = 20
+					set_rule = {
+							can_send_volunteers = yes
+						}
 			}
 		}
 		
 	focus = {
 		id = USA_Army_2
 		text = USA_Army_2
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_military_sphere
 		prerequisite = {
 			focus = USA_Army_1
 		}
@@ -695,14 +1292,20 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.25
+							uses = 3
+							category = industry
+						}
+						add_political_power = 50
 			}
 		}	
 	
 	focus = {
 		id = USA_Army_3
 		text = USA_Army_3
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = {
 			focus = USA_Army_2
 		}
@@ -714,7 +1317,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.25
+							uses = 3
+							category = industry
+						}
+					create_wargoal = { type = annex_everything target = MEX }
+			
 			}
 		}
 		
@@ -726,25 +1336,7 @@ focus_tree = {
 	focus = {
 		id = USA_Racial
 		text = USA_Racial
-		icon = GFX_focus_generic_home_defense
-		prerequisite = {
-			focus = USA_Our_Nation
-		}
-		x = 19
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 100
-			}
-		}
-	
-	focus = {
-		id = USA_Racial
-		text = USA_Racial
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_secret_weapon
 		prerequisite = {
 			focus = USA_Our_Nation
 		}
@@ -756,31 +1348,34 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_national_unity = -0.02
 			}
 		}
+	
 		
 	focus = {
 		id = USA_Slavery
 		text = USA_Slavery
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_political_pressure
 		prerequisite = {
 			focus = USA_Racial
 		}
 		x = 19
 		y = 2
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			add_national_unity = -0.02
+			362 = { add_building_construction = { type = arms_factory level = 1 instant_build = yes } }
 			}
 		}
 		
 	focus = {
 		id = USA_Kansas-Nebraska
 		text = USA_Kansas-Nebraska
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_national_unity
 		prerequisite = {
 			focus = USA_Slavery
 		}
@@ -792,13 +1387,15 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			add_national_unity = 0.05
+			
 			}
 		}
 		
 	focus = {
 		id = USA_Pro_Slavery
 		text = USA_Pro_Slavery
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_special_forces
 		prerequisite = {
 			focus = USA_Kansas-Nebraska
 		}
@@ -819,7 +1416,7 @@ focus_tree = {
 	focus = {
 		id = USA_Slaves_North
 		text = USA_Slaves_North
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_special_forces
 		prerequisite = {
 			focus = USA_Pro_Slavery
 		}
@@ -831,13 +1428,14 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
+			
 			}
 		}
 			
 	focus = {
 		id = USA_Free_Slaves
 		text = USA_Free_Slaves
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = {
 			focus = USA_Kansas-Nebraska
 		}
@@ -858,7 +1456,7 @@ focus_tree = {
 	focus = {
 		id = USA_South_Free
 		text = USA_South_Free
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_defence
 		prerequisite = {
 			focus = USA_Free_Slaves
 		}
@@ -877,7 +1475,7 @@ focus_tree = {
 	focus = {
 		id = USA_Civil_War
 		text = USA_Civil_War
-		icon = GFX_focus_generic_home_defense
+		icon = GFX_goal_generic_demand_territory
 		prerequisite = {
 			focus = USA_South_Free
 			focus = USA_Slaves_North
@@ -891,10 +1489,68 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 100
+			start_civil_war = { ideology = fascism size = 0.5 }
 			}
 		}	
+
+
+
+
+focus = {
+		id = USA_1852_election
+		text = USA_1852_election
+		icon = GFX_focus_generic_military_mission
+		
+		
+		x = 22
+		y = 1
+		cost = 0.14
+
+		available_if_capitulated = yes
+
+		completion_reward = {
 			
+			}
+		}
+focus = {
+		id = USA_1852_Pierce
+		text = USA_1852_Pierce
+		icon = GFX_focus_generic_military_mission
+		prerequisite = {
+			focus = USA_1852_election
+			
+		}
+		
+		
+		x = 23
+		y = 2
+		cost = 0.15
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_country_leader = { name = "Franklin Pierce" desc = "Franklin Pierce" picture = "gfx/leaders/USA/Pierce.dds" expire = "1857.3.4" ideology = liberalism traits = {  } }
+			}
+		}
+focus = {
+		id = USA_1852_scott
+		text = USA_1852_scott
+		icon = GFX_focus_generic_military_mission
+		prerequisite = {
+			focus = USA_1852_election
+			
+		}
+		
+		x = 21
+		y = 2
+		cost = 0.15
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_country_leader = { name = "Winfield Scott" desc = "Winfield Scott" picture = "gfx/leaders/USA/Scott.dds" expire = "1861.11.1" ideology = liberalism traits = {  } }
+			}
+		}		
 			
 			
 }
