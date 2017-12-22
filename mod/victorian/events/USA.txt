@@ -1,1 +1,36 @@
-﻿
+﻿add_namespace = usa
+
+#Death of Zachary Taylor
+country_event = {
+	id = usa.1
+	title = usa.1.t
+	desc = usa.1.d
+	picture = GFX_report_event_zachary_death
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 1850.7.9
+		date < 1850.8.1
+		not = { has_country_flag = USA_zachary_death }
+	}
+	
+	immediate = {
+		set_country_flag = USA_zachary_death
+	}
+	
+	option = {
+		name = usa.1.o1
+		
+		set_politics = {
+			ruling_party = democratic
+			elections_allowed = yes
+		}
+		
+		news_event = {
+			hours = 6
+			id = news.2
+		}
+	}
+}
