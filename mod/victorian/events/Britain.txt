@@ -1,4 +1,4 @@
-﻿add_namespace = britain
+add_namespace = britain
 
 #Great Famine (Ireland)
 country_event = {
@@ -12,7 +12,7 @@ country_event = {
 	trigger = {
 		original_tag = ENG
 		date > 1850.1.1
-		date < 1850.2.1
+		date < 1850.1.10
 		not = { has_country_flag = ENG_famine_ireland }
 	}
 	
