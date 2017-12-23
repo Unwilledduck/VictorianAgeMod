@@ -5,7 +5,7 @@ country_event = {
 	id = britain.1
 	title = britain.1.t
 	desc = britain.1.d
-	picture = GFX_report_event_famine_ireland
+	picture = GFX_report_event_ireland_famine
 	
 	fire_only_once = yes
 	

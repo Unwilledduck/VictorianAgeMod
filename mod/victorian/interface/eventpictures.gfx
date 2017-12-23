@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	# GFX Report
+	spriteType = {
+		name = "GFX_report_event_ireland_famine"
+		texturefile = "gfx/event_pictures/report_event_ireland_famine.dds"
+	}
+	
+	# GFX News
+	spriteType = {
+		name = "GFX_news_event_ireland_famine"
+		texturefile = "gfx/event_pictures/report_news_ireland_famine.dds"
+	}
+	
+}
