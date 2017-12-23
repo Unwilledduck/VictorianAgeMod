@@ -481,9 +481,7 @@ focus_tree = {
 				}
 			completion_reward = {
 					add_manpower = 75000
-					declare_war_on = {
-							target = AHU
-							type = annex_everything
+					create_wargoal = { type = annex_everything target = AHU }
 						}
 				}
 
@@ -506,9 +504,7 @@ focus_tree = {
 				}
 			completion_reward = {
 					add_manpower = 75000
-					declare_war_on = {
-							target = FRA
-							type = annex_everything
+					create_wargoal = { type = annex_everything target = FRA }
 						}
 				}
 
