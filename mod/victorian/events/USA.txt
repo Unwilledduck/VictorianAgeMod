@@ -12,7 +12,7 @@ country_event = {
 	trigger = {
 		original_tag = USA
 		date > 1850.7.9
-		date < 1850.8.1
+		date < 1850.7.11
 		not = { has_country_flag = USA_zachary_death }
 	}
 	
