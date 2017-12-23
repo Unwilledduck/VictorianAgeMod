@@ -9,7 +9,7 @@ spriteTypes = {
 	# GFX News
 	spriteType = {
 		name = "GFX_news_event_ireland_famine"
-		texturefile = "gfx/event_pictures/report_news_ireland_famine.dds"
+		texturefile = "gfx/event_pictures/news_event_ireland_famine.dds"
 	}
 	
 }
