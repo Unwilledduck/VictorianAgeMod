@@ -25,6 +25,19 @@
  BAD_neutrality_ADJ:0 "Badener"
  BAD_communism_ADJ:0 "Badener"
  
+ #korea
+ KOR_democratic:0 "Joseon"
+ KOR_democratic_DEF:0 "Joseon"
+ KOR_fascism:0 "Joseon"
+ KOR_fascism_DEF:0 "Joseon"
+ KOR_communism:0 "Joseon"
+ KOR_communism_DEF:0 "Joseon"
+ KOR_neutrality:0 "Joseon"
+ KOR_neutrality_DEF:0 "Joseon"
+ KOR_fascism_ADJ:0 "Joseoner"
+ KOR_democratic_ADJ:0 "Joseoner"
+ KOR_neutrality_ADJ:0 "Joseoner"
+ KOR_communism_ADJ:0 "Joseoner"
  
  # Second Federal Republic of Mexico
  MEX_democratic:0 "Second Federal Republic of Mexico"
