@@ -65,14 +65,17 @@ create_country_leader = {
 		#
 	}
 }
-create_country_leader = {
-	name = "Millard Fillmore"
-	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
-	picture = "gfx/leaders/USA/millard.dds"
-	expire = "1874.3.8"
-	ideology = liberalism
-	traits = {
-		#
+
+1850.7.10 = {
+	create_country_leader = {
+		name = "Millard Fillmore"
+		desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+		picture = "gfx/leaders/USA/millard.dds"
+		expire = "1874.3.8"
+		ideology = liberalism
+		traits = {
+			#
+		}
 	}
 }
 

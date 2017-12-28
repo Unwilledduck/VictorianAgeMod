@@ -34,3 +34,63 @@ country_event = {
 		}
 	}
 }
+
+
+# Election of 1852: Winfield Scott vs Franklin Pierce
+country_event = {
+	id = usa.2
+	title = usa.2.t
+	desc = usa.2.d
+	picture = GFX_report_event_usa_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = USA
+		democratic > 0.5
+		date > 1852.1.1
+		date < 1953.1.1
+	}
+	
+	option = { 	
+		name = usa.2.a
+		ai_chance = {
+			factor = 75
+		}
+		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
+		
+		create_country_leader = {
+			name = "Franklin Pierce"
+			desc = "POLITICS_FRANKLIN_PIERCE_DESC"
+			picture = "Portrait_USA_Pierce.dds"
+			expire = "1857.1.1"
+			ideology = conservatism
+			traits = {
+			
+			}
+		}
+	}
+
+	option = { 
+		name = usa.2.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}		
+		set_party_name = { ideology = democratic long_name = USA_whigs_party name = USA_whigs_party }
+		
+		create_country_leader = {
+			name = "Winfield Scott"
+			desc = "POLITICS_WINFIELD_SCOTT_DESC"
+			picture = "Portrait_USA_Winfield.dds"
+			expire = "1856.1.1"
+			ideology = conservatism
+			traits = {
+			
+			}
+		}
+	}
+}
