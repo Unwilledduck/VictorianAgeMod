@@ -80,7 +80,7 @@ country_event = {
 				is_historical_focus_on = yes
 			}
 		}		
-		set_party_name = { ideology = democratic long_name = USA_whigs_party name = USA_whigs_party }
+		set_party_name = { ideology = democratic long_name = USA_whig_party name = USA_whig_party }
 		
 		create_country_leader = {
 			name = "Winfield Scott"
