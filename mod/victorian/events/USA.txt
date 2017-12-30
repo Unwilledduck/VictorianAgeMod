@@ -22,10 +22,18 @@ country_event = {
 	
 	option = {
 		name = usa.1.o1
+
+		kill_country_leader = yes
 		
-		set_politics = {
-			ruling_party = democratic
-			elections_allowed = yes
+		create_country_leader = {
+			name = "Millard Fillmore"
+			desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
+			picture = "gfx/leaders/USA/millard.dds"
+			expire = "1874.3.8"
+			ideology = liberalism
+			traits = {
+				#
+			}
 		}
 		
 		news_event = {
