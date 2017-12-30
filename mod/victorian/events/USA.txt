@@ -56,8 +56,8 @@ country_event = {
 	trigger = {
 		tag = USA
 		democratic > 0.5
-		date > 1852.1.1
-		date < 1953.1.1
+		date > 1852.11.1
+		date < 1952.12.1
 	}
 	
 	option = { 	
