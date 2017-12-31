@@ -44,9 +44,11 @@ set_politics = {
 	}
 	
 	ruling_party = democratic
-	last_election = "1932.9.18"
+	last_election = "1848.11.7"
 	election_frequency = 48
 	elections_allowed = yes
+	
+	set_party_name = { ideology = democratic long_name = USA_whig_party name = USA_whig_party }
 }
 
 set_convoys = 126
@@ -87,5 +89,3 @@ create_navy_leader = {
 	traits = { spotter }
 	skill = 4
 }
-
-### Ship Variants ###

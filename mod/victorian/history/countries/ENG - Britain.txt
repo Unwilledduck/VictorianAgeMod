@@ -31,7 +31,7 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity  = 24
+			popularity  = 65
 		}
 
 		communism = {
@@ -39,12 +39,12 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 65
+			popularity = 24
 		}
 		
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1932.9.18"
 	election_frequency = 48
 	elections_allowed = no
@@ -61,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "gfx/leaders/ENG/victoria.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}

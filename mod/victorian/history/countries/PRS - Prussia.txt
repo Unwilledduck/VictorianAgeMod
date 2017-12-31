@@ -25,67 +25,6 @@ set_technology = {
 
 set_convoys = 25
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = large_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "GRE_1939"
-	set_technology = {
-		tech_support = 1		
-		tech_engineers = 1
-		early_fighter = 1
-		early_bomber = 1
-		CAS1 = 1
-		naval_bomber1 = 1
-		gw_artillery = 1
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		basic_destroyer = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		oil_plant = 1
-		improved_oil_plant = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-}
-
 puppet = MEC
 
 set_politics = {
@@ -96,7 +35,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 56
+			popularity = 6
 		}
 		
 		communism = {
@@ -104,14 +43,14 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 6
+			popularity = 56
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1935.6.9"
 	election_frequency = 12
-	elections_allowed = yes # none after offset 1
+	elections_allowed = no # none after offset 1
 }
 
 set_national_unity = 0.8
@@ -121,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_FREDERICK_WILLIAM_IV_DESC"
 	picture = "Portrait_Prussia_Frederick_William_IV.dds"
 	expire = "1961.1.2"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}
@@ -133,7 +72,7 @@ create_country_leader = {
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "gfx/leaders/PRS/Frederick_3.dds"
 	expire = "1961.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 		}
