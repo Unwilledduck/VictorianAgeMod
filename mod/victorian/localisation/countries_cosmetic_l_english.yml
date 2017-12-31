@@ -334,9 +334,9 @@
  FRA_communism_DEF:0 "French State"
  FRA_neutrality:0 "France"
  FRA_neutrality_DEF:0 "France"
- FSE:0 "French Second Empire"
- FSE_DEF:0 "The French Second Empire"
- FSE_ADJ:0 "French"
+ FSE_neutrality:0 "French Second Empire"
+ FSE_neutrality_DEF:0 "The French Second Empire"
+ FSE_neutrality_ADJ:0 "French"
  
  # Prussia
  PRS_democratic:0 "Duchy of Prussia"
