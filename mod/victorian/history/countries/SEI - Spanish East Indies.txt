@@ -23,11 +23,15 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 70
+			popularity = 5
 		}
 		
 		communism = {
 			popularity = 10
+		}
+		
+		neutrality = {
+			popularity = 70
 		}
 	}
 	
@@ -45,7 +49,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTONIO_BLANCO_DESC"
 	picture = "Portrait_Spain_Royal_Coat.dds"
 	expire = "1850.7.29"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}
@@ -57,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTONIO_Urbistondo_DESC"
 	picture = "Portrait_Spain_Antonio_Urbistondo.dds"
 	expire = "1853.12.20"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}

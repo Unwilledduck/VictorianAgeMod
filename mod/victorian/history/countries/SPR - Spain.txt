@@ -26,15 +26,19 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 70
+			popularity = 10
 		}
 		
 		communism = {
 			popularity = 10
 		}
+		
+		neutrality = {
+			popularity = 70
+		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1933.2.16"
 	election_frequency = 36
 	elections_allowed = no
@@ -43,17 +47,18 @@ set_politics = {
 set_convoys = 150
 set_national_unity = 0.8
 
+# DIPLOMACY
 set_autonomy = {
 	target = SEI
 	autonomous_state =  autonomy_puppet
 }
 
 create_country_leader = {
-	name = "Isabella II Maria Louisa"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "GFX/leaders/SPR/isabella_2.dds"
+	name = "Isabella II of Spain"
+	desc = "POLITICS_ISABELLA_II_DESC"
+	picture = "Portrait_Spain_Isabella_II.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}
