@@ -1,5 +1,5 @@
 ACH	= "countries/Aceh.txt"
-UTH = "countries/Utah"
+UTH = "countries/Utah.txt"
 ORE = "countries/Oregon.txt"
 UNO = "countries/Unorganized.txt"
 NME = "countries/New Mexico.txt"
