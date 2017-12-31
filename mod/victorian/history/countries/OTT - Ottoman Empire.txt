@@ -84,14 +84,16 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Abdülaziz"
-	desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
-	picture = "gfx/leaders/OTT/abdulaziz.dds"
-	expire = "1938.11.10"
-	ideology = despotism
-	traits = {
-		#
+1861.1.1 = {
+	create_country_leader = {
+		name = "Abdülaziz"
+		desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
+		picture = "gfx/leaders/OTT/abdulaziz.dds"
+		expire = "1938.11.10"
+		ideology = despotism
+		traits = {
+			#
+		}
 	}
 }
 
