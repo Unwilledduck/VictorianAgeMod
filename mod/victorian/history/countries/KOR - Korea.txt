@@ -47,7 +47,7 @@ set_national_unity = 0.8
 
 create_country_leader = {
 	name = "Yi Byeon"
-	desc = "Yi Byeon"
+	desc = "POLITICS_YI_BYEON_DESC"
 	picture = "Byeon.dds"
 	expire = "1864.2.18"
 	ideology = despotism

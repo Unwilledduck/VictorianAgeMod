@@ -32,7 +32,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 50
+			popularity = 20
 			banned = no
 		}
 		
@@ -42,14 +42,14 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 20
+			popularity = 50
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1935.2.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 20
@@ -78,7 +78,7 @@ create_country_leader = {
 	desc = "POLITICS_ISMET_INÖNÜ_DESC"
 	picture = "gfx/leaders/OTT/abdulmejid.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}

@@ -53,8 +53,8 @@ set_politics = {
 set_convoys = 250
 set_national_unity = 0.85
 
-
-
+#Cosmetics
+set_cosmetic_tag = empire
 
 create_country_leader = {
 	name = "Queen Victoria"
