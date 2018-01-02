@@ -61,7 +61,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Kōmei"
+	name = "Emperor Kōmei"
 	desc = "POLITICS_Kōmei_DESC"
 	picture = "Portrait_Japan_Komei.dds"
 	expire = "1867.1.30"
