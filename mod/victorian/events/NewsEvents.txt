@@ -29,3 +29,29 @@ news_event = {
 		}
 	}
 }
+
+# Death of Zachary Taylor
+news_event = {
+	id = news.2
+	title = news.2.t
+	desc = news.2.d
+	picture = GFX_news_event_zachary_death
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.2.a
+		trigger = {
+			original_tag = USA
+		}
+	}
+	
+	option = {
+		name = news.1.b
+		trigger = {
+			NOT = { original_tag = USA }
+		}
+	}
+}

@@ -1,0 +1,37 @@
+add_namespace = ottoman
+
+#Offer Peace
+country_event = {
+	id = ottoman.1
+	title = ottoman.1.t
+	desc = ottoman.1.d
+	picture = GFX_report_event_ottoman_offer_peace
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		not = { has_country_flag = OTT_offer_peace }
+		has_country_flag = OTT_war_russia
+		mean_time_to_happen = 200
+	}
+	
+	immediate = {
+		set_country_flag = OTT_offer_peace
+	}
+	
+	option = {
+		name = ottoman.1.o1
+		
+		white_peace = RUS
+		
+		news_event = {
+			hours = 6
+			id = news.5
+		}
+	}
+	
+	option = {
+		name = ottoman.1.o2
+	}
+}

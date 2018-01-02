@@ -261,31 +261,31 @@ focus_tree = {
 			create_wargoal = { type = annex_everything target = RUS }
 			}
 		}
-	focus = {
-		id = OTT_Offer_Peace
-		text = OTT_Offer_Peace
-		icon = GFX_goal_generic_national_unity
-		prerequisite = {
-			focus = OTT_Declare_War
-		}
-		available = {
-					date > 1853.1.1
-					
-				}
-		historical_ai = {
-					date > 1853.10.16
-				}
-		x = 3
-		y = 6
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			white_peace = RUS
-			add_political_power = 50
-			}
-		}
+#	focus = {
+#		id = OTT_Offer_Peace
+#		text = OTT_Offer_Peace
+#		icon = GFX_goal_generic_national_unity
+#		prerequisite = {
+#			focus = OTT_Declare_War
+#		}
+#		available = {
+#					date > 1853.1.1
+#					
+#				}
+#		historical_ai = {
+#					date > 1853.10.16
+#				}
+#		x = 3
+#		y = 6
+#		cost = 10
+#
+#		available_if_capitulated = yes
+#
+#		completion_reward = {
+#			white_peace = RUS
+#			add_political_power = 50
+#			}
+#		}
 		
 	focus = {
 		id = OTT_East
