@@ -96,8 +96,8 @@ PRS = {
 	color_ui = rgb {106  119  89}
 }
 RUS = {
-	color = rgb { 255  244  190 }
-	color_ui = rgb {255  244  190 }
+	color = rgb { 0  74  0 }
+	color_ui = rgb {0  74  0 }
 }
 DEN = {
 	color = rgb {  153 116 93 }
