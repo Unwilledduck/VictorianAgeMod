@@ -337,6 +337,9 @@
  FSE_neutrality:0 "French Second Empire"
  FSE_neutrality_DEF:0 "The French Second Empire"
  FSE_neutrality_ADJ:0 "French"
+ FSR_neutrality:0 "French Second Republic"
+ FSR_neutrality_DEF:0 "The French Second Republic"
+ FSR_neutrality_ADJ:0 "French"
  
  # Prussia
  PRS_democratic:0 "Duchy of Prussia"

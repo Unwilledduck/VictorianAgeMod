@@ -55,3 +55,55 @@ news_event = {
 		}
 	}
 }
+
+# Franklin Pierce wins the election of 1852
+news_event = {
+	id = news.3
+	title = news.3.t
+	desc = news.3.d
+	picture = GFX_news_event_pierce_election
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.3.a
+		trigger = {
+			original_tag = USA
+		}
+	}
+	
+	option = {
+		name = news.3.b
+		trigger = {
+			NOT = { original_tag = USA }
+		}
+	}
+}
+
+# Winfield Scott wins the election of 1852
+news_event = {
+	id = news.4
+	title = news.4.t
+	desc = news.4.d
+	picture = GFX_news_event_winfield_election
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.4.a
+		trigger = {
+			original_tag = USA
+		}
+	}
+	
+	option = {
+		name = news.4.b
+		trigger = {
+			NOT = { original_tag = USA }
+		}
+	}
+}
