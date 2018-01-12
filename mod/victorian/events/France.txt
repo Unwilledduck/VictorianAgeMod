@@ -23,7 +23,7 @@ country_event = {
 		
 		news_event = {
 			hours = 6
-			id = news.4
+			id = news.5
 		}
 	}
 }
@@ -51,7 +51,7 @@ country_event = {
 		
 		news_event = {
 			hours = 6
-			id = news.5
+			id = news.6
 		}
 	}
 }
