@@ -22,4 +22,8 @@ spriteTypes = {
 		texturefile = "gfx/event_pictures/news_event_usa_zachar_death.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_news_event_france_empire_proclaimed"
+		texturefile = "gfx/event_pictures/news_event_france_empire_proclaimed.dds"
+	}
 }
