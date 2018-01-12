@@ -107,3 +107,55 @@ news_event = {
 		}
 	}
 }
+
+# Proclamation of the Second French Empire
+news_event = {
+	id = news.5
+	title = news.5.t
+	desc = news.5.d
+	picture = GFX_news_event_proclaim_empire
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.5.a
+		trigger = {
+			original_tag = FRA
+		}
+	}
+	
+	option = {
+		name = news.5.b
+		trigger = {
+			NOT = { original_tag = FRA }
+		}
+	}
+}
+
+# Proclamation of the Second French Republic
+news_event = {
+	id = news.6
+	title = news.6.t
+	desc = news.6.d
+	picture = GFX_news_event_proclaim_republic
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.6.a
+		trigger = {
+			original_tag = FRA
+		}
+	}
+	
+	option = {
+		name = news.6.b
+		trigger = {
+			NOT = { original_tag = FRA }
+		}
+	}
+}
