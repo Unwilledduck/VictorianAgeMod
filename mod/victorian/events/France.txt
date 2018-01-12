@@ -19,7 +19,7 @@ country_event = {
 	}
 	
 	option = {
-		name = france.1.o1
+		name = france.1.a
 		
 		news_event = {
 			hours = 6
@@ -47,7 +47,7 @@ country_event = {
 	}
 	
 	option = {
-		name = france.2.o1
+		name = france.2.a
 		
 		news_event = {
 			hours = 6
