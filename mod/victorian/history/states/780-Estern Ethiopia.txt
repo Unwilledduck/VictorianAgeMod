@@ -1,0 +1,29 @@
+state={
+	id=780
+	name="STATE_780"
+	
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = 
+		buildings = {
+			infrastructure = 1
+			arms_factory = 2
+
+		}
+		victory_points = {
+			1984 1.0 
+		}
+		add_core_of = 
+
+	}
+
+	provinces={
+		2009 4995 5010 5041 7912 7980 8019 8036 8062 10734 10775 12714 12757 12812 12856 
+	}
+	manpower=1567
+	buildings_max_level_factor=1.000
+   	state_category = wasteland 
+}

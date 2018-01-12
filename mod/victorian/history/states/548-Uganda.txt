@@ -7,12 +7,12 @@ state={
 		rubber=4
 	}
 	history={
-		owner = ENG
+		owner = 
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = KEN
+		add_core_of = 
 	}
 
 	provinces={

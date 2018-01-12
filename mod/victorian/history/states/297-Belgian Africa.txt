@@ -8,7 +8,7 @@ state=
 	
 	history=
 	{
-		owner = FRA
+		owner = SPR
 		buildings = {
 			infrastructure = 2
 			1903 = {

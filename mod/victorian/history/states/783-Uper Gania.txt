@@ -1,0 +1,15 @@
+state={
+	id=783
+	name="STATE_783"
+	
+	history={
+		owner = 
+		}
+
+	provinces={
+		8039 8096 12787 
+	}
+	manpower=63
+	buildings_max_level_factor=1.000
+   state_category=rural
+}

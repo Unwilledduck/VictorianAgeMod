@@ -1,31 +1,26 @@
-state=
-{
+
+state={
 	id=271
 	name="STATE_271"
-	manpower = 10000000
 	resources={
-		rubber=2
+		rubber=2.000
 	}
-	
-	state_category = town
 
-	history=
-	{
+	history={
 		owner = ETH
 		buildings = {
 			infrastructure = 1
 			arms_factory = 2
-			}
-		
-		victory_points = { 
-			1984 1.0 
+
 		}
-		
 		add_core_of = ETH
 
 	}
 
-	provinces=
-	{
-1984 2009 2040 2072 4954 4995 5010 5041 5097 7912 7944 7980 8019 8036 8062 10734 10775 12714 12757 12812 12856 13137 	}
+	provinces={
+		1984 2040 2072 4954 5097 7944 13137 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+		state_category = town
 }
