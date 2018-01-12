@@ -80,7 +80,11 @@ bookmarks = {
 
 			}
 			focuses = {
-
+			USA_Our_Nation
+			USA_1850_Compromise
+			USA_Pony_express
+			USA_Slavery
+			
 			}
 		}
 		
