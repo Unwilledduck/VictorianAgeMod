@@ -28,19 +28,19 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 5
 		}
 
 		neutrality = {
-			popularity  = 0
+			popularity  = 100
 		}
 
 		communism = {
-			popularity = 0
+			popularity = 2
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 	}
@@ -60,7 +60,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_Pascha_DESC"
 	picture = "gfx/leaders/EGY/Muhammad_Said_Pascha.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}
