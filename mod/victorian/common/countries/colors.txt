@@ -3,10 +3,10 @@ KOR =  {
 	color = rgb { 250 133 0 }
 	color_ui = rgb {250 133 0 }
 }
-#UNO  = {
-#	color = rgb { 20 133 237 }
-#	color_ui = rgb { 87 160 255 }
-#}
+UNO  = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
 UTH = {
 	color = rgb { 20 133 237 }
 	color_ui = rgb { 87 160 255 }

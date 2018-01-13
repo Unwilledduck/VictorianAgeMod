@@ -7,7 +7,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = UNO
+		#owner = UNO
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
