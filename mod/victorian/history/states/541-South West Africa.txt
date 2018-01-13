@@ -4,15 +4,14 @@ state={
 	name="STATE_541"
 
 	history={
-		owner = buildings
-		= {
+		owner = UNO
+		buildings = {
 			infrastructure = 3
 
 		}
 		victory_points = {
 			4879 1 
 		}
-		add_core_of = 
 	}
 
 	provinces={

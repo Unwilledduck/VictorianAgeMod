@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = 
+		owner = UNO
 
 		buildings = {
 			infrastructure = 3

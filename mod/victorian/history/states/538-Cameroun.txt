@@ -9,11 +9,10 @@ state={
 		rubber=5
 	}
 	history={
-		owner = 
+		owner = UNO
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = 
 	}
 
 	provinces={
