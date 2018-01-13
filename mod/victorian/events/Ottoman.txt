@@ -1,4 +1,4 @@
-add_namespace = ottoman
+﻿add_namespace = ottoman
 
 #Offer Peace
 country_event = {
