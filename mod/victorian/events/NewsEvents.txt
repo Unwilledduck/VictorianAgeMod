@@ -113,7 +113,7 @@ news_event = {
 	id = news.5
 	title = news.5.t
 	desc = news.5.d
-	picture = GFX_news_event_proclaim_empire
+	picture = GFX_news_event_france_empire_proclaimed
 	
 	major = yes
 	
