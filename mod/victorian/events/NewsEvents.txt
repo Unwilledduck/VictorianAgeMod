@@ -159,3 +159,29 @@ news_event = {
 		}
 	}
 }
+
+# Ottoman White Peace with Russia
+news_event = {
+	id = news.7
+	title = news.7.t
+	desc = news.7.d
+	picture = GFX_news_event_ottoman_whitepeace
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news.7.a
+		trigger = {
+			original_tag = OTT
+		}
+	}
+	
+	option = {
+		name = news.6.b
+		trigger = {
+			NOT = { original_tag = OTT }
+		}
+	}
+}

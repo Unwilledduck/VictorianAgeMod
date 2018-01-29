@@ -12,6 +12,7 @@ country_event = {
 	trigger = {
 		original_tag = OTT
 		not = { has_country_flag = OTT_offer_peace }
+		has_offensive_war_with = RUS
 	}
 	
 	mean_time_to_happen = {
@@ -29,7 +30,7 @@ country_event = {
 		
 		news_event = {
 			hours = 6
-			id = news.5
+			id = news.7
 		}
 	}
 	
