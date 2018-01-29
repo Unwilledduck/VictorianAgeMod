@@ -795,19 +795,19 @@
  NEJ_neutrality_ADJ:0 "Nejd"
  NEJ_communism_ADJ:0 "Nejd"
 
- # Mecklemburg
- MEC_fascism:0 "Mecklemburg"
- MEC_fascism_DEF:0 "Mecklemburg"
- MEC_democratic:0 "Mecklemburg"
- MEC_democratic_DEF:0 "Mecklemburg"
- MEC_neutrality:0 "Mecklemburg"
- MEC_neutrality_DEF:0 "Mecklemburg"
- MEC_communism:0 "Mecklemburg"
- MEC_communism_DEF:0 "Mecklemburg"
- MEC_fascism_ADJ:0 "Mecklemburg"
- MEC_democratic_ADJ:0 "Mecklemburg"
- MEC_neutrality_ADJ:0 "Mecklemburg"
- MEC_communism_ADJ:0 "Mecklemburg"
+ # Mecklenburg
+ MEC_fascism:0 "Mecklenburg"
+ MEC_fascism_DEF:0 "Mecklenburg"
+ MEC_democratic:0 "Mecklenburg"
+ MEC_democratic_DEF:0 "Mecklenburg"
+ MEC_neutrality:0 "Mecklenburg"
+ MEC_neutrality_DEF:0 "Mecklenburg"
+ MEC_communism:0 "Mecklenburg"
+ MEC_communism_DEF:0 "Mecklenburg"
+ MEC_fascism_ADJ:0 "Mecklenburg"
+ MEC_democratic_ADJ:0 "Mecklenburg"
+ MEC_neutrality_ADJ:0 "Mecklenburg"
+ MEC_communism_ADJ:0 "Mecklenburg"
  
  # Oman
  OMA_fascism:0 "Oman"
