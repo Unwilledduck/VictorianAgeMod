@@ -24,7 +24,7 @@ country_event = {
 	}
 	
 	option = {
-		name = ottoman.1.o1
+		name = ottoman.1.a
 		
 		white_peace = RUS
 		
@@ -35,6 +35,6 @@ country_event = {
 	}
 	
 	option = {
-		name = ottoman.1.o2
+		name = ottoman.1.b
 	}
 }
