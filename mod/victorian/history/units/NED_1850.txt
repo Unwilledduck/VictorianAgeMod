@@ -1,0 +1,64 @@
+﻿division_template = {
+	name = "Nederlandse Infantrie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Kannon Battaljon"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+       }
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Srpska_Vojska
+	division= {	
+		name = "Eerste Infantrie"
+		location = 9602
+		division_template = "Nederlandse Infantrie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Tweede Infantrie"
+		location = 9602
+		division_template = "Nederlandse Infantrie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Kannon Divisie "
+		location = 9602
+		division_template = "Kannon Battaljon"
+		start_experience_factor = 0.3
+	}
+	navy = {				
+		name = "Koninklijke Marine"			
+		base = 485 
+		location = 485  
+		ship = { name = "HNLMS Prins Hendrik der Nederlanden" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = NED } } }		
+		ship = { name = "HMS Caroline " definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = NED} } }
+		ship = { name = " Maria Riggersberge " definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = NED} } }
+	
+	}		
+}
+
