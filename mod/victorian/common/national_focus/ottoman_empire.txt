@@ -327,7 +327,7 @@ focus_tree = {
 		completion_reward = {
 			add_state_claim = 421
 			add_state_claim = 419
-			
+			create_wargoal = { type = annex_everything target = PER }
 			}
 		}
 		
@@ -348,6 +348,7 @@ focus_tree = {
 		completion_reward = {
 			add_state_claim = 415
 			add_state_claim = 267
+			create_wargoal = { type = annex_everything target = AFG }
 			}
 		}
 	#Industry
