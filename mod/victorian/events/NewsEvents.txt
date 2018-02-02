@@ -35,7 +35,7 @@ news_event = {
 	id = news.2
 	title = news.2.t
 	desc = news.2.d
-	picture = GFX_news_event_zachary_death
+	picture = GFX_news_event_usa_zachar_death
 	
 	major = yes
 	

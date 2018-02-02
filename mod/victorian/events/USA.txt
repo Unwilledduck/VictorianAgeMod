@@ -5,7 +5,7 @@ country_event = {
 	id = usa.1
 	title = usa.1.t
 	desc = usa.1.d
-	picture = GFX_report_event_zachary_death
+	picture = GFX_report_event_usa_zachar_death
 	
 	fire_only_once = yes
 	
