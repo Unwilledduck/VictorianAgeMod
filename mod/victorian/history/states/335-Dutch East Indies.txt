@@ -12,8 +12,8 @@ state={
 	}
 
 	history={
-		owner = NED
-		add_core_of = NED
+		owner = HOL
+		add_core_of = HOL
 		add_core_of = ACH
 		victory_points = {
 			7381 5
