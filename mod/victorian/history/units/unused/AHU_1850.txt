@@ -1,0 +1,282 @@
+﻿division_template = {
+	name = "Infanterie-Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+	division= {	
+		name = "2. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}division= {	
+		name = "13. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "17. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "19. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}division= {	
+		name = "21. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "23. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "99. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24. Infantry Division"
+		location = 11666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "25. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "26. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "27. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "28. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "29. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "30. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "31. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "32. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "31. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "32. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "33. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "34. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "35. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "36. Infantry Division"
+		location = 9660
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+	}
+	
+	navy = {				
+		name = " Kaiserliche und Königliche Kriegsmarine"			
+		base = 11584 
+		location = 5812  
+		ship = { name = "SMS Venus" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	#frigates 4
+		ship = { name = "SMS Bellona" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	
+		ship = { name = "SMS Novara " definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	
+		ship = { name = "SMS Schwarzenberg" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = AHU } } }	
+		ship = { name = "SMS Minerva" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }# 6 corvettes
+		ship = { name = "SMS Diana" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Carolina " definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Pylades" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Pola" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Montecuccoli" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Hussar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }# 7brigs
+		ship = { name = "SMS Taurus" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Achilles" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Messagiere" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Prinz Eugen" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Volta" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		ship = { name = "SMS Kaiserin Elisabeth" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = AHU } } }
+		
+	}
+	
+	
+	
+	
+}

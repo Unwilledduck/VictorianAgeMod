@@ -1,0 +1,278 @@
+﻿division_template = {
+	name = "Infanterie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Chasseurs Alpins"
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+	}
+}
+
+
+units = {
+	##### Oberkommando des Heeres #####
+		division= {	
+		name = "1er Régiment d'Infanterie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1er Régiment de Tirailleurs "
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16e Bataillon de Chasseurs"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24e Régiment d'Infanterie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "35e Régiment d'Infanterie"
+		location = 9737
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "92e Régiment d'Infanterie"
+		location = 9737
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "126e Régiment d'Infanterie"
+		location = 3552
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "152e Régiment d'Infantrie"
+		location = 9737
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7e Bataillon de Chasseurs Alpins"
+		location = 6668
+		division_template = "Chasseurs Alpins"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13e Bataillon de Chasseurs Alpins"
+		location = 6668
+		division_template = "Chasseurs Alpins"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "27e Bataillon de Chasseurs Alpins "
+		location = 6668
+		division_template = "Chasseurs Alpins"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3e Régiment du Génie"
+		location = 764
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5e Régiment du Génie "
+		location = 11516
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2e Régiment du Matériel"
+		location = 11516
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+#foreign
+	division= {	
+		name = "2e Régiment Etranger d'Infanterie"
+		location = 11516
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "3e Régiment Etranger d'Infanterie"
+		location = 11936
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4ème Régiment Etranger"
+		location = 11936
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1er Régiment Etranger "
+		location = 11939
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13e Demi-Brigade de la Légion Etrangère"
+		location = 11939
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "Détachement de la Légion Etrangère à Mayotte ("
+		location = 11939
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6e Régiment Etranger du Génie"
+		location = 12885
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "1e Régiment Etranger du Génie"
+		location = 9377
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2e Régiment Etranger du Génie"
+		location = 12885
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "15e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "16e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "17e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "18e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "19e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "20e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "21e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "22e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "23e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "24e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "25e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+		division= {	
+		name = "26e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "27e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "28e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "29e Régiment d'Infantrie"
+		location = 11506
+		division_template = "Infanterie"
+		start_experience_factor = 0.3
+	}
+	
+	
+	#### NAVAL UNITS #####
+	### KRIEGSMARINE ###
+	navy = {				
+		name = "Marine"			
+		base = 485 
+		location = 485  
+		ship = { name = "Tage" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }		
+		ship = { name = "Bayard" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }		
+		ship = { name = "Daguesclin" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Breslaw" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Jemmapas" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }		
+		ship = { name = "Ulm" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }		
+		ship = { name = "Hercule" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Suffren" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Inflexible" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = FRA } } }	
+		ship = { name = "Henri IV" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = FRA } } }
+	
+	}	
+}

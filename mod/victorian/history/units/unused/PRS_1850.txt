@@ -1,0 +1,125 @@
+﻿division_template = {
+	name = "Heer"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+    artillery = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	##### Oberkommando des Heeres #####
+	### 1. Armee (Wehrmacht-Gruppenkommando) ###
+	# II. Armeekorps
+division= {	
+		name = "1. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "5. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "6. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "7. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "8. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "9. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "10. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "11. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "12. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "13. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "14. Infantry Division"
+		location = 6521
+		division_template = "Heer"
+		start_experience_factor = 0.3
+	}
+	
+	
+	
+	
+	
+	
+	
+	#### NAVAL UNITS #####
+	### KRIEGSMARINE ###
+	navy = {				
+		name = "Kriegsmarine"			
+		base = 11372 
+		location = 11372  
+		ship = { name = "SMS Thetis" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PRS } } }		
+		ship = { name = "SMS Niobe" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = PRS } } }		
+		ship = { name = "SMS Amazone" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = PRS } } }		
+	}	
+}
