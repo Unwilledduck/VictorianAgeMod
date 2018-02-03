@@ -77,13 +77,13 @@ technologies = {
 	
 	improved_infantry_muzzles = {
 
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
+		#category_light_infantry = {
+		#	soft_attack = 0.05
+		#}
 		
-		cavalry = {
-			soft_attack = 0.05
-		}
+		#cavalry = {
+		#	soft_attack = 0.05
+		#}
 		
 		path = {
 			leads_to_tech = infantry_weapons2
