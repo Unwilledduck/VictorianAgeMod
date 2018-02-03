@@ -107,7 +107,7 @@ BRA = {
 	color = rgb { 76 145 63 }
 	color_ui = rgb { 99 189 82 }
 }
-NED = {
+HOL = {
 	color = rgb { 203  138  74 }
 	color_ui = rgb { 203  138  74 }
 }

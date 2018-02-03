@@ -544,16 +544,16 @@
  BRA_communism_ADJ:0 "Brazilian"
  
  # The Netherlands
- NED_democratic:0 "Netherlands"
- NED_democratic_DEF:0 "Netherlands"
- NED_fascism:0 "Dutch Empire"
- NED_fascism_DEF:0 "Dutch Empire"
- NED_communism:0 "Nederlanden"
- NED_communism_DEF:0 "Nederlanden"
- NED_fascism_ADJ:0 "Dutch"
- NED_democratic_ADJ:0 "Dutch"
- NED_neutrality_ADJ:0 "Dutch"
- NED_communism_ADJ:0 "Dutch"
+ HOL_democratic:0 "Netherlands"
+ HOL_democratic_DEF:0 "The Netherlands"
+ HOL_fascism:0 "Dutch Empire"
+ HOL_fascism_DEF:0 "The Dutch Empire"
+ HOL_communism:0 "Nederlanden"
+ HOL_communism_DEF:0 "Nederlanden"
+ HOL_fascism_ADJ:0 "Dutch"
+ HOL_democratic_ADJ:0 "Dutch"
+ HOL_neutrality_ADJ:0 "Dutch"
+ HOL_communism_ADJ:0 "Dutch"
  
  # Qing Dynasty
  QIN_democratic:0 "China"

@@ -370,12 +370,12 @@
  BRA_neutrality_DEF:0 "Brazil"
  
  # The Netherlands
- NED_democratic:0 "Netherlands"
- NED_democratic_DEF:0 "Netherlands"
- NED_fascism:0 "Dutch Empire"
- NED_fascism_DEF:0 "Dutch Empire"
- NED_communism:0 "Nederlanden"
- NED_communism_DEF:0 "Nederlanden"
+ HOL_democratic:0 "Netherlands"
+ HOL_democratic_DEF:0 "Netherlands"
+ HOL_fascism:0 "Dutch Empire"
+ HOL_fascism_DEF:0 "Dutch Empire"
+ HOL_communism:0 "Nederlanden"
+ HOL_communism_DEF:0 "Nederlanden"
  
  # Qing Dynasty
  QIN_democratic:0 "China"
