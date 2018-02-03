@@ -1,0 +1,45 @@
+﻿capital = 8
+
+oob = "LUX_1850"
+
+set_research_slots = 2
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 92
+		}
+
+		fascism = {
+			popularity = 3
+		}
+		
+		communism = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+	create_country_leader = {
+		name = "Jean-Jacques Willmar"
+		desc = "POLITICS_PIERRE_DUPONG_DESC"
+		picture = "gfx/leaders/LUX/willmar.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+}
