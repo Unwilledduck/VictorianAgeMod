@@ -8,7 +8,7 @@ state={
 	history={
 		owner = OTT
 		buildings = {
-			infrastrucOTTe = 3
+			infrastracture = 3
 			11894 = {
 				naval_base = 3
 			}
