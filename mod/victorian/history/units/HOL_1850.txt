@@ -35,7 +35,7 @@ units = {
 	# II. Srpska_Vojska
 	division= {	
 		name = "Eerste Infantrie"
-		location = 6282
+		location = 6286
 		division_template = "Nederlandse Infantrie"
 		start_experience_factor = 0.3
 	}
@@ -53,8 +53,8 @@ units = {
 	}
 	navy = {				
 		name = "Koninklijke Marine"			
-		base = 485 
-		location = 2752  
+		base = 3314 
+		location = 3314  
 		ship = { name = "HNLMS Prins Hendrik der Nederlanden" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = HOL } } }		
 		ship = { name = "HMS Caroline " definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = HOL} } }
 		ship = { name = " Maria Riggersberge " definition = destroyer equipment = { destroyer_1  = { amount = 1 owner = HOL} } }
