@@ -12,7 +12,7 @@ state={
 	history={
 		owner = OTT
 		buildings = {
-			infrastracture = 3
+			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = OTT
