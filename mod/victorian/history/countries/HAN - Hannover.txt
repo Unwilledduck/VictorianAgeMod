@@ -1,6 +1,6 @@
 ﻿capital = 59	
 
-oob = "HAN_1936"
+oob = "HAN_1850"
 
 set_research_slots = 2
 

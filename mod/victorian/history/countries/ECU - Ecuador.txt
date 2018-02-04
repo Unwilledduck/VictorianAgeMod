@@ -1,6 +1,6 @@
 ﻿capital = 305
 
-oob = "ECU_1936"
+oob = "ECU_1850"
 
 # Starting tech
 set_technology = {

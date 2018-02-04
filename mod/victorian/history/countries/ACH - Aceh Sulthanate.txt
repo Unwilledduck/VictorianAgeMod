@@ -1,6 +1,6 @@
 ﻿capital = 335 #Kuala Lumpur
 
-oob = "ACH_1936"
+oob = "ACH_1850"
 
 set_research_slots = 2
 
