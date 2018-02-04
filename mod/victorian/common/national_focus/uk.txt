@@ -97,16 +97,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = {
-					#name = dd_bonus
-					#bonus = 0.5
-					#ahead_reduction = 1
-					#uses = 1
-					#technology = early_destroyer
-					#technology = basic_destroyer
-					#technology = improved_destroyer
-					#technology = advanced_destroyer
-				#}
+			add_tech_bonus = {
+					name = dd_bonus
+					bonus = 0.5
+					ahead_reduction = 1
+					uses = 1
+					technology = early_destroyer
+					technology = basic_destroyer
+					technology = improved_destroyer
+					technology = advanced_destroyer
+				}
 			}
 		}
 		

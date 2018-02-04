@@ -1,6 +1,6 @@
-﻿capital = 278
+﻿capital = 301
 
-oob = "MOD_1850"
+oob = "PAR_1850"
 
 set_research_slots = 2
 
@@ -12,7 +12,7 @@ set_technology = {
 	early_submarine = 1
 	early_destroyer = 1
 	early_light_cruiser = 1
-	early_heavy_cruiser = 1
+	
 	transport = 1
 	
 }
@@ -21,15 +21,15 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 20
+			popularity = 25
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 10
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 5
 		}
 		neutrality = {
 			popularity = 60
@@ -43,16 +43,17 @@ set_politics = {
 }
 
 set_convoys = 60
-set_national_unity = 0.65
+set_national_unity = 0.75
 
 
 create_country_leader = {
-	name = "Francis V"
-	desc = "FRANCIS_V"
-	picture = "gfx/leaders/MOD/Francis_V_of_Modena.dds"
-	expire = "1965.1.1"
+	name = "Carlos Antonio López"
+	desc = "Carlos Antonio López"
+	picture = "gfx/leaders/PAR/antonio.dds"
+	expire = "1862.9.10"
 	ideology = centrism
 	traits = {
 		#
 	}
 }
+

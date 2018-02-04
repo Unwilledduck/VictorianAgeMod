@@ -143,17 +143,17 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#	name = special_forces_bonus
-			#	bonus = 0.5
-			#	uses = 1
-				#technology = paratroopers
-				#technology = paratroopers2
-				#technology = marines
-				#technology = marines2
-				#technology = tech_mountaineers
-				#technology = tech_mountaineers2
-			#}
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 0.5
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
 		}
 	}
 	
@@ -391,16 +391,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#	name = sub_op_bonus
-			#	bonus = 0.5
-			#	uses = 2
-				#technology = convoy_interdiction_ti
-				#technology = unrestricted_submarine_warfare
-				#technology = wolfpacks
-				#technology = advanced_submarine_warfare
-				#technology = combined_operations_raiding
-			#}
+			add_tech_bonus = {
+				name = sub_op_bonus
+				bonus = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
 		}
 	}
 
@@ -464,16 +464,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#	name = ss_bonus
-			#	bonus = 0.5
-			#	ahead_reduction = 1
-			#	uses = 1
-				#technology = early_submarine
-				#technology = basic_submarine
-				#technology = improved_submarine
-				#technology = advanced_submarine
-			#}
+			add_tech_bonus = {
+				name = ss_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}
 		}
 	}
 
@@ -502,16 +502,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#	name = cr_bonus
-			#	bonus = 0.5
-			#	ahead_reduction = 1
-			#	uses = 1
-				#technology = improved_light_cruiser
-				#technology = advanced_light_cruiser
-				#technology = improved_heavy_cruiser
-				#technology = advanced_heavy_cruiser
-			#}
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = improved_light_cruiser
+				technology = advanced_light_cruiser
+				technology = improved_heavy_cruiser
+				technology = advanced_heavy_cruiser
+			}
 		}
 	}
 
@@ -540,16 +540,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#	name = dd_bonus
-			#	bonus = 0.5
-			#	ahead_reduction = 1
-			#	uses = 1
-				#technology = early_destroyer
-				#technology = basic_destroyer
-				#technology = improved_destroyer
-				#technology = advanced_destroyer
-			#}
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
+			}
 		}
 	}
 
@@ -579,22 +579,22 @@ focus_tree = {
 
 		completion_reward = {
 			navy_experience = 25
-			#add_tech_bonus = {
-			#	name = capital_ships_bonus
-			#	bonus = 0.5
-			#	ahead_reduction = 1
-			#	uses = 1
-				#technology = basic_battlecruiser
-				#technology = basic_battleship
-				#technology = improved_battleship
-				#technology = advanced_battleship
-				#technology = heavy_battleship
-				#technology = heavy_battleship2
-				#technology = early_carrier
-				#technology = basic_carrier
-				#technology = improved_carrier
-				#technology = advanced_carrier
-			#}
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = basic_battlecruiser
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+				technology = heavy_battleship
+				technology = heavy_battleship2
+				technology = early_carrier
+				technology = basic_carrier
+				technology = improved_carrier
+				technology = advanced_carrier
+			}
 		}
 	}
 
@@ -1785,6 +1785,12 @@ focus_tree = {
 			if = {
 				limit = {
 					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 0.5
+					uses = 1
+					category = electronics
 				}
 				add_tech_bonus = {
 					name = industrial_bonus
