@@ -723,10 +723,10 @@ focus = {
 							bonus = 0.5
 							ahead_reduction = 1
 							uses = 1
-							#technology = early_submarine
-							#technology = basic_submarine
-							#technology = improved_submarine
-							#technology = advanced_submarine
+							technology = early_submarine
+							technology = basic_submarine
+							technology = improved_submarine
+							technology = advanced_submarine
 						}
 				}
 
@@ -760,10 +760,10 @@ focus = {
 					bonus = 0.5
 					ahead_reduction = 1
 					uses = 1
-					#technology = early_destroyer
-					#technology = basic_destroyer
-					#technology = improved_destroyer
-					#technology = advanced_destroyer
+					technology = early_destroyer
+					technology = basic_destroyer
+					technology = improved_destroyer
+					technology = advanced_destroyer
 			}
 		}
 

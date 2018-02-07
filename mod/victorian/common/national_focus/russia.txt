@@ -396,13 +396,13 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#				name = industrial_bonus
-			#				bonus = 0.25
-			#				uses = 2
-			#				category = industry
-			#			}
-			#}
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.25
+							uses = 2
+							category = industry
+						}
+			}
 		
 	}	
 	
@@ -421,19 +421,19 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#				name = industrial_bonus
-			#				bonus = 0.5
-			#				uses = 1
-			#				category = industry
-			#			}
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.5
+							uses = 1
+							category = industry
+						}
 			
-			#add_tech_bonus = {
-			#				name = industrial_bonus
-			#				bonus = 0.25
-			#				uses = 1
-			#				category = industry
-			#			}
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.25
+							uses = 1
+							category = industry
+						}
 			
 		}
 	}	
@@ -453,14 +453,14 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = {
-			#				name = industrial_bonus
-			#				bonus = 0.25
-			#				uses = 1
-			#				category = industry
-			#			}
-			#208 = { set_building_level = { type = industrial_complex level = 2 province = { all_provinces = yes limit_to_border = yes level < 3 } } }
-			#}
+			add_tech_bonus = {
+							name = industrial_bonus
+							bonus = 0.25
+							uses = 1
+							category = industry
+						}
+			208 = { set_building_level = { type = industrial_complex level = 2 province = { all_provinces = yes limit_to_border = yes level < 3 } } }
+			}
 		
 	}	
 
@@ -732,7 +732,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = { bonus = 0.25 uses = 2 category = infantry }
+			add_tech_bonus = { bonus = 0.25 uses = 2 category = infantry }
 		}
 	}
 focus = {
@@ -750,7 +750,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = { bonus = 0.25 uses = 2 category = industry }
+			add_tech_bonus = { bonus = 0.25 uses = 2 category = industry }
 		}
 	}
 focus = {
@@ -768,7 +768,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = { bonus = 0.25 uses = 1 category = infantry_weapons }
+			add_tech_bonus = { bonus = 0.25 uses = 1 category = infantry_weapons }
 		}
 	}
 focus = {
@@ -786,7 +786,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = infantry_weapons }
 			add_research_slot = 1
 		}
 	}
@@ -823,7 +823,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			#add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
+			add_tech_bonus = { bonus = 0.5 uses = 2 category = radar_tech }
 		}
 	}
 focus = {

@@ -15,6 +15,7 @@ state=
 		buildings = {
 			infrastructure = 8
 			industrial_complex = 2
+			anti_air_building = 1
 			424 =
 			{
 				bunker = 1
@@ -46,6 +47,11 @@ state=
 
 		}
 		add_core_of = AHU
+
+		1938.9.30 = {
+			owner = AHU
+			controller = AHU
+		}
 	}
 	provinces=
 	{
