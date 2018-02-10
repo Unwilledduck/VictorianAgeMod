@@ -35,26 +35,16 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Mátyás Rákosi"
+	name = "Franz Joseph"
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
-	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
+	picture = "gfx/leaders/HUN/ranz.dds"
+	expire = "1915.1.1"
+	ideology = despotism
 	traits = {
 		#
 	}
 }
 
-create_country_leader = {
-	name = "Árpád Szakasits"
-	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
 
 create_corps_commander = {
 	name = "Géza Lakatos"
