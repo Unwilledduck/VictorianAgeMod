@@ -2,9 +2,9 @@
 state={
 	id=6
 	name="STATE_6" # Flanders
-	manpower = 4747700
+	manpower = 2500000
 	resources={
-		steel=48
+		steel=12
 	}
 	
 	state_category = metropolis
@@ -15,9 +15,9 @@ state={
 		victory_points = { 6598 30 }
 		victory_points = { 6560 5 }
 		buildings = {
-			infrastructure = 9
-			arms_factory = 5
-			industrial_complex = 7
+			infrastructure = 2
+			arms_factory = 4
+			industrial_complex = 3
 		
 			6560 = {
 				naval_base = 3
