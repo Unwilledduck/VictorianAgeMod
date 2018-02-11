@@ -12,7 +12,7 @@ state={
 	history={
 		owner = AHU
 		buildings = {
-			infrastructure = 6
+			infrastructure = 2
 			industrial_complex = 3
 		}
 		victory_points = {
@@ -20,14 +20,7 @@ state={
 		}
 		add_core_of = AHU
 		add_claim_by = AHU
-
-		1939.3.14 = {
-			owner = AHU
-			controller = AHU
-			remove_claim_by = AHU
-			add_core_of = AHU
-			add_core_of = AHU
-		}
+		add_core_of = HUN
 	}
 	
 	provinces={

@@ -70,7 +70,8 @@ bookmarks = {
 
 			}
 			focuses = {
-
+			RUS_OldTsar
+			RUS_Inter4
 			}
 		}
 		"USA"={
@@ -83,7 +84,7 @@ bookmarks = {
 			USA_Our_Nation
 			USA_1850_Compromise
 			USA_Pony_express
-			USA_Slavery
+			
 			
 			}
 		}
