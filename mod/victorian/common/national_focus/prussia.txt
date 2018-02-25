@@ -485,7 +485,7 @@ focus_tree = {
 						}
 				}
 
-	}
+	
 	focus = {
 		id = PRS_franco_prussian_war
 		text = PRS_franco_prussian_war
@@ -508,7 +508,7 @@ focus_tree = {
 						}
 				}
 
-	}
+	
 
 	focus = {
 		id = PRS_flexible_navy
@@ -660,6 +660,35 @@ focus_tree = {
 				}
 
 	}
+	
+	focus = {
+		id = PRS_buy
+		text = PRS_buy
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 10.00
+		
+		x = 9
+		y = 5
+		available_if_capitulated = yes
+			ai_will_do = {
+					factor = 1
+					modifier = {
+							factor = 0
+							all_owned_state = {
+									OR = {
+											is_coastal = no
+											dockyard < 1
+										}
+								}
+						}
+				}
+			completion_reward = {
+				ENG = { transfer_ship = { prefer_name = "Arminius" type = destroyer target = PRS } }
+				}
+				
+
+	}
+	
 	focus = {
 		id = PRS_cruiser_effort
 		text = PRS_cruiser_effort
