@@ -117,6 +117,17 @@ bookmarks = {
 			}
 		}
 		
+		"SAR"={
+			minor = yes
+			history = "SAR_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+			
 		"SWD"={
 			minor = yes
 			history = "SWD_GATHERING_STORM_DESC"
