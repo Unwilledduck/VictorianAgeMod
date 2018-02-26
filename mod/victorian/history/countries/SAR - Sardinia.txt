@@ -85,13 +85,25 @@ create_country_leader = {
 }
 
 create_corps_commander = {
-	name = "Folke Högberg"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	name = "Alfonso Ferrero La Marmora"
+	portrait_path = "gfx/leaders/SAR/Marmora.dds"
 	traits = { commando }
 	skill = 3
 
 }
+create_corps_commander = {
+	name = "Giuseppe Garibaldi"
+	portrait_path = "gfx/leaders/SAR/Garibaldi.dds"
+	traits = {  }
+	skill = 2
+}
+create_corps_commander = {
+	name = "Charles Albert of Sardinia"
+	portrait_path = "gfx/leaders/SAR/charlesalbert.dds"
+	traits = {  }
+	skill = 2
 
+}
 create_navy_leader = {
 	name = "Claes Lindström"
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
@@ -99,15 +111,4 @@ create_navy_leader = {
 	skill = 4
 }
 
-### Ship Variants ###
 
-create_equipment_variant = {
-	name = "Draken Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}

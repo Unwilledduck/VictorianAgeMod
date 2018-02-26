@@ -222,6 +222,7 @@ units = {
 		ship = { name = "Neptune" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "Waterloo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 		ship = { name = "Trafalgar" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
+		ship = { name = "Arminius" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = ENG } } }
 
 	}	
 	navy = {				
