@@ -402,7 +402,6 @@ focus_tree = {
 		completion_reward = {
 			create_faction = "French-Sardinian Coalition"
 			add_to_faction = FRA
-			
 		}
 	}
 	
