@@ -27,21 +27,21 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 60
+			popularity = 10
 		}
 		
 		communism = {
 			popularity = 10
 		}
 		neutrality = {
-			popularity = 10
+			popularity = 60
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 60
@@ -53,7 +53,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_AZANA_DESC"
 	picture = "gfx/leaders/BRA/pedro_2.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}
