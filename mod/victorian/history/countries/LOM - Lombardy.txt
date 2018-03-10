@@ -50,40 +50,9 @@ set_politics = {
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 30
-			}
-	
-			neutrality = {
-				popularity  = 20
-			}
-
-			communism = {
-				popularity = 5
-			}
-
-			fascism = {
-				popularity = 45
-			}
-		
-		}
-		
-		ruling_party = fascism
-		last_election = "1936.9.20"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-
 set_convoys = 25
-set_national_unity = 0.6
-
-
-
+set_stability = 0.6
+set_war_support = 0.50
 
 create_country_leader = {
 	name = "Alesandro Manzoni"

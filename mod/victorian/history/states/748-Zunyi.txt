@@ -7,17 +7,23 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+<<<<<<< HEAD
 		add_core_of = QIN
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 		buildings = {
 			infrastructure = 2
 
 		}
+<<<<<<< HEAD
 		1939.1.1 = {
 			buildings = {
 				infrastructure = 4
 				air_base = 1
 			}
 		}
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 	}
 	manpower=1500000
 	state_category=pastoral

@@ -10,6 +10,7 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+<<<<<<< HEAD
 		add_core_of = QIN
 		buildings = {
 			infrastructure = 4
@@ -30,5 +31,10 @@ state={
 
 		}
 
+=======
+		buildings = {
+			infrastructure = 4
+		}
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 	}
 }

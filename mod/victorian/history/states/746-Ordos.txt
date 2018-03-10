@@ -11,12 +11,16 @@ state={
 	{
 		owner = QIN
 		add_core_of = QIN
+<<<<<<< HEAD
 		add_core_of = QIN
 		add_core_of = QIN
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 		
 		buildings = {
 			infrastructure = 2
 		}
+<<<<<<< HEAD
 
 		1938.10.25 = {
 			controller = QIN
@@ -28,6 +32,8 @@ state={
 			controller = QIN
 
 		}
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

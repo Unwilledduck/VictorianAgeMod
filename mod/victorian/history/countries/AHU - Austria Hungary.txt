@@ -50,7 +50,8 @@ set_politics = {
 create_faction = Austrian-Empire
 puppet = LOM
 
-set_national_unity = 0.50
+set_stability = 0.50
+set_war_support = 0.40
 
 # COUNTRY LEADERS
 create_country_leader = {

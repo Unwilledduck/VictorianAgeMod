@@ -43,7 +43,8 @@ set_politics = {
 }
 
 set_convoys = 60
-set_national_unity = 0.65
+set_stability = 0.65
+set_war_support = 0.50
 
 create_country_leader = {
 	name = "Abderrahman Ben Hicham"

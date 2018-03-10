@@ -10,16 +10,23 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+<<<<<<< HEAD
 		add_core_of = QIN
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
+<<<<<<< HEAD
 			air_base = 2
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 		}
 		victory_points = {
 			7101 10 
 		}
+<<<<<<< HEAD
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2
@@ -31,5 +38,7 @@ state={
 
 		}
 
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 	}
 }

@@ -32,7 +32,7 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity  = 20
+			popularity  = 42
 		}
 
 		communism = {
@@ -40,19 +40,20 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 42
+			popularity = 20
 		}
 		
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1932.9.18"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 0
-set_national_unity = 0.75
+set_stability = 0.75
+set_war_support = 0.50
 
 
 create_country_leader = {
@@ -60,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "gfx/leaders/HES/Charles_2.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}

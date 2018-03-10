@@ -10,13 +10,17 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+<<<<<<< HEAD
 		add_core_of = QIN
 		add_core_of = QIN
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 
 		}
+<<<<<<< HEAD
 		1938.10.25 = {
 			if = {
 				limit = {
@@ -33,6 +37,8 @@ state={
 			}
 
 		}
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 
 	}
 }

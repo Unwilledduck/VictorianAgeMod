@@ -42,7 +42,8 @@ set_politics = {
 }
 
 set_convoys = 150
-set_national_unity = 0.5
+set_stability = 0.50
+set_war_support = 0.40
 
 create_country_leader = {
 	name = "Antonio María Blanco"

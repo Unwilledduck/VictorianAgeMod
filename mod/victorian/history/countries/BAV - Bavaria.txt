@@ -32,7 +32,7 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity  = 21
+			popularity  = 40
 		}
 
 		communism = {
@@ -40,19 +40,20 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 40
+			popularity = 21
 		}
 		
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1932.9.18"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_convoys = 0
-set_national_unity = 0.80
+set_stability = 0.80
+set_war_support = 0.80
 
 
 create_country_leader = {
@@ -60,7 +61,7 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "gfx/leaders/BAV/maximilian_2_bavaria.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = despotism
 	traits = {
 		#
 	}

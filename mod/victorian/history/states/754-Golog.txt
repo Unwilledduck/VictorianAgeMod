@@ -10,8 +10,11 @@ state={
 	history={
 		owner = QIN
 		add_core_of = QIN
+<<<<<<< HEAD
 		add_core_of = QIN
 		add_core_of = QIN
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 		victory_points = {
 			12732 3 
 		}
@@ -21,6 +24,7 @@ state={
 			arms_factory = 1
 
 		}
+<<<<<<< HEAD
 		1938.10.25 = {
 			if = {
 				limit = {
@@ -35,5 +39,7 @@ state={
 				}
 			}
 		}
+=======
+>>>>>>> f1683029ebb2ed8fceb707ed14299ab994d50a4b
 	}
 }

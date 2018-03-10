@@ -82,10 +82,8 @@ set_politics = {
 }
 
 set_convoys = 100
-set_national_unity = 0.9
-
-
-
+set_stability = 0.9
+set_war_support = 0.50
 
 create_country_leader = {
 	name = "Frederick VII"

@@ -53,7 +53,8 @@ set_politics = {
 	elections_allowed = no # none after offset 1
 }
 
-set_national_unity = 0.8
+set_stability = 0.8
+set_war_support = 0.50
 
 create_country_leader = {
 	name = "Frederick William IV"
