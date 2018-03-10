@@ -12,7 +12,7 @@ state= {
 	{
 		owner = OTT
 		buildings = {
-			inOTTstructure = 4
+			infrastructure = 4
 			11984 = {
 				naval_base = 2
 			}
