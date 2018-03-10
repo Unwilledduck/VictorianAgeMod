@@ -102,7 +102,7 @@ focus = {
 
 		completion_reward = {
 			add_political_power = 75
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}	
 	
@@ -124,7 +124,7 @@ focus = {
 
 		completion_reward = {
 			create_country_leader = { name = "Gustav, Prince of Vasa" desc = "The new Tsar" picture = "gfx/leaders/RUS/gustavvasa.dds" expire = "1877.9.11" ideology = despotism traits = { } }
-			add_national_unity = -0.3
+			add_stability = -0.3
 			add_ideas = RUS_house_vasa
 		}
 	}
@@ -146,7 +146,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.3
+			add_stability = 0.3
 			add_ideas = RUS_house_romonav
 			create_country_leader = { name = "Alexander II" desc = "Alexander II" picture = "gfx/leaders/RUS/alexanderII.dds" expire = "1881.3.13" ideology = despotism traits = { } }
 		}
@@ -172,7 +172,7 @@ focus = {
 
 		completion_reward = {
 			add_political_power = 50
-			add_national_unity = 0.3
+			add_stability = 0.3
 			add_popularity = { ideology = communism popularity = 0.05 }
 			add_popularity = { ideology = democratic popularity = 0.05 }
 		}
@@ -255,7 +255,7 @@ focus = {
 		completion_reward = {
 			add_popularity = { ideology = communism popularity = 0.10}
 			add_political_power = 50
-			add_national_unity = 0.075
+			add_stability = 0.075
 		}
 	}
 	
@@ -276,7 +276,7 @@ focus = {
 		completion_reward = {
 			add_popularity = { ideology = communism popularity = 0.10}
 			add_political_power = 50
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}
 
@@ -296,7 +296,7 @@ focus = {
 
 		completion_reward = {
 			add_political_power = 50
-			add_national_unity = 0.05
+			add_stability = 0.05
 		}
 	}
 	
@@ -936,7 +936,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.10
+			add_stability = 0.10
 			}
 		}
 focus = {
@@ -954,7 +954,7 @@ focus = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.025
+			add_stability = 0.025
 			add_political_power = 50
 			army_experience = 25
 			}
@@ -1020,7 +1020,7 @@ focus = {
 
 		completion_reward = {
 			white_peace = OTT
-			add_national_unity = 0.1
+			add_stability = 0.1
 			}
 		}	
 focus = {

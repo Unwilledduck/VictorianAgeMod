@@ -41,7 +41,8 @@ set_politics = {
 }
 
 set_convoys = 120
-set_national_unity = 0.60
+set_stability = 0.60
+set_war_support = 0.60
 
 create_country_leader = {
 	name = "Leopod I of Belgium"

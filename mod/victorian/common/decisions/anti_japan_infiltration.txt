@@ -1,0 +1,2 @@
+#Category only allowed for MAN MEN JAP
+#Visible when other nation has completed PRC_anti_japanese_expedition and controls relevant states or puppet controls them

@@ -306,7 +306,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 			set_capital = 158 
 		}
 	}
@@ -324,7 +324,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.05
+			add_stability = 0.05
 			add_threat = 5
 		}
 	}
@@ -341,7 +341,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.20
+			add_stability = 0.20
 		}
 	}
 	focus = {
@@ -481,7 +481,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.1
+			add_stability = 0.1
 		}
 	}		
 	focus = {

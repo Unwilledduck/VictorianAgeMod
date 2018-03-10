@@ -2,7 +2,8 @@
 
 oob = "JAP_1850"
 
-set_national_unity = 0.65
+set_stability = 0.65
+set_war_support = 0.50
 
 set_research_slots = 3
 

@@ -1,0 +1,2 @@
+#Remember to change the tooltips if the effects are changed
+#State scope. Prev is target country.

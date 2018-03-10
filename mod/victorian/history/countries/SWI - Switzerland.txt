@@ -37,7 +37,8 @@ add_ideas = {
 	neutrality_idea	
 }
 
-set_national_unity = 0.85
+set_stability = 0.85
+set_war_support = 0.50
 
 create_country_leader = {
 	name = "Federal Council"

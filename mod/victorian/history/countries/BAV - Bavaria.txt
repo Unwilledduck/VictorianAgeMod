@@ -52,7 +52,8 @@ set_politics = {
 }
 
 set_convoys = 0
-set_national_unity = 0.80
+set_stability = 0.80
+set_war_support = 0.80
 
 
 create_country_leader = {

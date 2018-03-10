@@ -43,7 +43,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 150
-			add_national_unity = 0.02
+			add_stability = 0.02
 			}
 		}
 	
@@ -122,7 +122,7 @@ focus_tree = {
 			add_popularity = { ideology = communism popularity = 0.15 }
 			set_politics = { ruling_party = communism elections_allowed = no }
 			SAR = { transfer_state = 772 }
-			add_national_unity = 0.10
+			add_stability = 0.10
 			}
 			
 		}
@@ -184,7 +184,7 @@ focus_tree = {
 
 		completion_reward = {
 			create_faction = "Entente"
-			add_national_unity = 0.02
+			add_stability = 0.02
 			}
 		}			
 	focus = {
@@ -222,7 +222,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_national_unity = 0.20
+			add_stability = 0.20
 			}
 		}
 	focus = {
@@ -278,7 +278,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 50
-			add_national_unity = 0.2
+			add_stability = 0.2
 			}
 		}
 	focus = {
