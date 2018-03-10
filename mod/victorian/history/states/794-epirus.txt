@@ -1,0 +1,25 @@
+state={
+	id=794
+	name="STATE_752"
+	state_category=town
+	resources={
+		chromium=20.000
+		steel=20.000
+	}
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		9916 11786 
+	}
+	manpower=5764643
+	buildings_max_level_factor=1.000
+}

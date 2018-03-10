@@ -1,0 +1,32 @@
+state={
+	id=803
+	name="STATE_761"
+	manpower = 21243
+	resources={
+		steel=80
+		aluminium=60
+	}
+	
+	state_category = metropolis
+
+	history={
+		owner = PRS
+		victory_points = {
+			3488 12
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 5
+
+		}
+		add_core_of = PRS
+	
+	
+	
+	}
+
+	provinces={
+		3488 
+	}
+	buildings_max_level_factor=1.000
+}
