@@ -494,7 +494,6 @@ ideas = {
 			modifier = {
 				production_speed_bunker_factor = 0.2
 				production_speed_coastal_bunker_factor = 0.2
-				production_speed_anti_air_building_factor = 0.2
 				production_speed_arms_factory_factor = 0.2
 			}
 		}
@@ -605,53 +604,6 @@ ideas = {
 
 			modifier = {
 				fascism_drift = -0.05
-			}
-		}
-
-		race_for_the_bomb = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = generic_research_bonus
-	
-			modifier = {
-				production_speed_nuclear_reactor_factor = 0.2
-			}
-			research_bonus = {
-				nuclear = 0.10
-			}
-		}
-
-		race_for_the_bomb_outclassed = {
-			
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = yes
-			}
-			
-			removal_cost = -1
-
-			picture = generic_research_bonus
-	
-			modifier = {
-				production_speed_nuclear_reactor_factor = 0.25
-				political_power_factor = -0.5
-			}
-			research_bonus = {
-				nuclear = 0.15
 			}
 		}
 		
@@ -1044,13 +996,6 @@ ideas = {
 						has_dlc = "Together for Victory"
 					}
 				}
-				NOT = {
-					OR = {
-						is_literally_china = yes
-						tag = MAN
-					}
-					has_dlc = "Waking the Tiger"
-				}
 			}
 			
 			cost = 150
@@ -1272,13 +1217,6 @@ ideas = {
 				NOT = { OR { tag = GER tag = ENG tag = SOV tag = FRA tag = ITA tag = JAP tag = USA } }
 				NOT = {
 					has_available_idea_with_traits = { idea = electronics_concern limit = 1 }
-				}
-				NOT = {
-					has_DLC = "Waking the Tiger"
-					OR = {
-						original_tag = MAN
-						is_literally_china = yes
-					}
 				}
 			}
 			
