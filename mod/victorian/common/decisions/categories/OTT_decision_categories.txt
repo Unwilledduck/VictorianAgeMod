@@ -1,0 +1,10 @@
+################
+##### OTT ######
+################
+
+war_diplomacy = {
+     icon = generic_prospect_for_resources
+	 available = {
+		has_war = yes
+	 }
+}
