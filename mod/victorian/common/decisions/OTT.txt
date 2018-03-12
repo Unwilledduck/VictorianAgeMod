@@ -9,7 +9,7 @@ war_diplomacy = {
 			
 		}
 		complete_effect = {
-			white_peace = RUS
+			country_event = { id = russia.1 }
 		}
 	}
 }
