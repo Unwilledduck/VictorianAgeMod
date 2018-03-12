@@ -9,7 +9,7 @@ war_diplomacy = {
 			
 		}
 		complete_effect = {
-			country_event = { id = ottoman.1 }
+			OTT = { country_event = { id = ottoman.1 } }
 		}
 	}
 }
