@@ -4,6 +4,18 @@ first_schleswig_war.t:0 "First Schwelwig War"
 first_schleswig_war.d:0 "The year is 1850 and the Prussians are fighting the Danes in this bloody war."
 first_schleswig_war.a:0 "We will show them our might!"
 
+# Ottoman Empire
+ottoman.1.t:0 "The Russian Empire offers peace"
+ottoman.1.d:0 "A Russian delegation has sent us a peace offer."
+ottoman.1.a:0 "Accept the peace offer."
+ottoman.1.b:0 "We shall not back down!"
+
+# Russian Empire
+russia.1.t:0 "The Ottoman Empire offers peace"
+russia.1.d:0 "An Ottoman delegation has sent us a peace offer."
+russia.1.a:0 "Accept the peace offer."
+russia.1.b:0 "We shall not back down!"
+
 #basegame
  germany.4.t:0 "Anschluss"
  germany.4.d:0 "Repeated uprisings in Austria clearly show that the people there long to be united with our Reich. It is now time to take action and allow the will of the people to be made manifest."
