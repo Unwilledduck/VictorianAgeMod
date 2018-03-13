@@ -1,0 +1,660 @@
+focus_tree = {
+	id = sardinia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SAR
+		}
+	}
+	default = no
+	
+	focus = {
+		id = SAR_first
+		text = SAR_first
+		icon = GFX_goal_generic_small_arms
+		
+		x = 7
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power = 100 
+		}
+	}
+	
+	focus = {
+		id = SAR_politics
+		text = SAR_politics
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_first }
+		x = 2
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_political_power = 100 
+		}
+	}
+	
+	
+	focus = {
+		id = SAR_greatpowers
+		text = SAR_greatpowers
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_politics }
+		x = 1
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_threat = 2 
+		}
+	}	
+	
+	focus = {
+		id = SAR_faction
+		text = SAR_faction
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_ottoman  focus = SAR_russia }
+		x = 1
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_rule = { can_create_factions = yes }
+			
+		}
+	}
+#army
+		
+	focus = {
+		id = SAR_military
+		text = SAR_military
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_first  }
+		x = 7
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		}
+		}	
+		
+	}
+	focus = {
+		id = SAR_army
+		text = SAR_army
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_military  }
+		x = 5
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		}
+		}
+	}
+	focus = {
+		id = SAR_armyfac
+		text = SAR_armyfac
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_army  }
+		x = 5
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		}
+		}
+	}
+	focus = {
+		id = SAR_armytech
+		text = SAR_armytech
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_armyfac  }
+		x = 4
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = { bonus = 0.25 uses = 2 category = infantry_weapons }
+			add_tech_bonus = { bonus = 0.40 uses = 1 category = infantry_weapons }
+		}
+	}	
+	focus = {
+		id = SAR_armybuild
+		text = SAR_armybuild
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_armyfac  }
+		x = 6
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = militarism_focus
+					army_experience = 20
+					set_rule = {
+							can_send_volunteers = yes
+						}
+		}
+	}	
+	focus = {
+		id = SAR_armytraining
+		text = SAR_armytraining
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_armybuild }
+		prerequisite = { focus = SAR_armytech }
+		x = 5
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = paramilitarism_focus
+		}
+	}	
+	focus = {
+		id = SAR_armylesson1
+		text = SAR_armylesson1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_armytraining }
+	
+		x = 4
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 15
+		}
+	}	
+	focus = {
+		id = SAR_armylesson2
+		text = SAR_armylesson2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_armytraining }
+		available = {
+					date > 1852.1.1
+					
+				}
+		x = 6
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 30
+		}
+	}	
+#navy
+	focus = {
+		id = SAR_navy
+		text = SAR_navy
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_military  }
+		x = 9
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 15
+		}
+	}	
+	focus = {
+		id = SAR_boostnavy
+		text = SAR_boostnavy
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_navy  }
+		x = 9
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+					name = dd_bonus
+					bonus = 0.5
+					ahead_reduction = 1
+					uses = 1
+					technology = early_destroyer
+					technology = basic_destroyer
+					technology = improved_destroyer
+					technology = advanced_destroyer
+				}
+			}
+		}
+		
+	focus = {
+		id = SAR_navytech
+		text = SAR_navytech
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_boostnavy  }
+		x = 8
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_equipment_variant = { name = "Italian Class 1851" type = light_cruiser_1 upgrades = { ship_reliability_upgrade = 3 ship_engine_upgrade = 3 ship_gun_upgrade = 3 ship_anti_air_upgrade = 3 }}
+			add_tech_bonus = {
+					name = dd_bonus
+					bonus = 0.5
+					ahead_reduction = 1
+					uses = 1
+					technology = early_destroyer
+					technology = basic_destroyer
+					technology = improved_destroyer
+					technology = advanced_destroyer
+				}
+			}
+		
+	}	
+	focus = {
+		id = SAR_navybuild
+		text = SAR_navybuild
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_boostnavy  }
+		x = 10
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		}
+		}
+	}	
+		
+#unification
+
+	focus = {
+		id = SAR_nationalist
+		text = SAR_nationalist
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_first  }
+		x = 14
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			set_capital = 158 
+		}
+	}
+	focus = {
+		id = SAR_oneitaly
+		text = SAR_oneitaly
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_nationalist  }
+		mutually_exclusive = { focus = SAR_greatsardinia }	
+
+		x = 13
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_threat = 5
+		}
+	}
+	focus = {
+		id = SAR_greatsardinia
+		text = SAR_greatsardinia
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_nationalist  }
+		mutually_exclusive = { focus = SAR_oneitaly }
+		x = 15
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.20
+		}
+	}
+	focus = {
+		id = SAR_claims
+		text = SAR_claims
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_oneitaly  }
+		x = 14
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_state_claim = 769 
+			add_state_claim = 159 
+			add_state_claim = 160 
+			add_state_claim = 161 
+			add_state_claim = 770 
+			add_state_claim = 162 
+			add_state_claim = 157 
+			add_state_claim = 2 
+			add_state_claim = 117 
+			add_state_claim = 156
+			add_state_claim = 115 
+		}
+	}
+	focus = {
+		id = SAR_north
+		text = SAR_north
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_claims }
+		mutually_exclusive = { focus = SAR_south }
+		x = 13
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = LOM } 
+			create_wargoal = { type = annex_everything target = PRM }
+			create_wargoal = { type = annex_everything target = MOD } 
+		
+		}
+	}
+	focus = {
+		id = SAR_requestaid
+		text = SAR_requestaid
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_north }
+		x = 12
+		y = 5
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_faction = "French-Sardinian Coalition"
+			add_to_faction = FRA
+			
+		}
+	}
+	
+	focus = {
+		id = SAR_south
+		text = SAR_south
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_claims }
+		mutually_exclusive = { focus = SAR_north }
+		x = 15
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = TWO } 	
+		}
+	}
+
+	focus = {
+		id = SAR_middle
+		text = SAR_middle
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_north focus =  SAR_south }
+		
+		x = 14
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_wargoal = { type = annex_everything target = TUS } 
+			create_wargoal = { type = annex_everything target = PAP }
+		}
+	}	
+		focus = {
+		id = SAR_cores
+		text = SAR_cores
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_middle  }
+		
+		x = 14
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_state_core = 769 
+			add_state_core = 159 
+			add_state_core = 160 
+			add_state_core = 161 
+			add_state_core = 770 
+			add_state_core = 162 
+			add_state_core = 157 
+			add_state_core = 2 
+			add_state_core = 117 
+			add_state_core = 156
+			add_state_core = 115 
+			
+		}
+	}	
+	
+	focus = {
+		id = SAR_unity
+		text = SAR_unity
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_cores  }
+		
+		x = 14
+		y = 7
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.1
+		}
+	}		
+	focus = {
+		id = SAR_unificationdone
+		text = SAR_unificationdone
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = SAR_unity  }
+		
+		x = 14
+		y = 8
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			dismantle_faction = yes
+			set_cosmetic_tag = ITA
+		}
+	}		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+}	
