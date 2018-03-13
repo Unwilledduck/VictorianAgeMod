@@ -3,7 +3,10 @@
 ################
 
 war_diplomacy = {
-     icon = generic_prospect_for_resources
+     icon = decision_generic_prepare_civil_war
+     visible = {
+		has_war = yes
+     }
 	 available = {
 		has_war = yes
 	 }
