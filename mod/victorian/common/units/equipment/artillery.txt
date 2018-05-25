@@ -1,7 +1,7 @@
 equipments = {
 
 	artillery_equipment = {
-		year = 1934
+		year = 1840
 
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
@@ -15,11 +15,11 @@ equipments = {
 		interface_category = interface_category_land
 
 		#Misc Abilities
-		reliability = 0.8
+		reliability = 0.6
 
 		#Defensive Abilities
-		defense = 10
-		breakthrough = 6
+		defense = 8
+		breakthrough = 5
 		hardness = 0
 		armor_value = 0
 
@@ -32,9 +32,8 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 4
 		
-		build_cost_ic = 3.5
+		build_cost_ic = 2
 		resources = {
-			tungsten = 1
 			steel = 2
 		}
 	}
