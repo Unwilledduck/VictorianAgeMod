@@ -1,0 +1,148 @@
+bookmarks = {
+	bookmark = {	#Victorian Age
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1850.1.1.12
+		picture = "GFX_select_date_1850"
+		default_country = "USA"
+		default = yes
+		
+		"AHU"={
+			history = "AHU_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas={
+
+			}
+			focuses = {
+
+			}
+		}
+		"OTT"={
+			history = "OTT_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas={
+
+			}
+			focuses = {
+			OTT_Ready_for_War
+			OTT_Peaceful
+			}
+		}
+		"ENG"={
+			history = "ENG_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+			ENG_Royal_Navy
+			ENG_Great_Game
+			ENG_Industrial_Revolution
+			}
+		}
+		"FRA"={
+			history = "FRA_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+			FRA_1848_revolt
+			FRA_Trust_Napoleon
+			FRA_Coup_detat
+			}
+		}
+		"PRS"={
+			history = "PRS_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+			PRS_austro_prussian_war
+			PRS_second_schleswig_war
+			}
+		}
+		"RUS"={
+			history = "RUS_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+			RUS_OldTsar
+			RUS_Inter4
+			}
+		}
+		"USA"={
+			history = "USA_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+			USA_Our_Nation
+			USA_1850_Compromise
+			USA_Pony_express
+			
+			
+			}
+		}
+		
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+		"JAP"={
+			minor = yes
+			history = "JAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		"QIN"={
+			minor = yes
+			history = "QIN_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		"SAR"={
+			minor = yes
+			history = "SAR_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+			
+		"SWD"={
+			minor = yes
+			history = "SWD_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+
+			}
+			focuses = {
+
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
