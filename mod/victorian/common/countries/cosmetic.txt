@@ -1,0 +1,17 @@
+
+MOR_FRA = {
+    color = rgb { 57 113 228 }
+    color_ui = rgb { 57 113 228 }
+}
+ALG_FRA = {
+    color = rgb { 0 0 174 }
+    color_ui = rgb { 0 0 174 }
+}
+FRA_AFR = {
+    color = rgb { 57 113 228 }
+    color_ui = rgb { 57 113 228 }
+}
+OTT_EGY = {
+    color = rgb { 171  190  152 }
+    color_ui = rgb { 171  190  152 }
+}
